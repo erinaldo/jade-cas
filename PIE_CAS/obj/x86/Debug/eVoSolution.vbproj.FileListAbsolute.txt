@@ -1,0 +1,1112 @@
+C:\Documents and Settings\Mirahlin Cortez\Local Settings\Application Data\Temporary Projects\eVoSolution\bin\Debug\eVoSolution.exe
+C:\Documents and Settings\Mirahlin Cortez\Local Settings\Application Data\Temporary Projects\eVoSolution\bin\Debug\eVoSolution.pdb
+C:\Documents and Settings\Mirahlin Cortez\Local Settings\Application Data\Temporary Projects\eVoSolution\bin\Debug\eVoSolution.xml
+C:\Documents and Settings\Mirahlin Cortez\Local Settings\Application Data\Temporary Projects\eVoSolution\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mirahlin Cortez\Local Settings\Application Data\Temporary Projects\eVoSolution\obj\x86\Debug\eVoSolution.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Mirahlin Cortez\Local Settings\Application Data\Temporary Projects\eVoSolution\obj\x86\Debug\eVoSolution.frmBillingComputation.resources
+C:\Documents and Settings\Mirahlin Cortez\Local Settings\Application Data\Temporary Projects\eVoSolution\obj\x86\Debug\eVoSolution.Resources.resources
+C:\Documents and Settings\Mirahlin Cortez\Local Settings\Application Data\Temporary Projects\eVoSolution\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Mirahlin Cortez\Local Settings\Application Data\Temporary Projects\eVoSolution\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Mirahlin Cortez\Local Settings\Application Data\Temporary Projects\eVoSolution\obj\x86\Debug\eVoSolution.exe
+C:\Documents and Settings\Mirahlin Cortez\Local Settings\Application Data\Temporary Projects\eVoSolution\obj\x86\Debug\eVoSolution.xml
+C:\Documents and Settings\Mirahlin Cortez\Local Settings\Application Data\Temporary Projects\eVoSolution\obj\x86\Debug\eVoSolution.pdb
+C:\perpetual\Warehouse Scanning\HCGConveyor\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.vbproj.ResolveComReference.cache
+C:\perpetual\Warehouse Scanning\HCGConveyor\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.exe
+C:\perpetual\Warehouse Scanning\HCGConveyor\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.xml
+C:\perpetual\Warehouse Scanning\HCGConveyor\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.pdb
+C:\perpetual\Warehouse Scanning\HCGConveyor\eVoSolution\eVoSolution\bin\Debug\eVoSolution.exe
+C:\perpetual\Warehouse Scanning\HCGConveyor\eVoSolution\eVoSolution\bin\Debug\eVoSolution.pdb
+C:\perpetual\Warehouse Scanning\HCGConveyor\eVoSolution\eVoSolution\bin\Debug\eVoSolution.xml
+C:\perpetual\Warehouse Scanning\HCGConveyor\eVoSolution\eVoSolution\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\perpetual\Warehouse Scanning\HCGConveyor\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmBillingComputation.resources
+C:\perpetual\Warehouse Scanning\HCGConveyor\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.Resources.resources
+C:\perpetual\Warehouse Scanning\HCGConveyor\eVoSolution\eVoSolution\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\perpetual\Warehouse Scanning\HCGConveyor\eVoSolution\eVoSolution\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\perpetual\Warehouse Scanning\HCGConveyor\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frm_NewMenu.resources
+C:\perpetual\Warehouse Scanning\HCGConveyor\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmCRDisplay.resources
+C:\perpetual\Warehouse Scanning\HCGConveyor\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.MDIParent1.resources
+C:\perpetual\Warehouse Scanning\HCGConveyor\eVoSolution\eVoSolution\obj\x86\Debug\GenerateResource-ResGen.read.4.tlog
+C:\perpetual\Warehouse Scanning\HCGConveyor\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmReading.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.vbproj.ResolveComReference.cache
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.exe
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.xml
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.pdb
+C:\Perpetual\Evo\eVoSolution\eVoSolution\bin\Debug\eVoSolution.exe
+C:\Perpetual\Evo\eVoSolution\eVoSolution\bin\Debug\eVoSolution.pdb
+C:\Perpetual\Evo\eVoSolution\eVoSolution\bin\Debug\eVoSolution.xml
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmBillingComputation.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmCRDisplay.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmReading.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frm_NewMenu.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.Resources.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.vbproj.GenerateResource.Cache
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmCollection.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmCollectionvb.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmdeposit.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmPOAutoEmail.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.MainForm.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmBank.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmDisbursementRR.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmGRPO.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmOpenPO.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmPO.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmSearchBP.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmSearchRR.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmSearchVendor.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.POSearch.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmChartofAccnt.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.fmrAddVendor.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmTypeOfPayment.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.FrmChartOfAccountSearch.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmLogin.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmItemList.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmBanklist.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmHMPCUpdatePicture.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmWaterReadingSummary.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmSalesInvoice.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmTiralBalance.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmGeneralLedger.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmJournalEntry.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmPeriodEndEntry.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmAccountPayableVoucher.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmJV.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmBatchPosting.resources
+C:\Perpetual\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmBatchpostingMain.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\bin\Debug\eVoSolution.exe
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\bin\Debug\eVoSolution.pdb
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\bin\Debug\eVoSolution.xml
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.vbprojResolveAssemblyReference.cache
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.vbproj.ResolveComReference.cache
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.fmrAddVendor.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmAccountPayableVoucher.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmBatchPosting.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmBank.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmBanklist.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmBatchpostingMain.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmBillingComputation.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmChartofAccnt.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.FrmChartOfAccountSearch.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmCollection.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmCollectionvb.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmCRDisplay.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmdeposit.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmDisbursementRR.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmGeneralLedger.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmGRPO.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmHMPCUpdatePicture.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmItemList.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmJournalEntry.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmJV.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmLogin.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmOpenPO.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmPeriodEndEntry.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmPO.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmPOAutoEmail.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmReading.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmSalesInvoice.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmSearchBP.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmSearchRR.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmSearchVendor.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmTiralBalance.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmTypeOfPayment.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmWaterReadingSummary.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frm_NewMenu.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.MainForm.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.Resources.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.POSearch.resources
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.vbproj.GenerateResource.Cache
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.exe
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.xml
+C:\Perpetual Evo\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.pdb
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.vbprojResolveAssemblyReference.cache
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.vbproj.ResolveComReference.cache
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.fmrAddVendor.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmAccountPayableVoucher.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmBatchPosting.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmBank.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmBanklist.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmBatchpostingMain.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmBillingComputation.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmChartofAccnt.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.FrmChartOfAccountSearch.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmCollection.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmCollectionvb.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmCRDisplay.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmdeposit.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmDisbursementRR.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmGeneralLedger.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmGRPO.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmHMPCUpdatePicture.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmItemList.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmJournalEntry.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmJV.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmLogin.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmOpenPO.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmPeriodEndEntry.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmPO.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmPOAutoEmail.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmReading.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmSalesInvoice.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmSearchBP.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmSearchRR.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmSearchVendor.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmTiralBalance.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmTypeOfPayment.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frmWaterReadingSummary.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.frm_NewMenu.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.MainForm.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.Resources.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.POSearch.resources
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.vbproj.GenerateResource.Cache
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.xml
+F:\New folder\Evo\eVoSolution\eVoSolution\obj\x86\Debug\eVoSolution.pdb
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\bin\Debug\eVoSolution.exe
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\bin\Debug\eVoSolution.pdb
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\bin\Debug\eVoSolution.xml
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.vbprojResolveAssemblyReference.cache
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.vbproj.ResolveComReference.cache
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.fmrAddVendor.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmAccountPayableVoucher.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmBatchPosting.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmBank.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmBanklist.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmBatchpostingMain.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmBillingComputation.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmChartofAccnt.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.FrmChartOfAccountSearch.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmCollection.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmCollectionvb.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmCRDisplay.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmdeposit.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmDisbursementRR.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmGeneralLedger.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmGRPO.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmHMPCUpdatePicture.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmItemList.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmJournalEntry.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmJV.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmLogin.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmOpenPO.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmPeriodEndEntry.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmPO.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmPOAutoEmail.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmReading.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmSalesInvoice.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmSearchBP.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmSearchRR.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmSearchVendor.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmTiralBalance.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmTypeOfPayment.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frmWaterReadingSummary.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.frm_NewMenu.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.MainForm.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.Resources.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.POSearch.resources
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.vbproj.GenerateResource.Cache
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.exe
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.xml
+C:\Perpetual\Seamlesshcg\SeamlessHCG\SeamlessHCG\eVoSolution\obj\x86\Debug\eVoSolution.pdb
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\bin\Debug\office.dll
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\bin\Debug\Microsoft.Office.Interop.Outlook.xml
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\bin\Debug\office.xml
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\Evosolution.vbprojResolveAssemblyReference.cache
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\Evosolution.vbproj.ResolveComReference.cache
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\Evosolution.vbproj.GenerateResource.Cache
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\bin\Debug\HPPHI.exe
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\bin\Debug\HPPHI.pdb
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\bin\Debug\HPPHI.xml
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.fmrAddVendor.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.FormTypeOfGoodsReceipt.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmAccountPayableVoucher.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmAddContract.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmAddMembers.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmBatchPosting.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmBank.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmBanklist.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmBankRecon.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmBankReconMain.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmBankReconV2vb.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.FrmBank_Recon.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmBatchpostingMain.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmBilling.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmBillingComputation.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmBillingReport.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmChartofAccnt.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.FrmChartOfAccountSearch.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmCollection.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmCollectionv2.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmCollectionvb.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmCRDisplayFinancialReport.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmCRDisplayTransactionReport.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmDenomination.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmdeposit.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmdeposit0401.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmDisbursementRR.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.FrmDisplayPOSTotal.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmDocList.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmExport.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmGeneralLedger.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmGLFinacialReportGenerator.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmGR.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmGRPO.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmGRPOBak.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmPicAndSig.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmInventory.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmItemList.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmItemMaster.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmJournalEntry.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmJV.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmLoanMaintenance.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmLoanWindow.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.FrmLogin.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmOpenPO.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmPayroll.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmPeriodEndEntry.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmPO.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmPOAutoEmail.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.FRMPOSSLMPC.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmPostedEntries.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmPostedEntryDetails.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmQueryGen.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.FrmQueryGenerator.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmReading.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmReportOutput.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmSalesInvoice.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmSavings.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmSavingsMaintenance.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmSearchBP.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmSearchItem.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmSearchMem.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmSearchRR.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmSearchVendor.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmSelectRecipients.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmTiralBalance.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmTypeOfPayment.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmVerifier.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmViewLoans.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmWarningMSG.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmWaterReadingSummary.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frm_NewMenu.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.MainForm.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.Resources.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.POSearch.resources
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.exe
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.xml
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.pdb
+C:\Users\EvoClaude\Desktop\FCIE\C\FCIE\obj\x86\Debug\HPPHI.frmBillingPEZA.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\bin\Debug\HPPHI.exe
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\bin\Debug\HPPHI.pdb
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\bin\Debug\HPPHI.xml
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\bin\Debug\office.dll
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\bin\Debug\Microsoft.Office.Interop.Outlook.xml
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\bin\Debug\office.xml
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\Evosolution.vbprojResolveAssemblyReference.cache
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\Evosolution.vbproj.ResolveComReference.cache
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmBillingPEZA.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.fmrAddVendor.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.FormTypeOfGoodsReceipt.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmAccountPayableVoucher.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmAddContract.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmAddMembers.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmBatchPosting.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmBank.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmBanklist.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmBankRecon.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmBankReconMain.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmBankReconV2vb.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.FrmBank_Recon.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmBatchpostingMain.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmBilling.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmBillingComputation.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmBillingReport.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmChartofAccnt.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.FrmChartOfAccountSearch.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmCollection.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmCollectionv2.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmCollectionvb.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmCRDisplayFinancialReport.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmCRDisplayTransactionReport.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmDenomination.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmdeposit.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmdeposit0401.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmDisbursementRR.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.FrmDisplayPOSTotal.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmDocList.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmExport.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmGeneralLedger.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmGLFinacialReportGenerator.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmGR.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmGRPO.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmGRPOBak.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmPicAndSig.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmInventory.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmItemList.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmItemMaster.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmJournalEntry.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmJV.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmLoanMaintenance.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmLoanWindow.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.FrmLogin.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmOpenPO.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmPayroll.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmPeriodEndEntry.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmPO.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmPOAutoEmail.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.FRMPOSSLMPC.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmPostedEntries.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmPostedEntryDetails.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmQueryGen.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.FrmQueryGenerator.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmReading.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmReportOutput.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmSalesInvoice.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmSavings.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmSavingsMaintenance.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmSearchBP.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmSearchItem.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmSearchMem.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmSearchRR.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmSearchVendor.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmSelectRecipients.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmTiralBalance.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmTypeOfPayment.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmVerifier.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmViewLoans.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmWarningMSG.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frmWaterReadingSummary.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.frm_NewMenu.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.MainForm.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.Resources.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.POSearch.resources
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\Evosolution.vbproj.GenerateResource.Cache
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.exe
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.xml
+\\192.168.1.119\d$\IT Files\OF_System\FCIE\FCIE\obj\x86\Debug\HPPHI.pdb
+D:\FCIE\bin\Debug\HPPHI.exe
+D:\FCIE\bin\Debug\HPPHI.pdb
+D:\FCIE\bin\Debug\HPPHI.xml
+D:\FCIE\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+D:\FCIE\bin\Debug\office.dll
+D:\FCIE\bin\Debug\Microsoft.Office.Interop.Outlook.xml
+D:\FCIE\bin\Debug\office.xml
+D:\FCIE\obj\x86\Debug\Evosolution.vbproj.ResolveComReference.cache
+D:\FCIE\obj\x86\Debug\HPPHI.frmBillingPEZA.resources
+D:\FCIE\obj\x86\Debug\HPPHI.fmrAddVendor.resources
+D:\FCIE\obj\x86\Debug\HPPHI.FormTypeOfGoodsReceipt.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmAddContract.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmAddMembers.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmBatchPosting.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmBank.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmBanklist.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmBankRecon.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmBankReconMain.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmBankReconV2vb.resources
+D:\FCIE\obj\x86\Debug\HPPHI.FrmBank_Recon.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmBatchpostingMain.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmBilling.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmBillingComputation.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmBillingReport.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmChartofAccnt.resources
+D:\FCIE\obj\x86\Debug\HPPHI.FrmChartOfAccountSearch.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmCollection.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmCollectionvb.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmCRDisplayFinancialReport.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmCRDisplayTransactionReport.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmDenomination.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmdeposit.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmdeposit0401.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmDisbursementRR.resources
+D:\FCIE\obj\x86\Debug\HPPHI.FrmDisplayPOSTotal.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmDocList.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmExport.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmGeneralLedger.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmGLFinacialReportGenerator.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmGR.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmGRPO.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmGRPOBak.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmPicAndSig.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmInventory.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmItemList.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmJournalEntry.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmJV.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmLoanMaintenance.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmLoanWindow.resources
+D:\FCIE\obj\x86\Debug\HPPHI.FrmLogin.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmPayroll.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmPeriodEndEntry.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmPO.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmPOAutoEmail.resources
+D:\FCIE\obj\x86\Debug\HPPHI.FRMPOSSLMPC.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmPostedEntries.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmPostedEntryDetails.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmQueryGen.resources
+D:\FCIE\obj\x86\Debug\HPPHI.FrmQueryGenerator.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmReading.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmReportOutput.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmSalesInvoice.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmSavings.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmSavingsMaintenance.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmSearchBP.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmSearchItem.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmSearchMem.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmSearchRR.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmSearchVendor.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmSelectRecipients.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmTiralBalance.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmTypeOfPayment.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmVerifier.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmViewLoans.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmWarningMSG.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmWaterReadingSummary.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frm_NewMenu.resources
+D:\FCIE\obj\x86\Debug\HPPHI.MainForm.resources
+D:\FCIE\obj\x86\Debug\HPPHI.Resources.resources
+D:\FCIE\obj\x86\Debug\HPPHI.POSearch.resources
+D:\FCIE\obj\x86\Debug\Evosolution.vbproj.GenerateResource.Cache
+D:\FCIE\obj\x86\Debug\HPPHI.exe
+D:\FCIE\obj\x86\Debug\HPPHI.xml
+D:\FCIE\obj\x86\Debug\HPPHI.pdb
+C:\Users\Warlon\Desktop\FCIE\bin\Debug\HPPHI.exe
+C:\Users\Warlon\Desktop\FCIE\bin\Debug\HPPHI.pdb
+C:\Users\Warlon\Desktop\FCIE\bin\Debug\HPPHI.xml
+C:\Users\Warlon\Desktop\FCIE\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+C:\Users\Warlon\Desktop\FCIE\bin\Debug\office.dll
+C:\Users\Warlon\Desktop\FCIE\bin\Debug\Microsoft.Office.Interop.Outlook.xml
+C:\Users\Warlon\Desktop\FCIE\bin\Debug\office.xml
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\Evosolution.vbproj.ResolveComReference.cache
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmBillingPEZA.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.fmrAddVendor.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.FormTypeOfGoodsReceipt.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmAddContract.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmAddMembers.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmBatchPosting.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmBank.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmBanklist.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmBankRecon.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmBankReconMain.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmBankReconV2vb.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.FrmBank_Recon.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmBatchpostingMain.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmBilling.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmBillingComputation.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmBillingReport.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmChartofAccnt.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.FrmChartOfAccountSearch.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmCollection.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmCollectionvb.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmCompanyProfile.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmCRDisplayFinancialReport.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmCRDisplayTransactionReport.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmDenomination.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmdeposit.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmdeposit0401.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmDisbursementRR.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.FrmDisplayPOSTotal.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmDocList.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmExport.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmGeneralLedger.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmGLFinacialReportGenerator.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmGR.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmGRPO.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmGRPOBak.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmPicAndSig.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmInventory.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmItemList.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmJournalEntry.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmJV.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmLoanMaintenance.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmLoanWindow.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.FrmLogin.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmPayroll.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmPeriodEndEntry.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmPO.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmPOAutoEmail.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.FRMPOSSLMPC.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmPostedEntries.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmPostedEntryDetails.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmQueryGen.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.FrmQueryGenerator.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmReading.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmReportOutput.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmSalesInvoice.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmSavings.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmSavingsMaintenance.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmSearchBP.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmSearchItem.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmSearchMem.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmSearchRR.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmSearchVendor.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmSelectRecipients.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmTiralBalance.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmTypeOfPayment.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmVerifier.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmViewLoans.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmWarningMSG.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmWaterReadingSummary.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frm_NewMenu.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.MainForm.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.Resources.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.POSearch.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\Evosolution.vbproj.GenerateResource.Cache
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.exe
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.xml
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.pdb
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmOITM.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\Evosolution.vbprojResolveAssemblyReference.cache
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmAPV.resources
+C:\Users\Warlon\Desktop\FCIE\obj\x86\Debug\HPPHI.frmCopyFrom.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmAPV.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmCompanyProfile.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmOITM.resources
+D:\FCIE\obj\x86\Debug\HPPHI.frmCopyFrom.resources
+G:\FCIE\bin\Debug\HPPHI.exe
+G:\FCIE\bin\Debug\HPPHI.pdb
+G:\FCIE\bin\Debug\HPPHI.xml
+G:\FCIE\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+G:\FCIE\bin\Debug\office.dll
+G:\FCIE\bin\Debug\Microsoft.Office.Interop.Outlook.xml
+G:\FCIE\bin\Debug\office.xml
+G:\FCIE\obj\x86\Debug\Evosolution.vbproj.ResolveComReference.cache
+G:\FCIE\obj\x86\Debug\HPPHI.frmAPV.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmBillingPEZA.resources
+G:\FCIE\obj\x86\Debug\HPPHI.fmrAddVendor.resources
+G:\FCIE\obj\x86\Debug\HPPHI.FormTypeOfGoodsReceipt.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmAddContract.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmAddMembers.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmBatchPosting.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmBank.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmBanklist.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmBankRecon.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmBankReconMain.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmBankReconV2vb.resources
+G:\FCIE\obj\x86\Debug\HPPHI.FrmBank_Recon.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmBatchpostingMain.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmBilling.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmBillingComputation.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmBillingReport.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmChartofAccnt.resources
+G:\FCIE\obj\x86\Debug\HPPHI.FrmChartOfAccountSearch.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmCollection.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmCollectionvb.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmCompanyProfile.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmCRDisplayFinancialReport.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmCRDisplayTransactionReport.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmDenomination.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmdeposit.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmdeposit0401.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmDisbursementRR.resources
+G:\FCIE\obj\x86\Debug\HPPHI.FrmDisplayPOSTotal.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmDocList.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmExport.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmGeneralLedger.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmGLFinacialReportGenerator.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmGR.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmGRPO.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmGRPOBak.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmPicAndSig.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmInventory.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmItemList.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmOITM.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmJournalEntry.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmJV.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmLoanMaintenance.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmLoanWindow.resources
+G:\FCIE\obj\x86\Debug\HPPHI.FrmLogin.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmCopyFrom.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmPayroll.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmPeriodEndEntry.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmPO.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmPOAutoEmail.resources
+G:\FCIE\obj\x86\Debug\HPPHI.FRMPOSSLMPC.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmPostedEntries.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmPostedEntryDetails.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmQueryGen.resources
+G:\FCIE\obj\x86\Debug\HPPHI.FrmQueryGenerator.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmReading.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmReportOutput.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmSalesInvoice.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmSavings.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmSavingsMaintenance.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmSearchBP.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmSearchItem.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmSearchMem.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmSearchRR.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmSearchVendor.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmSelectRecipients.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmTiralBalance.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmTypeOfPayment.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmVerifier.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmViewLoans.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmWarningMSG.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frmWaterReadingSummary.resources
+G:\FCIE\obj\x86\Debug\HPPHI.frm_NewMenu.resources
+G:\FCIE\obj\x86\Debug\HPPHI.MainForm.resources
+G:\FCIE\obj\x86\Debug\HPPHI.Resources.resources
+G:\FCIE\obj\x86\Debug\HPPHI.POSearch.resources
+G:\FCIE\obj\x86\Debug\Evosolution.vbproj.GenerateResource.Cache
+G:\FCIE\obj\x86\Debug\HPPHI.exe
+G:\FCIE\obj\x86\Debug\HPPHI.xml
+G:\FCIE\obj\x86\Debug\HPPHI.pdb
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\bin\Debug\HPPHI.exe
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\bin\Debug\HPPHI.pdb
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\bin\Debug\HPPHI.xml
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\bin\Debug\office.dll
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\bin\Debug\Microsoft.Office.Interop.Outlook.xml
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\bin\Debug\office.xml
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\Evosolution.vbproj.ResolveComReference.cache
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmAPV.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmBillingPEZA.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.fmrAddVendor.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.FormTypeOfGoodsReceipt.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmAddContract.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmAddMembers.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmBatchPosting.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmBank.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmBanklist.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmBankRecon.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmBankReconMain.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmBankReconV2vb.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.FrmBank_Recon.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmBatchpostingMain.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmBilling.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmBillingComputation.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmBillingReport.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmChartofAccnt.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.FrmChartOfAccountSearch.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmCollection.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmCollectionvb.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmCompanyProfile.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmCRDisplayFinancialReport.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmCRDisplayTransactionReport.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmDenomination.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmdeposit.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmdeposit0401.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmDisbursementRR.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.FrmDisplayPOSTotal.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmDocList.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmExport.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmGeneralLedger.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmGLFinacialReportGenerator.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmGR.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmGRPO.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmGRPOBak.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmPicAndSig.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmInventory.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmItemList.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmOITM.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmJournalEntry.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmJV.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmLoanMaintenance.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmLoanWindow.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.FrmLogin.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmCopyFrom.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmPayroll.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmPeriodEndEntry.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmPO.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmPOAutoEmail.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.FRMPOSSLMPC.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmPostedEntries.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmPostedEntryDetails.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmQueryGen.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.FrmQueryGenerator.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmReading.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmReportOutput.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmSalesInvoice.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmSavings.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmSavingsMaintenance.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmSearchBP.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmSearchItem.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmSearchMem.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmSearchRR.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmSearchVendor.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmSelectRecipients.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmTiralBalance.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmTypeOfPayment.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmVerifier.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmViewLoans.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmWarningMSG.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frmWaterReadingSummary.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.frm_NewMenu.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.MainForm.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.Resources.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.POSearch.resources
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\Evosolution.vbproj.GenerateResource.Cache
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.exe
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.xml
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\HPPHI.pdb
+D:\Companies\EvoSolutions Clients\FCIE2\FCIE\obj\x86\Debug\Evosolution.vbprojResolveAssemblyReference.cache
+C:\Users\Warlon\Desktop\EVO_Heart\bin\Debug\HPPHI.exe
+C:\Users\Warlon\Desktop\EVO_Heart\bin\Debug\HPPHI.pdb
+C:\Users\Warlon\Desktop\EVO_Heart\bin\Debug\HPPHI.xml
+C:\Users\Warlon\Desktop\EVO_Heart\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+C:\Users\Warlon\Desktop\EVO_Heart\bin\Debug\office.dll
+C:\Users\Warlon\Desktop\EVO_Heart\bin\Debug\Microsoft.Office.Interop.Outlook.xml
+C:\Users\Warlon\Desktop\EVO_Heart\bin\Debug\office.xml
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\Evosolution.vbproj.ResolveComReference.cache
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmAPV.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmBillingPEZA.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.fmrAddVendor.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.FormTypeOfGoodsReceipt.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmAddContract.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmAddMembers.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmBatchPosting.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmBank.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmBanklist.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmBankRecon.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmBankReconMain.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmBankReconV2vb.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.FrmBank_Recon.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmBatchpostingMain.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmBilling.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmBillingComputation.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmBillingReport.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmChartofAccnt.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.FrmChartOfAccountSearch.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmCollection.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmCollectionvb.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmCompanyProfile.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmCRDisplayFinancialReport.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmCRDisplayTransactionReport.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmDenomination.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmdeposit.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmdeposit0401.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmDisbursementRR.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.FrmDisplayPOSTotal.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmDocList.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmExport.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmGeneralLedger.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmGLFinacialReportGenerator.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmGR.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmGRPO.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmGRPOBak.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmPicAndSig.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmInventory.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmItemList.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmOITM.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmJournalEntry.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmJV.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmLoanMaintenance.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmLoanWindow.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.FrmLogin.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmCopyFrom.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmPayroll.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmPeriodEndEntry.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmPO.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmPOAutoEmail.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.FRMPOSSLMPC.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmPostedEntries.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmPostedEntryDetails.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmQueryGen.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.FrmQueryGenerator.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmReading.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmReportOutput.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmSalesInvoice.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmSavings.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmSavingsMaintenance.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmSearchBP.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmSearchItem.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmSearchMem.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmSearchRR.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmSearchVendor.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmSelectRecipients.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmTiralBalance.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmTypeOfPayment.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmVerifier.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmViewLoans.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmWarningMSG.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmWaterReadingSummary.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frm_NewMenu.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.MainForm.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.Resources.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.POSearch.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\Evosolution.vbproj.GenerateResource.Cache
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.exe
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.xml
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.pdb
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmBillingExport.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmMaintain_Import.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmMasterfileVCE.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmAdvances_Client.resources
+C:\Users\Warlon\Desktop\EVO_Heart\obj\x86\Debug\HPPHI.frmBilling_Import.resources
+C:\Users\Warlon\Desktop\GA_CAS\bin\Debug\Green Aces Logistics.exe
+C:\Users\Warlon\Desktop\GA_CAS\bin\Debug\Green Aces Logistics.pdb
+C:\Users\Warlon\Desktop\GA_CAS\bin\Debug\Green Aces Logistics.xml
+C:\Users\Warlon\Desktop\GA_CAS\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+C:\Users\Warlon\Desktop\GA_CAS\bin\Debug\office.dll
+C:\Users\Warlon\Desktop\GA_CAS\bin\Debug\Microsoft.Office.Interop.Outlook.xml
+C:\Users\Warlon\Desktop\GA_CAS\bin\Debug\office.xml
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\Evosolution.vbproj.ResolveComReference.cache
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmAdvances_Client.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmAPV.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmBillingExport.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmBillingPEZA.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.fmrAddVendor.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.FormTypeOfGoodsReceipt.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmAddContract.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmAddMembers.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmBatchPosting.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmBank.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmCheckPrinting.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmDisbursement_Type.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmMaintain_ImportAdvances.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmMasterfile_Bank.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmBankRecon.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmBankReconMain.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmBankReconV2vb.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.FrmBank_Recon.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmBatchpostingMain.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmBilling.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmBillingComputation.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmBillingReport.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmBilling_Import.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmChartofAccnt.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.FrmChartOfAccountSearch.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmCollection.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmCollectionvb.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmCompanyProfile.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmCRDisplayFinancialReport.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmCRDisplayTransactionReport.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmDenomination.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmdeposit.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmdeposit0401.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmDisbursementRR.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.FrmDisplayPOSTotal.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmDocList.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmExport.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmGeneralLedger.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmGLFinacialReportGenerator.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmGR.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmGRPO.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmGRPOBak.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmPicAndSig.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmInventory.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmItemList.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmMasterfile_Import.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmMasterfile_VCE.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmOITM.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmJournalEntry.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmJV.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmLoanMaintenance.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmLoanWindow.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmLogin.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmCopyFrom.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmPayroll.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmPeriodEndEntry.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmPO.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmPOAutoEmail.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.FRMPOSSLMPC.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmPostedEntries.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmPostedEntryDetails.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmQueryGen.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.FrmQueryGenerator.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmReading.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmReportOutput.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmSalesInvoice.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmSavings.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmSavingsMaintenance.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmSearchBP.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmSearchItem.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmSearchMem.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmSearchRR.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmSearchVendor.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmSelectRecipients.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmTiralBalance.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmCollection_Type.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmVerifier.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmViewLoans.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmWarningMSG.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frmWaterReadingSummary.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.frm_NewMenu.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.MainForm.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.Resources.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\GA.POSearch.resources
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\Evosolution.vbproj.GenerateResource.Cache
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\Green Aces Logistics.exe
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\Green Aces Logistics.xml
+C:\Users\Warlon\Desktop\GA_CAS\obj\x86\Debug\Green Aces Logistics.pdb
+C:\Users\Warlon\Desktop\GA_CAS\bin\Debug\Green Aces Logistics.exe.config
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\bin\Debug\office.dll
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\bin\Debug\Microsoft.Office.Interop.Outlook.xml
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\bin\Debug\office.xml
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\Evosolution.vbproj.ResolveComReference.cache
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\Evosolution.vbproj.GenerateResource.Cache
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\bin\Debug\EvoAccounting.exe.config
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\bin\Debug\EvoAccounting.exe
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\bin\Debug\EvoAccounting.pdb
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\bin\Debug\EvoAccounting.xml
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmAdvances_Client.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmAPV.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmBillingExport.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmBillingPEZA.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.fmrAddVendor.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.FormTypeOfGoodsReceipt.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmAddContract.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmAddMembers.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmBatchPosting.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmBank.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmCheckPrinting.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmCollectionAR.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmGL.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmDisbursement_Type.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmImport_Reimb_OR.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmMaintain_ImportAdvances.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmMasterfile_Bank.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmBankRecon.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmBankReconMain.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmBankReconV2vb.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.FrmBank_Recon.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmPostingHeader.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmBilling.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmBillingComputation.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmBillingReport.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmBilling_Import.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmChartofAccnt.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.FrmChartOfAccountSearch.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmCollection.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmCollectionvb.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmCompanyProfile.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmCRDisplayFinancialReport.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmCRDisplayTransactionReport.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmDenomination.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmdeposit.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmDisbursementRR.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.FrmDisplayPOSTotal.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmDocList.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmExport.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmGeneralLedger.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmGLFinacialReportGenerator.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmGR.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmGRPO.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmGRPOBak.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmInventory.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmItemList.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmMasterfile_Import.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmMasterfile_Trucking.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmMasterfile_VCE.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmOITM.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmJournalEntry.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmJV.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmLoanMaintenance.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmLoanWindow.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmLogin.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmCopyFrom.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmPayroll.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmPeriodEndEntry.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmPO.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmPOAutoEmail.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.FRMPOSSLMPC.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmPostedEntries.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmPostedEntryDetails.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmQueryGen.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.FrmQueryGenerator.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmReading.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmReportOutput.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmSalesInvoice.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmSavings.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmSavingsMaintenance.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmSearchBP.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmSearchItem.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmSearchMem.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmSearchRR.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmSearchVendor.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmSelectRecipients.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmTiralBalance.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmCollection_Type.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmUploadAdjustment.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmVerifier.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmViewLoans.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmWarningMSG.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmWaterReadingSummary.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frm_NewMenu.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.MainForm.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.Resources.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.POSearch.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\EvoAccounting.exe
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\EvoAccounting.xml
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\EvoAccounting.pdb
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmReport_Books.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\Evosolution.vbprojResolveAssemblyReference.cache
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmBilling_Software.resources
+C:\Users\Warlon\Desktop\PIE System\GA_CAS\obj\x86\Debug\CAS.frmBilling_Software_Contract.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\bin\Debug\office.dll
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\bin\Debug\Microsoft.Office.Interop.Outlook.xml
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\bin\Debug\office.xml
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\Evosolution.vbproj.ResolveComReference.cache
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\Evosolution.vbproj.GenerateResource.Cache
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\bin\Debug\JADE.exe.config
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\bin\Debug\JADE.exe
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\bin\Debug\JADE.pdb
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\bin\Debug\JADE.xml
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.exe
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.xml
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.pdb
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\Evosolution.vbprojResolveAssemblyReference.cache
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmAddmoduleaccess.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmAddUser.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmadduserinfo.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmAdvances_Client.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmAPV.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmAuditTrail.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmBillingExport.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmBillingPEZA.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmAddContract.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmBilling_Software.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmBilling_Software_Contract.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmCETF.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmCheckPrinting.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmDisbursement_Type.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmDR.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmImport_Reimb_OR.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmMaintain_ImportAdvances.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmUser_Master.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmMasterfile_Bank.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.FrmBank_Recon.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmBilling.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmBillingComputation.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmBillingReport.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmBilling_Import.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmChartofAccnt.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.FrmChartOfAccountSearch.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmCollection.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmCompanyProfile.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmCRDisplayFinancialReport.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmReport_Display.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmdeposit.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmDisbursementRR.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmDocList.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmGLFinacialReportGenerator.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmGR.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmRR.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmMasterfile_Import.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmMasterfile_Trucking.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmSI.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmVCE_Add.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmVCE_Master.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmMasterfile_Item.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmJV.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmLoanMaintenance.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmLoanWindow.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmLogin.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmCopyFrom.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmPayroll.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmPO.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmReportOutput.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmReport_Generator.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmSavings.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmSavingsMaintenance.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmSearchVendor.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmSelectRecipients.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmSO.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmSQ.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmCollection_Type.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmUploadAdjustment.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmVerifier.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmViewLoans.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.MainForm.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.Resources.resources
+C:\Users\Warlon\Desktop\PIE System\PIE_CAS\obj\x86\Debug\JADE.frmItem_Discount.resources
