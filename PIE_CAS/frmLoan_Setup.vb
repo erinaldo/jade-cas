@@ -1,4 +1,4 @@
-﻿Public Class frmLoan_Maintenance
+﻿Public Class frmLoan_Setup
     Dim disableEvent As Boolean = False
     Dim ModuleID As String = "LM"
     Dim LoanCode As Integer = 0
@@ -366,13 +366,13 @@
 #End Region
 
 
-   
 
-    
 
-   
 
-  
+
+
+
+
 
     Private Sub LoadComboboxType2(ByVal RowID As Integer, Selected As String)
         Dim dgvCB As DataGridViewComboBoxCell
@@ -407,7 +407,7 @@
 
     End Sub
 
-    
+
 
     Private Sub LoadAccountTitle()
         Dim query As String
@@ -428,7 +428,7 @@
         cbPayment.SelectedIndex = 0
     End Sub
 
-   
+
 
     Private Sub SaveLoanType()
         Try
@@ -500,7 +500,7 @@
             Return 1
         End If
     End Function
-  
+
     Private Sub dgvCharges_CellValidating(sender As Object, e As System.Windows.Forms.DataGridViewCellValidatingEventArgs) Handles dgvCharges.CellValidating
         Dim comboBoxColumn As DataGridViewComboBoxColumn = dgvCharges.Columns(dgcAccount.Index)
         If (e.ColumnIndex = comboBoxColumn.DisplayIndex) Then
@@ -598,8 +598,8 @@
         End If
     End Sub
 
-    
 
-  
-    
+
+
+
 End Class

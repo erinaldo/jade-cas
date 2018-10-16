@@ -471,6 +471,6 @@ Public Class Main_JADE
     End Sub
 
     Private Sub MetroTile18_Click(sender As System.Object, e As System.EventArgs) Handles MetroTile18.Click
-        frmLoan_Maintenance.Show()
+        frmLoan_Setup.Show()
     End Sub
 End Class
