@@ -166,10 +166,22 @@
     <Compile Include="frmJO.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLoan_Maintenance.Designer.vb">
-      <DependentUpon>frmLoan_Maintenance.vb</DependentUpon>
+    <Compile Include="frmLoan_ChargesRangeDef.Designer.vb">
+      <DependentUpon>frmLoan_ChargesRangeDef.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmLoan_Maintenance.vb">
+    <Compile Include="frmLoan_ChargesRangeDef.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoan_Setup.Designer.vb">
+      <DependentUpon>frmLoan_Setup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoan_Setup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoan_Charges.Designer.vb">
+      <DependentUpon>frmLoan_Charges.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoan_Charges.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMember_Master.Designer.vb">
@@ -677,8 +689,14 @@
     <EmbeddedResource Include="frmJO.resx">
       <DependentUpon>frmJO.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLoan_Maintenance.resx">
-      <DependentUpon>frmLoan_Maintenance.vb</DependentUpon>
+    <EmbeddedResource Include="frmLoan_ChargesRangeDef.resx">
+      <DependentUpon>frmLoan_ChargesRangeDef.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoan_Setup.resx">
+      <DependentUpon>frmLoan_Setup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoan_Charges.resx">
+      <DependentUpon>frmLoan_Charges.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMember_Master.resx">
       <DependentUpon>frmMember_Master.vb</DependentUpon>

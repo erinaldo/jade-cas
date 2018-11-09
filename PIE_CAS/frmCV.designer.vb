@@ -964,7 +964,7 @@ Partial Class frmCV
         Me.KeyPreview = True
         Me.Name = "frmCV"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Disbursement Module"
+        Me.Text = " "
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.dgvEntry, System.ComponentModel.ISupportInitialize).EndInit()
         Me.gbPayee.ResumeLayout(False)

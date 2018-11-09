@@ -598,8 +598,8 @@
         End If
     End Sub
 
-
-
-
-
+    Private Sub ToolStripMenuItem1_Click(sender As System.Object, e As System.EventArgs) Handles ToolStripMenuItem1.Click
+        frmLoan_Charges.ShowDialog()
+        frmLoan_Charges.Dispose()
+    End Sub
 End Class

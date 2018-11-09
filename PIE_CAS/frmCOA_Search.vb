@@ -2,7 +2,6 @@
     Public accountcode As String
     Public accttile As String
     Public filterfield As String
-    Dim SQL As New SQLControl
 
     Public Overloads Function ShowDialog(fld As String, ByVal Accttle As String) As Boolean
         filterfield = fld

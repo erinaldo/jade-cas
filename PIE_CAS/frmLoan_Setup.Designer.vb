@@ -57,15 +57,17 @@ Partial Class frmLoan_Setup
         Me.chAll = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.chLocked = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
         Me.tsbNew = New System.Windows.Forms.ToolStripButton()
         Me.tsbEdit = New System.Windows.Forms.ToolStripButton()
         Me.tsbSave = New System.Windows.Forms.ToolStripButton()
         Me.tsbDelete = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.tsbReports = New System.Windows.Forms.ToolStripDropDownButton()
-        Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
         Me.tsbClose = New System.Windows.Forms.ToolStripButton()
         Me.tsbExit = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripDropDownButton1 = New System.Windows.Forms.ToolStripDropDownButton()
+        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.gbInfo.SuspendLayout()
         CType(Me.nupTerms, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dgvCharges, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -399,12 +401,22 @@ Partial Class frmLoan_Setup
         Me.ToolStrip1.AutoSize = False
         Me.ToolStrip1.BackColor = System.Drawing.Color.SeaGreen
         Me.ToolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbNew, Me.tsbEdit, Me.tsbSave, Me.tsbDelete, Me.ToolStripSeparator1, Me.tsbReports, Me.ToolStripSeparator3, Me.tsbClose, Me.tsbExit})
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsbNew, Me.tsbEdit, Me.tsbSave, Me.tsbDelete, Me.ToolStripSeparator1, Me.ToolStripDropDownButton1, Me.tsbReports, Me.ToolStripSeparator3, Me.tsbClose, Me.tsbExit})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
         Me.ToolStrip1.Size = New System.Drawing.Size(1174, 40)
         Me.ToolStrip1.TabIndex = 1405
         Me.ToolStrip1.Text = "ToolStrip1"
+        '
+        'ToolStripSeparator1
+        '
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 40)
+        '
+        'ToolStripSeparator3
+        '
+        Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
+        Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 40)
         '
         'tsbNew
         '
@@ -451,11 +463,6 @@ Partial Class frmLoan_Setup
         Me.tsbDelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.tsbDelete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
-        'ToolStripSeparator1
-        '
-        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 40)
-        '
         'tsbReports
         '
         Me.tsbReports.ForeColor = System.Drawing.Color.White
@@ -465,11 +472,6 @@ Partial Class frmLoan_Setup
         Me.tsbReports.Size = New System.Drawing.Size(60, 37)
         Me.tsbReports.Text = "Reports"
         Me.tsbReports.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        '
-        'ToolStripSeparator3
-        '
-        Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
-        Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 40)
         '
         'tsbClose
         '
@@ -493,7 +495,24 @@ Partial Class frmLoan_Setup
         Me.tsbExit.Text = "Exit"
         Me.tsbExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
-        'frmLoan_Maintenance
+        'ToolStripDropDownButton1
+        '
+        Me.ToolStripDropDownButton1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1})
+        Me.ToolStripDropDownButton1.ForeColor = System.Drawing.Color.White
+        Me.ToolStripDropDownButton1.Image = Global.jade.My.Resources.Resources.finance_report_infographic_512
+        Me.ToolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripDropDownButton1.Name = "ToolStripDropDownButton1"
+        Me.ToolStripDropDownButton1.Size = New System.Drawing.Size(62, 37)
+        Me.ToolStripDropDownButton1.Text = "Settings"
+        Me.ToolStripDropDownButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
+        'ToolStripMenuItem1
+        '
+        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(158, 22)
+        Me.ToolStripMenuItem1.Text = "Default Charges"
+        '
+        'frmLoan_Setup
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -505,7 +524,7 @@ Partial Class frmLoan_Setup
         Me.Controls.Add(Me.lvLoanType)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "frmLoan_Maintenance"
+        Me.Name = "frmLoan_Setup"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Loan Maintenance"
         Me.gbInfo.ResumeLayout(False)
@@ -559,4 +578,6 @@ Partial Class frmLoan_Setup
     Friend WithEvents txtAccntTitle As System.Windows.Forms.TextBox
     Friend WithEvents txtAccntCode As System.Windows.Forms.TextBox
     Friend WithEvents nupTerms As System.Windows.Forms.NumericUpDown
+    Friend WithEvents ToolStripDropDownButton1 As System.Windows.Forms.ToolStripDropDownButton
+    Friend WithEvents ToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
 End Class
