@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FrmBank_Recon
+Partial Class FrmBR
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,10 +22,10 @@ Partial Class FrmBank_Recon
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.txtTrialBalanceAmount = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -209,7 +209,7 @@ Partial Class FrmBank_Recon
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(12, 62)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(1016, 197)
+        Me.GroupBox1.Size = New System.Drawing.Size(1053, 197)
         Me.GroupBox1.TabIndex = 1363
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Bank Recon Details"
@@ -387,7 +387,7 @@ Partial Class FrmBank_Recon
         Me.Label10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(690, 19)
+        Me.Label10.Location = New System.Drawing.Point(727, 19)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(46, 16)
         Me.Label10.TabIndex = 1372
@@ -425,7 +425,7 @@ Partial Class FrmBank_Recon
         Me.TabControl1.Location = New System.Drawing.Point(12, 265)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(1020, 405)
+        Me.TabControl1.Size = New System.Drawing.Size(1057, 245)
         Me.TabControl1.TabIndex = 1376
         '
         'TabPage3
@@ -446,7 +446,7 @@ Partial Class FrmBank_Recon
         Me.TabPage3.Location = New System.Drawing.Point(4, 25)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(1012, 376)
+        Me.TabPage3.Size = New System.Drawing.Size(1049, 216)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "JV"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -454,7 +454,7 @@ Partial Class FrmBank_Recon
         'txtJVNO
         '
         Me.txtJVNO.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtJVNO.Location = New System.Drawing.Point(890, 6)
+        Me.txtJVNO.Location = New System.Drawing.Point(927, 6)
         Me.txtJVNO.Name = "txtJVNO"
         Me.txtJVNO.ReadOnly = True
         Me.txtJVNO.Size = New System.Drawing.Size(116, 22)
@@ -465,7 +465,7 @@ Partial Class FrmBank_Recon
         '
         Me.txtTotalAmount.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.txtTotalAmount.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTotalAmount.Location = New System.Drawing.Point(709, 296)
+        Me.txtTotalAmount.Location = New System.Drawing.Point(709, 136)
         Me.txtTotalAmount.Name = "txtTotalAmount"
         Me.txtTotalAmount.ReadOnly = True
         Me.txtTotalAmount.Size = New System.Drawing.Size(108, 22)
@@ -475,7 +475,7 @@ Partial Class FrmBank_Recon
         'btnSaveJV
         '
         Me.btnSaveJV.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.btnSaveJV.Location = New System.Drawing.Point(7, 343)
+        Me.btnSaveJV.Location = New System.Drawing.Point(7, 183)
         Me.btnSaveJV.Name = "btnSaveJV"
         Me.btnSaveJV.Size = New System.Drawing.Size(81, 28)
         Me.btnSaveJV.TabIndex = 1382
@@ -486,7 +486,7 @@ Partial Class FrmBank_Recon
         '
         Me.txtDifference.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.txtDifference.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDifference.Location = New System.Drawing.Point(590, 296)
+        Me.txtDifference.Location = New System.Drawing.Point(590, 136)
         Me.txtDifference.Name = "txtDifference"
         Me.txtDifference.ReadOnly = True
         Me.txtDifference.Size = New System.Drawing.Size(108, 22)
@@ -496,7 +496,7 @@ Partial Class FrmBank_Recon
         '
         Me.txtTotalCredit.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.txtTotalCredit.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTotalCredit.Location = New System.Drawing.Point(471, 296)
+        Me.txtTotalCredit.Location = New System.Drawing.Point(471, 136)
         Me.txtTotalCredit.Name = "txtTotalCredit"
         Me.txtTotalCredit.ReadOnly = True
         Me.txtTotalCredit.Size = New System.Drawing.Size(108, 22)
@@ -506,7 +506,7 @@ Partial Class FrmBank_Recon
         '
         Me.txtTotalDebit.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.txtTotalDebit.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTotalDebit.Location = New System.Drawing.Point(352, 296)
+        Me.txtTotalDebit.Location = New System.Drawing.Point(352, 136)
         Me.txtTotalDebit.Name = "txtTotalDebit"
         Me.txtTotalDebit.ReadOnly = True
         Me.txtTotalDebit.Size = New System.Drawing.Size(108, 22)
@@ -517,7 +517,7 @@ Partial Class FrmBank_Recon
         Me.Label8.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(10, 301)
+        Me.Label8.Location = New System.Drawing.Point(10, 141)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(39, 16)
         Me.Label8.TabIndex = 1384
@@ -528,7 +528,7 @@ Partial Class FrmBank_Recon
         Me.Label5.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(9, 320)
+        Me.Label5.Location = New System.Drawing.Point(9, 160)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(64, 16)
         Me.Label5.TabIndex = 1380
@@ -543,7 +543,7 @@ Partial Class FrmBank_Recon
         Me.dgvProducts.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column3, Me.Column8, Me.UOMQTY, Me.Column10, Me.Column2, Me.Column4, Me.Column11, Me.chApplicationDate})
         Me.dgvProducts.Location = New System.Drawing.Point(3, 33)
         Me.dgvProducts.Name = "dgvProducts"
-        Me.dgvProducts.Size = New System.Drawing.Size(1003, 259)
+        Me.dgvProducts.Size = New System.Drawing.Size(1040, 99)
         Me.dgvProducts.TabIndex = 77
         '
         'Column1
@@ -559,19 +559,19 @@ Partial Class FrmBank_Recon
         '
         'Column8
         '
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle1.Format = "N2"
-        DataGridViewCellStyle1.NullValue = "0"
-        Me.Column8.DefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle5.Format = "N2"
+        DataGridViewCellStyle5.NullValue = "0"
+        Me.Column8.DefaultCellStyle = DataGridViewCellStyle5
         Me.Column8.HeaderText = "Debit"
         Me.Column8.Name = "Column8"
         '
         'UOMQTY
         '
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle2.Format = "N2"
-        DataGridViewCellStyle2.NullValue = "0"
-        Me.UOMQTY.DefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle6.Format = "N2"
+        DataGridViewCellStyle6.NullValue = "0"
+        Me.UOMQTY.DefaultCellStyle = DataGridViewCellStyle6
         Me.UOMQTY.HeaderText = "Credit"
         Me.UOMQTY.Name = "UOMQTY"
         '
@@ -610,7 +610,7 @@ Partial Class FrmBank_Recon
         '
         Me.txtRemarks.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.txtRemarks.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRemarks.Location = New System.Drawing.Point(140, 321)
+        Me.txtRemarks.Location = New System.Drawing.Point(140, 161)
         Me.txtRemarks.Name = "txtRemarks"
         Me.txtRemarks.Size = New System.Drawing.Size(677, 22)
         Me.txtRemarks.TabIndex = 1381
@@ -698,10 +698,10 @@ Partial Class FrmBank_Recon
         '
         'DataGridViewTextBoxColumn14
         '
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle3.Format = "N2"
-        DataGridViewCellStyle3.NullValue = Nothing
-        Me.DataGridViewTextBoxColumn14.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle7.Format = "N2"
+        DataGridViewCellStyle7.NullValue = Nothing
+        Me.DataGridViewTextBoxColumn14.DefaultCellStyle = DataGridViewCellStyle7
         Me.DataGridViewTextBoxColumn14.HeaderText = "Amount"
         Me.DataGridViewTextBoxColumn14.Name = "DataGridViewTextBoxColumn14"
         Me.DataGridViewTextBoxColumn14.ReadOnly = True
@@ -862,10 +862,10 @@ Partial Class FrmBank_Recon
         '
         'DataGridViewTextBoxColumn9
         '
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle4.Format = "N2"
-        DataGridViewCellStyle4.NullValue = Nothing
-        Me.DataGridViewTextBoxColumn9.DefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle8.Format = "N2"
+        DataGridViewCellStyle8.NullValue = Nothing
+        Me.DataGridViewTextBoxColumn9.DefaultCellStyle = DataGridViewCellStyle8
         Me.DataGridViewTextBoxColumn9.HeaderText = "Amount"
         Me.DataGridViewTextBoxColumn9.Name = "DataGridViewTextBoxColumn9"
         Me.DataGridViewTextBoxColumn9.ReadOnly = True
@@ -1031,7 +1031,7 @@ Partial Class FrmBank_Recon
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.Location = New System.Drawing.Point(12, 9)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(1016, 47)
+        Me.GroupBox2.Size = New System.Drawing.Size(1053, 47)
         Me.GroupBox2.TabIndex = 1379
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "BankDetails"
@@ -1041,7 +1041,7 @@ Partial Class FrmBank_Recon
         Me.dtpDocDate.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.dtpDocDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtpDocDate.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.dtpDocDate.Location = New System.Drawing.Point(739, 16)
+        Me.dtpDocDate.Location = New System.Drawing.Point(776, 16)
         Me.dtpDocDate.Name = "dtpDocDate"
         Me.dtpDocDate.Size = New System.Drawing.Size(132, 22)
         Me.dtpDocDate.TabIndex = 1392
@@ -1050,7 +1050,7 @@ Partial Class FrmBank_Recon
         '
         Me.btnSaveBankRecon.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.btnSaveBankRecon.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSaveBankRecon.Location = New System.Drawing.Point(12, 674)
+        Me.btnSaveBankRecon.Location = New System.Drawing.Point(12, 514)
         Me.btnSaveBankRecon.Name = "btnSaveBankRecon"
         Me.btnSaveBankRecon.Size = New System.Drawing.Size(214, 28)
         Me.btnSaveBankRecon.TabIndex = 1383
@@ -1061,7 +1061,7 @@ Partial Class FrmBank_Recon
         '
         Me.btnBankReconReport.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.btnBankReconReport.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnBankReconReport.Location = New System.Drawing.Point(232, 674)
+        Me.btnBankReconReport.Location = New System.Drawing.Point(232, 514)
         Me.btnBankReconReport.Name = "btnBankReconReport"
         Me.btnBankReconReport.Size = New System.Drawing.Size(214, 28)
         Me.btnBankReconReport.TabIndex = 1384
@@ -1071,19 +1071,19 @@ Partial Class FrmBank_Recon
         'FolderBrowserDialog1
         '
         '
-        'FrmBank_Recon
+        'FrmBR
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1044, 711)
+        Me.ClientSize = New System.Drawing.Size(1081, 551)
         Me.Controls.Add(Me.btnBankReconReport)
         Me.Controls.Add(Me.btnSaveBankRecon)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Name = "FrmBank_Recon"
+        Me.Name = "FrmBR"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Bank Recon "
-        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.TabControl1.ResumeLayout(False)

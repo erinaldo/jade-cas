@@ -9,6 +9,8 @@
     Dim AccntCode As String
     Dim APV_ID, ADV_ID, RFP_ID As Integer
     Dim bankID As Integer
+    Dim tpHidden As New Dictionary(Of String, System.Windows.Forms.TabPage)
+    Dim tpOrder As New List(Of String)
 
     Public Overloads Function ShowDialog(ByVal DocNumber As String) As Boolean
         TransID = DocNumber
@@ -18,8 +20,8 @@
 
     Private Sub Disbursement_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Try
+            Me.Text = "(" & database & ") - Check Voucher "
             TransAuto = GetTransSetup(ModuleID)
-            LoadPaymentType()
             LoadBankList()
             If cbPaymentType.Items.Count > 0 Then
                 cbPaymentType.SelectedIndex = 0
@@ -47,13 +49,15 @@
     End Sub
 
     Private Sub EnableControl(ByVal Value As Boolean)
+
+        dtpDocDate.Enabled = Value
         txtVCEName.Enabled = Value
         btnSearchVCE.Enabled = Value
         dgvEntry.AllowUserToAddRows = Value
         dgvEntry.AllowUserToDeleteRows = Value
         If Value = True Then
             dgvEntry.EditMode = DataGridViewEditMode.EditOnKeystrokeOrF2
-            RefreshType()
+            LoadBranch()
         Else
             dgvEntry.EditMode = DataGridViewEditMode.EditProgrammatically
         End If
@@ -86,6 +90,7 @@
                 " WHERE   TransID = '" & ID & "' "
         SQL.ReadQuery(query)
         If SQL.SQLDR.Read Then
+            dtpDocDate.MinDate = "01-01-1900"
             TransID = SQL.SQLDR("TransID").ToString
             CVNo = SQL.SQLDR("CV_No").ToString
             txtTransNum.Text = CVNo
@@ -123,6 +128,10 @@
             tsbSearch.Enabled = True
             tsbExit.Enabled = True
             tsbCopy.Enabled = False
+            If dtpDocDate.Value < GetMaxPEC() Then
+                tsbEdit.Enabled = False
+                tsbCancel.Enabled = False
+            End If
             EnableControl(False)
         Else
             ClearText()
@@ -179,18 +188,8 @@
                                CDec(SQL.SQLDR("Credit")).ToString("N2"), SQL.SQLDR("VCECode").ToString, SQL.SQLDR("VCEName").ToString, _
                                SQL.SQLDR("Particulars").ToString, SQL.SQLDR("RefNo").ToString)
         End While
-        RefreshType()
+        LoadBranch()
         TotalDBCR()
-    End Sub
-
-    Private Sub LoadPaymentType()
-        Dim query As String
-        query = " SELECT Payment_Type FROM tblCV_PaymentType "
-        SQL.ReadQuery(query)
-        cbPaymentType.Items.Clear()
-        While SQL.SQLDR.Read
-            cbPaymentType.Items.Add(SQL.SQLDR("Payment_Type").ToString)
-        End While
     End Sub
 
     Private Sub LoadBankList()
@@ -220,23 +219,38 @@
 
 
     Private Sub cbPaymentType_SelectedIndexChanged(sender As System.Object, e As System.EventArgs) Handles cbPaymentType.SelectedIndexChanged
-        Try
-            bankID = 0
-            LoadBankDetails()
-            If cbBank.Items.Count = 1 Then
-                cbBank.SelectedIndex = 0
-                bankID = GetBankID(cbBank.SelectedItem)
-                If cbPaymentType.SelectedItem = "Check" Then
-                    txtBankRef.Text = GetCheckNo(bankID)
-                End If
+        If disableEvent = False Then
+            HideTabPageAll()
+            ShowTabPage(cbPaymentType.SelectedItem)
+            If cbPaymentType.SelectedItem = "Cash" Then
+                tcPayment.SelectedTab = tpCash
+            ElseIf cbPaymentType.SelectedItem = "Check" Then
+                tcPayment.SelectedTab = tpCheck
+            ElseIf cbPaymentType.SelectedItem = "Multiple Check" Then
+                tcPayment.SelectedTab = tpMultipleCheck
+            ElseIf cbPaymentType.SelectedItem = "Manager's Check" Then
+                tcPayment.SelectedTab = tpMC
+            ElseIf cbPaymentType.SelectedItem = "Credit Card" Then
+                tcPayment.SelectedTab = tpCreditCard
+            ElseIf cbPaymentType.SelectedItem = "Bank Transfer" Then
+                tcPayment.SelectedTab = tpBankTransfer
+            ElseIf cbPaymentType.SelectedItem = "(Multiple Payment Method)" Then
+                tcPayment.SelectedTab = tpCheck
+                ShowTabPageAll()
             End If
-        Catch ex As Exception
-            Dim st As New StackTrace(True)
-            st = New StackTrace(ex, True)
-            MsgBox(ex.Message & st.GetFrame(0).GetFileLineNumber.ToString)
-        End Try
-
+            'bankID = 0
+            'LoadBankDetails()
+            'If cbBank.Items.Count = 1 Then
+            '    cbBank.SelectedIndex = 0
+            '    bankID = GetBankID(cbBank.SelectedItem)
+            '    If cbPaymentType.SelectedItem = "Check" Then
+            '        txtBankRef.Text = GetCheckNo(bankID)
+            '    End If
+            'End If
+        End If
     End Sub
+
+
 
     Private Sub LoadBankDetails()
         txtBankRef.Text = ""
@@ -290,7 +304,7 @@
                     End If
                 End If
             End If
-            
+
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
@@ -389,6 +403,7 @@
         dgvEntry.Rows.Clear()
         txtTotalDebit.Text = "0.00"
         txtTotalCredit.Text = "0.00"
+        dtpDocDate.MinDate = GetMaxPEC()
     End Sub
 
     Private Sub SaveCV()
@@ -704,7 +719,7 @@
                             SQL.ReadQuery(query)
                             If SQL.SQLDR.Read Then
                                 dgvEntry.Rows.Add(BranchCode, SQL.SQLDR("Account_Code").ToString, SQL.SQLDR("AccountTitle").ToString, "0.00", CDec(CDec(txtTotalDebit.Text) - CDec(txtTotalCredit.Text)).ToString("N2"), "", "", "", "")
-                                RefreshType()
+                                LoadBranch()
                             End If
                             txtAmount.Text = CDec(CDec(txtTotalDebit.Text) - CDec(txtTotalCredit.Text)).ToString("N2")
                             TotalDBCR()
@@ -712,7 +727,7 @@
                     Else
                         Dim code As String = SQL.SQLDR("Account_Code").ToString
                         dgvEntry.Rows.Add(BranchCode, code, GetAccntTitle(code), "0.00", CDec(CDec(txtTotalDebit.Text) - CDec(txtTotalCredit.Text)).ToString("N2"), "", "", "", "")
-                        RefreshType()
+                        LoadBranch()
                         txtAmount.Text = CDec(CDec(txtTotalDebit.Text) - CDec(txtTotalCredit.Text)).ToString("N2")
                         TotalDBCR()
                     End If
@@ -725,6 +740,34 @@
         End Try
 
     End Sub
+
+    Private Function GetCashAccount(ByVal PaymentType As String, BankID As Integer)
+        Dim cashAccount As String = ""
+        Dim query As String
+        query = " SELECT  WithBank, Account_Code " & _
+                " FROM    tblCV_PaymentType LEFT JOIN tblCOA_Master " & _
+                " ON      tblCV_PaymentType.Account_Code = tblCOA_Master.AccountCode " & _
+                " WHERE   Payment_Type ='" & PaymentType & "' "
+        SQL.ReadQuery(query)
+        If SQL.SQLDR.Read Then
+            If SQL.SQLDR("WithBank") Then
+                If cbBank.SelectedIndex <> -1 Then
+                    query = " SELECT Account_Code, AccountTitle FROM tblMasterfile_Bank " & _
+                            "        INNER JOIN tblCOA_Master " & _
+                            " ON tblMasterfile_Bank.Account_Code = tblCOA_Master.AccountCode " & _
+                            " WHERE Bank_ID ='" & BankID & "' "
+                    SQL.ReadQuery(query)
+                    If SQL.SQLDR.Read Then
+                        cashAccount = SQL.SQLDR("Account_Code").ToString
+                    End If
+                End If
+            Else
+                cashAccount = SQL.SQLDR("Account_Code").ToString
+            End If
+        End If
+        Return cashAccount
+    End Function
+
 
 
     Private Sub dgvManual_CellEndEdit(sender As System.Object, e As System.Windows.Forms.DataGridViewCellEventArgs) Handles dgvEntry.CellEndEdit
@@ -762,16 +805,10 @@
         End If
     End Sub
 
-    Private Sub RefreshType()
-        For i As Integer = 0 To dgvEntry.Rows.Count - 1
-            LoadBranch(i)
-        Next
-    End Sub
-
-    Private Sub LoadBranch(Optional ByVal SelectedIndex As Integer = 0)
+    Private Sub LoadBranch()
         Try
-            Dim dgvCB As New DataGridViewComboBoxCell
-            dgvCB = dgvEntry.Item(dgcBranchCode.Index, SelectedIndex)
+            Dim dgvCB As New DataGridViewComboBoxColumn
+            dgvCB = dgvEntry.Columns(dgcBranchCode.Index)
             dgvCB.Items.Clear()
             ' ADD ALL BranchCode
             Dim query As String
@@ -823,13 +860,13 @@
                 While SQL.SQLDR.Read
                     dgvEntry.Rows.Add(SQL.SQLDR("BranchCode").ToString, SQL.SQLDR("AccountCode").ToString, SQL.SQLDR("AccountTitle").ToString, _
                                       CDec(SQL.SQLDR("BaseAmount")).ToString("N2"), "0.00", SQL.SQLDR("CodePayee").ToString, SQL.SQLDR("RecordPayee").ToString, SQL.SQLDR("Type").ToString, "RFP:" & txtRFPRef.Text)
-                   If SQL.SQLDR("InputVAT") <> 0 Then
+                    If SQL.SQLDR("InputVAT") <> 0 Then
                         dgvEntry.Rows.Add(SQL.SQLDR("BranchCode").ToString, "18060", " Vat Input", _
                                             CDec(SQL.SQLDR("InputVAT")).ToString("N2"), "0.00", SQL.SQLDR("CodePayee").ToString, SQL.SQLDR("RecordPayee").ToString, SQL.SQLDR("Type").ToString, "RFP:" & txtRFPRef.Text)
                     End If
-              
+
                 End While
-               RefreshType()
+                LoadBranch()
             End If
             TotalDBCR()
         Catch ex As Exception
@@ -850,7 +887,7 @@
                 APV_ID = SQL.SQLDR("TransID")
                 txtAPVRef.Text = SQL.SQLDR("APV_No")
                 dgvEntry.Rows.Add(BranchCode, SQL.SQLDR("AccntCode").ToString, SQL.SQLDR("AccountTitle").ToString, CDec(SQL.SQLDR("Net_Purchase")).ToString("N2"), "0.00", "", "", "", "APV:" & txtAPVRef.Text)
-                LoadBranch(dgvEntry.Rows.Count - 2)
+                LoadBranch()
             End If
             TotalDBCR()
         Catch ex As Exception
@@ -880,6 +917,85 @@
             MsgBox(ex.Message)
         End Try
     End Sub
+
+    Sub LoadLoan(ByVal Loan As String)
+        Try
+            Dim LoanAccount, IntIncomeAccount, UnearnedAccount, IntRecAccount, Loan_No, VCECode, cashAccount As String
+            Dim SetupUnearned, AmortizeInterest As Boolean
+            Dim LoanAmount, IntAmount, cashAmount As Decimal
+            Dim query As String
+            query = " SELECT	tblLoan.LoanCode, SetupUnearned, LoanAccount, IntIncomeAccount, UnearnedAccount, IntRecAccount, " & _
+                    " 		    LoanAmount, IntAmount, AmortizeInterest, Loan_No, VCECode " & _
+                    " FROM	    tblLoan_Type INNER JOIN tblLoan " & _
+                    " ON		tblLoan_Type.LoanCode = tblLoan.LoanCode " & _
+                    " WHERE     TransID = '" & Loan & "' "
+
+            SQL.GetQuery(query)
+            If SQL.SQLDS.Tables(0).Rows.Count > 0 Then
+                With SQL.SQLDS.Tables(0).Rows(0)
+                    SetupUnearned = .Item(1)
+                    LoanAccount = .Item(2)
+                    IntIncomeAccount = .Item(3)
+                    UnearnedAccount = .Item(4)
+                    IntRecAccount = .Item(5)
+                    LoanAmount = .Item(6)
+                    IntAmount = .Item(7)
+                    AmortizeInterest = .Item(8)
+                    Loan_No = .Item(9)
+                    VCECode = .Item(10)
+                    cashAccount = GetCashAccount(cbPaymentType.SelectedItem, bankID)
+                    If AmortizeInterest = False Then    ' IF INTEREST IS LESS TO PROCEED 
+                        ' LOAN RECEIVABLE ENTRY
+                        dgvEntry.Rows.Add(BranchCode, LoanAccount, GetAccntTitle(LoanAccount), CDec(LoanAmount).ToString("N2"), "0.00", VCECode, GetVCEName(VCECode), "", "LN:" & Loan_No)
+                        ' INTEREST INCOME ENTRY
+                        dgvEntry.Rows.Add(BranchCode, IntIncomeAccount, GetAccntTitle(IntIncomeAccount), "0.00", CDec(IntAmount).ToString("N2"), VCECode, GetVCEName(VCECode), "", "LN:" & Loan_No)
+                        cashAmount = LoanAmount - IntAmount
+                    Else
+                        If SetupUnearned = False Then  ' IF WITHOUT SETUP OF UNEARNED INCOME
+                            ' LOAN RECEIVABLE ENTRY
+                            dgvEntry.Rows.Add(BranchCode, LoanAccount, GetAccntTitle(LoanAccount), CDec(LoanAmount).ToString("N2"), "0.00", VCECode, GetVCEName(VCECode), "", "LN:" & Loan_No)
+                        ElseIf SetupUnearned = True AndAlso LoanAccount = IntIncomeAccount Then  ' IF WITH SETUP OF UNEARNED INCOME AND INT. REC IS SAME AS LOAN REC. ACCOUNT
+                            ' LOAN RECEIVABLE ENTRY
+                            dgvEntry.Rows.Add(BranchCode, LoanAccount, GetAccntTitle(LoanAccount), CDec(LoanAmount + IntAmount).ToString("N2"), "0.00", VCECode, GetVCEName(VCECode), "", "LN:" & Loan_No)
+                            ' UNEARNED INCOME ENTRY
+                            dgvEntry.Rows.Add(BranchCode, UnearnedAccount, GetAccntTitle(UnearnedAccount), "0.00", CDec(IntAmount).ToString("N2"), VCECode, GetVCEName(VCECode), "", "LN:" & Loan_No)
+                        ElseIf SetupUnearned = True AndAlso LoanAccount <> IntIncomeAccount Then  ' IF WITH SETUP OF UNEARNED INCOME AND INT. REC IS SAME AS LOAN REC. ACCOUNT
+                            ' LOAN RECEIVABLE ENTRY
+                            dgvEntry.Rows.Add(BranchCode, LoanAccount, GetAccntTitle(LoanAccount), CDec(LoanAmount).ToString("N2"), "0.00", VCECode, GetVCEName(VCECode), "", "LN:" & Loan_No)
+                            ' INTEREST RECEIVABLE ENTRY
+                            dgvEntry.Rows.Add(BranchCode, IntIncomeAccount, GetAccntTitle(IntIncomeAccount), CDec(IntAmount).ToString("N2"), "0.00", VCECode, GetVCEName(VCECode), "", "LN:" & Loan_No)
+                            ' UNEARNED INCOME ENTRY
+                            dgvEntry.Rows.Add(BranchCode, UnearnedAccount, GetAccntTitle(UnearnedAccount), "0.00", CDec(IntAmount).ToString("N2"), VCECode, GetVCEName(VCECode), "", "LN:" & Loan_No)
+                        End If
+                        cashAmount = LoanAmount
+                    End If
+
+                End With
+
+                query = " SELECT TransID, AccountCode, Amount, Description, VCECode, RefID FROM tblLoan_Details  WHERE TransID = '" & Loan & "' AND Amortize = 0 "
+                SQL.GetQuery(query)
+                If SQL.SQLDS.Tables(0).Rows.Count > 0 Then
+                    For Each row As DataRow In SQL.SQLDS.Tables(0).Rows
+                        If row(2) > 0 Then
+                            dgvEntry.Rows.Add(BranchCode, row(1).ToString, GetAccntTitle(row(1).ToString), "0.00", CDec(row(2)).ToString("N2"), row(4).ToString, GetVCEName(row(4).ToString), row(3).ToString, "LN:" & row(5).ToString)
+                            cashAmount -= row(2)
+                        End If
+                    Next
+                End If
+                If cashAccount <> "" Then
+                    ' CASH ENTRY
+                    dgvEntry.Rows.Add(BranchCode, cashAccount, GetAccntTitle(cashAccount), "0.00", CDec(cashAmount).ToString("N2"), "", "", "", "")
+                End If
+                LoadBranch()
+            End If
+
+
+            TotalDBCR()
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+    End Sub
+
 
     Private Sub tsbSearch_Click(sender As System.Object, e As System.EventArgs) Handles tsbSearch.Click
         If Not AllowAccess("CV_VIEW") Then
@@ -1249,6 +1365,84 @@
         f.Dispose()
         LoadBankList()
     End Sub
+
+    Private Sub FromLoanToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles FromLoanToolStripMenuItem.Click
+        Dim f As New frmLoadTransactions
+        f.cbFilter.SelectedItem = "Status"
+        f.txtFilter.Text = "Active"
+        f.txtFilter.Enabled = False
+        f.cbFilter.Enabled = False
+        f.btnSearch.Enabled = False
+        f.ShowDialog("LN")
+        LoadLoan(f.transID)
+        f.Dispose()
+    End Sub
+
+#Region "TabControlMethod"
+    Public Sub HideTabPageAll()
+        If tpOrder Is Nothing Then
+            ' The first time the Hide method is called, save the original order of the TabPages
+            For Each TabPageCurrent As TabPage In tcPayment.TabPages
+                tpOrder.Add(TabPageCurrent.Name)
+            Next
+        End If
+        For Each TabPageCurrent As TabPage In tcPayment.TabPages
+            Dim TabPageToHide As TabPage
+
+            ' Get the TabPage object
+            TabPageToHide = tcPayment.TabPages(TabPageCurrent.Name)
+            ' Add the TabPage to the internal List
+            tpHidden.Add(TabPageCurrent.Text, TabPageToHide)
+            ' Remove the TabPage from the TabPages collection of the TabControl
+            tcPayment.TabPages.Remove(TabPageToHide)
+        Next
+    End Sub
+
+    Public Sub ShowTabPage(ByVal TabPageName As String)
+        If tpHidden.ContainsKey(TabPageName) Then
+            Dim TabPageToShow As TabPage
+
+            ' Get the TabPage object
+            TabPageToShow = tpHidden(TabPageName)
+            ' Add the TabPage to the TabPages collection of the TabControl
+            tcPayment.TabPages.Insert(GetTabPageInsertionPoint(TabPageName), TabPageToShow)
+            ' Remove the TabPage from the internal List
+            tpHidden.Remove(TabPageName)
+        End If
+    End Sub
+
+
+    Public Sub ShowTabPageAll()
+        For Each kvp As KeyValuePair(Of String, System.Windows.Forms.TabPage) In tpHidden
+            Dim v1 As String = kvp.Key
+            Dim v2 As TabPage = kvp.Value
+            tcPayment.TabPages.Insert(GetTabPageInsertionPoint(v1), v2)
+        Next
+        tpHidden = Nothing
+        tpOrder = Nothing
+    End Sub
+
+    Private Function GetTabPageInsertionPoint(ByVal TabPageName As String) As Integer
+        Dim TabPageIndex As Integer
+        Dim TabPageCurrent As TabPage
+        Dim TabNameIndex As Integer
+        Dim TabNameCurrent As String
+
+        For TabPageIndex = 0 To tcPayment.TabPages.Count - 1
+            TabPageCurrent = tcPayment.TabPages(TabPageIndex)
+            For TabNameIndex = TabPageIndex To tpOrder.Count - 1
+                TabNameCurrent = tpOrder(TabNameIndex)
+                If TabNameCurrent = TabPageCurrent.Name Then
+                    Exit For
+                End If
+                If TabNameCurrent = TabPageName Then
+                    Return TabPageIndex
+                End If
+            Next
+        Next
+        Return TabPageIndex
+    End Function
+#End Region
 
     Private Sub gbPayee_Enter(sender As System.Object, e As System.EventArgs) Handles gbPayee.Enter
 

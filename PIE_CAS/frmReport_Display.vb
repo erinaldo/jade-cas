@@ -63,6 +63,12 @@ Public Class frmReport_Display
                 CR.SetParameterValue("Status", p5)
             Else
                 Select Case rpt
+
+                    Case "LN_Schedule"
+                        Report_Path = Report_Path & "\" & rpt & ".rpt"
+                        CR.Load(Report_Path)
+                        CR.SetDatabaseLogon("sa", "eVoSolution1")
+                        CR.SetParameterValue("TransID", p1)
                     Case "SP_AnnexA"
                         Report_Path = Report_Path & "\" & rpt & ".rpt"
                         CR.Load(Report_Path)

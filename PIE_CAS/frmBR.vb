@@ -4,7 +4,7 @@ Imports System.IO
 Imports System.Security
 Imports System.Security.Principal
 Imports System.Net.NetworkInformation
-Public Class FrmBank_Recon
+Public Class FrmBR
     Dim SQL As New SQLControl
     Dim adjustedCash As Decimal = 0
     Dim disableEvent As Boolean = False
@@ -886,7 +886,7 @@ Public Class FrmBank_Recon
     End Sub
 
     Private Sub CheckBox4_CheckedChanged(sender As System.Object, e As System.EventArgs) Handles CheckBox4.CheckedChanged
-       Dim updateSQL As String
+        Dim updateSQL As String
         Dim withcheck As Boolean
         Try
             withcheck = False

@@ -37,6 +37,10 @@
             cbStatus.Items.Clear()
             cbStatus.Enabled = False
             LoadUser()
+        ElseIf ModFrom = "Member" Then
+            cbStatus.Items.Clear()
+            cbStatus.Enabled = False
+            LoadMember()
         End If
     End Sub
 
@@ -199,6 +203,30 @@
                 End If
             End While
             SQL.FlushParams()
+        End With
+
+        lvList.Columns(0).Width = 0
+        If lvList.Items.Count > 0 Then
+            lvList.Items(0).Selected = True
+        Else
+            Me.Close()
+        End If
+    End Sub
+
+    Private Sub LoadMember()
+        With frmCF
+            Dim query As String
+            query = " SELECT  Member_ID, Full_Name FROM tblMember_Master WHERE Full_Name LIKE '%' + @Filter + '%' AND Status = 'Active' "
+            SQL.FlushParams()
+            SQL.AddParam("@Filter", txtFilter.Text)
+            SQL.ReadQuery(query)
+            lvList.Items.Clear()
+            While SQL.SQLDR.Read
+                lvList.Items.Add(SQL.SQLDR("Member_ID").ToString)
+                lvList.Items(lvList.Items.Count - 1).SubItems.Add(SQL.SQLDR("Full_Name").ToString)
+            End While
+            SQL.FlushParams()
+            lvList.Columns(chTIN.Index).Width = 0
         End With
 
         lvList.Columns(0).Width = 0

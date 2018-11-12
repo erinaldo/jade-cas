@@ -37,6 +37,8 @@ Public Class frmSettings
                 tcSettings.SelectedTab = tpSales
             Case "Inventory"
                 tcSettings.SelectedTab = tpInventory
+            Case "Cooperative"
+                tcSettings.SelectedTab = tpCoop
         End Select
     End Sub
 
@@ -52,6 +54,7 @@ Public Class frmSettings
         loadSales()
         loadPurchases()
         loadInventory()
+        loadCoop()
     End Sub
 
     Private Sub btnClose_Click(sender As System.Object, e As System.EventArgs) Handles btnClose.Click
@@ -70,6 +73,7 @@ Public Class frmSettings
         updatePurchases()
         updateInventory()
         updateTrans()
+        updateCoop()
         Msg("Changes Saved Successfully!", MsgBoxStyle.Information)
     End Sub
 
@@ -227,7 +231,7 @@ Public Class frmSettings
         query = " SELECT   TaxCode, TaxDescription, TaxAlias, TaxRate,  AccntCode, AccountTitle " & _
                 " FROM     tblTaxMaintenance LEFT JOIN tblCOA_Master " & _
                 " ON	   tblTaxMaintenance.AccntCode = tblCOA_Master.AccountCode " & _
-                " WHERE    Status = 'Active' " & _
+                " WHERE    tblTaxMaintenance.Status = 'Active' " & _
                 " AND      TaxType = 'VAT' "
         SQL.ReadQuery(query)
         dgvVAT.Rows.Clear()
@@ -320,7 +324,7 @@ Public Class frmSettings
         query = " SELECT   TaxCode, TaxDescription, TaxAlias, TaxRate,  AccntCode, AccountTitle, ATC, NatureOfIncome " & _
                 " FROM     tblTaxMaintenance LEFT JOIN tblCOA_Master " & _
                 " ON	   tblTaxMaintenance.AccntCode = tblCOA_Master.AccountCode " & _
-                " WHERE    Status = 'Active' " & _
+                " WHERE    tblTaxMaintenance.Status = 'Active' " & _
                 " AND      TaxType = 'EWT' "
         SQL.ReadQuery(query)
         dgvWTAX.Rows.Clear()
@@ -950,18 +954,6 @@ Public Class frmSettings
         End Try
     End Sub
 
-    Private Sub updateInventory()
-        Try
-            Dim updateSQL As String
-            updateSQL = " UPDATE tblSystemSetup " & _
-                        " SET    RR_RestrictWHSEItem = @RR_RestrictWHSEItem "
-            SQL.FlushParams()
-            SQL.AddParam("@RR_RestrictWHSEItem", chkRR_RestrictWHSEItem.Checked)
-            SQL.ExecNonQuery(updateSQL)
-        Catch ex As Exception
-            SaveError(ex.Message, ex.StackTrace, Me.Name.ToString, ModuleID)
-        End Try
-    End Sub
 
     Private Function GetGroupDesc(ByVal GroupID As String) As String
         Dim query As String
@@ -987,11 +979,11 @@ Public Class frmSettings
 #End Region
 
 #Region "INVENTORY"
-    Private Sub LoadInventory()
-        LoadInventoryData()
+    Private Sub loadInventory()
+        loadInventoryData()
     End Sub
 
-    Private Sub LoadInventoryData()
+    Private Sub loadInventoryData()
         Dim query As String
         query = " SELECT  ISNULL(RR_RestrictWHSEItem,0) AS RR_RestrictWHSEItem FROM tblSystemSetup "
         SQL.ReadQuery(query)
@@ -999,5 +991,210 @@ Public Class frmSettings
             chkRR_RestrictWHSEItem.Checked = SQL.SQLDR("RR_RestrictWHSEItem")
         End If
     End Sub
+
+
+    Private Sub updateInventory()
+        Try
+            Dim updateSQL As String
+            updateSQL = " UPDATE tblSystemSetup " & _
+                        " SET    RR_RestrictWHSEItem = @RR_RestrictWHSEItem "
+            SQL.FlushParams()
+            SQL.AddParam("@RR_RestrictWHSEItem", chkRR_RestrictWHSEItem.Checked)
+            SQL.ExecNonQuery(updateSQL)
+        Catch ex As Exception
+            SaveError(ex.Message, ex.StackTrace, Me.Name.ToString, ModuleID)
+        End Try
+    End Sub
 #End Region
+
+
+#Region "COOPEATIVE"
+    Private Sub loadCoop()
+        loadCoopData()
+    End Sub
+
+    Private Sub loadCoopData()
+        Dim query As String
+        query = " SELECT    Coop_PUC_Common, Coop_PUC_Preferred, Coop_SC_Common, Coop_SC_Preferred, Coop_SR_Common, Coop_SR_Preferred, " & _
+                "           Coop_TC_Common, Coop_TC_Preferred, Coop_DFCS " & _
+                " FROM      tblSystemSetup "
+        SQL.ReadQuery(query)
+        If SQL.SQLDR.Read Then
+            txtPUCCcode.Text = SQL.SQLDR("Coop_PUC_Common").ToString
+            txtPUCPcode.Text = SQL.SQLDR("Coop_PUC_Preferred").ToString
+            txtSCCcode.Text = SQL.SQLDR("Coop_SC_Common").ToString
+            txtSCPcode.Text = SQL.SQLDR("Coop_SC_Preferred").ToString
+            txtSRCcode.Text = SQL.SQLDR("Coop_SR_Common").ToString
+            txtSRPcode.Text = SQL.SQLDR("Coop_SR_Preferred").ToString
+            txtTCCcode.Text = SQL.SQLDR("Coop_TC_Common").ToString
+            txtTCPcode.Text = SQL.SQLDR("Coop_TC_Preferred").ToString
+            txtDFCScode.Text = SQL.SQLDR("Coop_DFCS").ToString
+
+            ' GET ACCOUNT TITLES
+            txtPUCCtitle.Text = GetAccntTitle(txtPUCCcode.Text)
+            txtPUCPtitle.Text = GetAccntTitle(txtPUCPcode.Text)
+            txtSCCtitle.Text = GetAccntTitle(txtSCCcode.Text)
+            txtSCPtitle.Text = GetAccntTitle(txtSCPcode.Text)
+            txtSRCtitle.Text = GetAccntTitle(txtSRCcode.Text)
+            txtSRPtitle.Text = GetAccntTitle(txtSRPcode.Text)
+            txtTCCtitle.Text = GetAccntTitle(txtTCCcode.Text)
+            txtTCPtitle.Text = GetAccntTitle(txtTCPcode.Text)
+            txtDFCStitle.Text = GetAccntTitle(txtDFCScode.Text)
+        End If
+    End Sub
+
+    Private Sub updateCoop()
+        Try
+
+            Dim updateSQL As String
+            updateSQL = " UPDATE    tblSystemSetup " & _
+                        " SET       Coop_PUC_Common = @Coop_PUC_Common, Coop_PUC_Preferred = @Coop_PUC_Preferred, " & _
+                        "           Coop_SC_Common = @Coop_SC_Common, Coop_SC_Preferred = @Coop_SC_Preferred, " & _
+                        "           Coop_SR_Common = @Coop_SR_Common, Coop_SR_Preferred = @Coop_SR_Preferred, " & _
+                        "           Coop_TC_Common = @Coop_TC_Common, Coop_TC_Preferred = @Coop_TC_Preferred, " & _
+                        "           Coop_DFCS = @Coop_DFCS "
+            SQL.FlushParams()
+            SQL.AddParam("@Coop_PUC_Common", txtPUCCcode.Text)
+            SQL.AddParam("@Coop_PUC_Preferred", txtPUCPcode.Text)
+            SQL.AddParam("@Coop_SC_Common", txtSCCcode.Text)
+            SQL.AddParam("@Coop_SC_Preferred", txtSCPcode.Text)
+            SQL.AddParam("@Coop_SR_Common", txtSRCcode.Text)
+            SQL.AddParam("@Coop_SR_Preferred", txtSRPcode.Text)
+            SQL.AddParam("@Coop_TC_Common", txtTCCcode.Text)
+            SQL.AddParam("@Coop_TC_Preferred", txtTCPcode.Text)
+            SQL.AddParam("@Coop_DFCS", txtDFCScode.Text)
+            SQL.ExecNonQuery(updateSQL)
+        Catch ex As Exception
+            SaveError(ex.Message, ex.StackTrace, Me.Name.ToString, ModuleID)
+        End Try
+    End Sub
+
+    Private Sub txtSCCtitle_KeyDown(sender As System.Object, e As System.Windows.Forms.KeyEventArgs) Handles txtSCCtitle.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Dim f As New frmCOA_Search
+                f.ShowDialog("AccntTitle", txtSCCtitle.Text)
+                txtSCCcode.Text = f.accountcode
+                txtSCCtitle.Text = f.accttile
+                f.Dispose()
+            End If
+        Catch ex As Exception
+            SaveError(ex.Message, ex.StackTrace, Me.Name.ToString, ModuleID)
+        End Try
+    End Sub
+
+    Private Sub txtSRCtitle_KeyDown(sender As System.Object, e As System.Windows.Forms.KeyEventArgs) Handles txtSRCtitle.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Dim f As New frmCOA_Search
+                f.ShowDialog("AccntTitle", txtSRCtitle.Text)
+                txtSRCcode.Text = f.accountcode
+                txtSRCtitle.Text = f.accttile
+                f.Dispose()
+            End If
+        Catch ex As Exception
+            SaveError(ex.Message, ex.StackTrace, Me.Name.ToString, ModuleID)
+        End Try
+    End Sub
+
+    Private Sub txtPUCCtitle_KeyDown(sender As System.Object, e As System.Windows.Forms.KeyEventArgs) Handles txtPUCCtitle.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Dim f As New frmCOA_Search
+                f.ShowDialog("AccntTitle", txtPUCCtitle.Text)
+                txtPUCCcode.Text = f.accountcode
+                txtPUCCtitle.Text = f.accttile
+                f.Dispose()
+            End If
+        Catch ex As Exception
+            SaveError(ex.Message, ex.StackTrace, Me.Name.ToString, ModuleID)
+        End Try
+    End Sub
+
+    Private Sub txtTCCtitle_KeyDown(sender As System.Object, e As System.Windows.Forms.KeyEventArgs) Handles txtTCCtitle.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Dim f As New frmCOA_Search
+                f.ShowDialog("AccntTitle", txtTCCtitle.Text)
+                txtTCCcode.Text = f.accountcode
+                txtTCCtitle.Text = f.accttile
+                f.Dispose()
+            End If
+        Catch ex As Exception
+            SaveError(ex.Message, ex.StackTrace, Me.Name.ToString, ModuleID)
+        End Try
+    End Sub
+
+    Private Sub txtSCPtitle_KeyDown(sender As System.Object, e As System.Windows.Forms.KeyEventArgs) Handles txtSCPtitle.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Dim f As New frmCOA_Search
+                f.ShowDialog("AccntTitle", txtSCPtitle.Text)
+                txtSCPcode.Text = f.accountcode
+                txtSCPtitle.Text = f.accttile
+                f.Dispose()
+            End If
+        Catch ex As Exception
+            SaveError(ex.Message, ex.StackTrace, Me.Name.ToString, ModuleID)
+        End Try
+    End Sub
+
+    Private Sub txtSRPtitle_KeyDown(sender As System.Object, e As System.Windows.Forms.KeyEventArgs) Handles txtSRPtitle.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Dim f As New frmCOA_Search
+                f.ShowDialog("AccntTitle", txtSRPtitle.Text)
+                txtSRPcode.Text = f.accountcode
+                txtSRPtitle.Text = f.accttile
+                f.Dispose()
+            End If
+        Catch ex As Exception
+            SaveError(ex.Message, ex.StackTrace, Me.Name.ToString, ModuleID)
+        End Try
+    End Sub
+
+    Private Sub txtPUCPtitle_KeyDown(sender As System.Object, e As System.Windows.Forms.KeyEventArgs) Handles txtPUCPtitle.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Dim f As New frmCOA_Search
+                f.ShowDialog("AccntTitle", txtPUCPtitle.Text)
+                txtPUCPcode.Text = f.accountcode
+                txtPUCPtitle.Text = f.accttile
+                f.Dispose()
+            End If
+        Catch ex As Exception
+            SaveError(ex.Message, ex.StackTrace, Me.Name.ToString, ModuleID)
+        End Try
+    End Sub
+
+    Private Sub txtTCPtitle_KeyDown(sender As System.Object, e As System.Windows.Forms.KeyEventArgs) Handles txtTCPtitle.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Dim f As New frmCOA_Search
+                f.ShowDialog("AccntTitle", txtTCPtitle.Text)
+                txtTCPcode.Text = f.accountcode
+                txtTCPtitle.Text = f.accttile
+                f.Dispose()
+            End If
+        Catch ex As Exception
+            SaveError(ex.Message, ex.StackTrace, Me.Name.ToString, ModuleID)
+        End Try
+    End Sub
+
+    Private Sub txtDFCStitle_KeyDown(sender As System.Object, e As System.Windows.Forms.KeyEventArgs) Handles txtDFCStitle.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Dim f As New frmCOA_Search
+                f.ShowDialog("AccntTitle", txtDFCStitle.Text)
+                txtDFCScode.Text = f.accountcode
+                txtDFCStitle.Text = f.accttile
+                f.Dispose()
+            End If
+        Catch ex As Exception
+            SaveError(ex.Message, ex.StackTrace, Me.Name.ToString, ModuleID)
+        End Try
+    End Sub
+#End Region
+
+   
 End Class

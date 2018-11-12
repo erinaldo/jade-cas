@@ -34,6 +34,7 @@ Partial Class frmSettings
         Dim TreeNode10 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Purchasing")
         Dim TreeNode11 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Sales")
         Dim TreeNode12 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Inventory")
+        Dim TreeNode13 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cooperative")
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmSettings))
         Me.tcSettings = New System.Windows.Forms.TabControl()
         Me.tpUA = New System.Windows.Forms.TabPage()
@@ -212,12 +213,47 @@ Partial Class frmSettings
         Me.gbSO = New System.Windows.Forms.GroupBox()
         Me.chkSOreqPO = New System.Windows.Forms.CheckBox()
         Me.chkSOeditPrice = New System.Windows.Forms.CheckBox()
-        Me.TreeView1 = New System.Windows.Forms.TreeView()
-        Me.btnSave = New System.Windows.Forms.Button()
-        Me.btnClose = New System.Windows.Forms.Button()
         Me.tpInventory = New System.Windows.Forms.TabPage()
         Me.GroupBox8 = New System.Windows.Forms.GroupBox()
         Me.chkRR_RestrictWHSEItem = New System.Windows.Forms.CheckBox()
+        Me.tpCoop = New System.Windows.Forms.TabPage()
+        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.CheckBox14 = New System.Windows.Forms.CheckBox()
+        Me.TextBox20 = New System.Windows.Forms.TextBox()
+        Me.Label50 = New System.Windows.Forms.Label()
+        Me.TextBox21 = New System.Windows.Forms.TextBox()
+        Me.gbCoop = New System.Windows.Forms.GroupBox()
+        Me.txtTCPcode = New System.Windows.Forms.TextBox()
+        Me.txtTCPtitle = New System.Windows.Forms.TextBox()
+        Me.txtTCCcode = New System.Windows.Forms.TextBox()
+        Me.txtTCCtitle = New System.Windows.Forms.TextBox()
+        Me.Label43 = New System.Windows.Forms.Label()
+        Me.txtDFCScode = New System.Windows.Forms.TextBox()
+        Me.txtDFCStitle = New System.Windows.Forms.TextBox()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.txtPUCPcode = New System.Windows.Forms.TextBox()
+        Me.txtPUCPtitle = New System.Windows.Forms.TextBox()
+        Me.txtPUCCcode = New System.Windows.Forms.TextBox()
+        Me.txtPUCCtitle = New System.Windows.Forms.TextBox()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.txtSRPcode = New System.Windows.Forms.TextBox()
+        Me.txtSRPtitle = New System.Windows.Forms.TextBox()
+        Me.txtSRCcode = New System.Windows.Forms.TextBox()
+        Me.txtSRCtitle = New System.Windows.Forms.TextBox()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.Label39 = New System.Windows.Forms.Label()
+        Me.txtSCPcode = New System.Windows.Forms.TextBox()
+        Me.txtSCPtitle = New System.Windows.Forms.TextBox()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.txtSCCcode = New System.Windows.Forms.TextBox()
+        Me.Label37 = New System.Windows.Forms.Label()
+        Me.txtSCCtitle = New System.Windows.Forms.TextBox()
+        Me.TreeView1 = New System.Windows.Forms.TreeView()
+        Me.btnSave = New System.Windows.Forms.Button()
+        Me.btnClose = New System.Windows.Forms.Button()
         Me.tcSettings.SuspendLayout()
         Me.tpUA.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -266,6 +302,9 @@ Partial Class frmSettings
         Me.gbSO.SuspendLayout()
         Me.tpInventory.SuspendLayout()
         Me.GroupBox8.SuspendLayout()
+        Me.tpCoop.SuspendLayout()
+        Me.GroupBox9.SuspendLayout()
+        Me.gbCoop.SuspendLayout()
         Me.SuspendLayout()
         '
         'tcSettings
@@ -286,13 +325,13 @@ Partial Class frmSettings
         Me.tcSettings.Controls.Add(Me.tpMaintGroup)
         Me.tcSettings.Controls.Add(Me.tpSales)
         Me.tcSettings.Controls.Add(Me.tpInventory)
+        Me.tcSettings.Controls.Add(Me.tpCoop)
         Me.tcSettings.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed
         Me.tcSettings.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.tcSettings.ItemSize = New System.Drawing.Size(0, 1)
+        Me.tcSettings.ItemSize = New System.Drawing.Size(25, 1)
         Me.tcSettings.Location = New System.Drawing.Point(285, 12)
         Me.tcSettings.Multiline = True
         Me.tcSettings.Name = "tcSettings"
-        Me.tcSettings.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.tcSettings.SelectedIndex = 0
         Me.tcSettings.Size = New System.Drawing.Size(794, 422)
         Me.tcSettings.SizeMode = System.Windows.Forms.TabSizeMode.Fixed
@@ -329,7 +368,7 @@ Partial Class frmSettings
         Me.GroupBox4.Controls.Add(Me.CheckBox13)
         Me.GroupBox4.Location = New System.Drawing.Point(12, 4)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(554, 73)
+        Me.GroupBox4.Size = New System.Drawing.Size(503, 73)
         Me.GroupBox4.TabIndex = 16
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Registration"
@@ -356,7 +395,7 @@ Partial Class frmSettings
         Me.GroupBox3.Controls.Add(Me.CheckBox10)
         Me.GroupBox3.Location = New System.Drawing.Point(12, 358)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(554, 104)
+        Me.GroupBox3.Size = New System.Drawing.Size(503, 104)
         Me.GroupBox3.TabIndex = 15
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Password Expiration"
@@ -433,7 +472,7 @@ Partial Class frmSettings
         Me.GroupBox2.Controls.Add(Me.CheckBox1)
         Me.GroupBox2.Location = New System.Drawing.Point(12, 83)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(554, 269)
+        Me.GroupBox2.Size = New System.Drawing.Size(503, 269)
         Me.GroupBox2.TabIndex = 5
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Password Policy"
@@ -563,7 +602,7 @@ Partial Class frmSettings
         Me.GroupBox1.Controls.Add(Me.attemptLock)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 468)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(554, 96)
+        Me.GroupBox1.Size = New System.Drawing.Size(503, 96)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Account Locking"
@@ -1529,7 +1568,7 @@ Partial Class frmSettings
         Me.gbProdWH.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
         Me.gbProdWH.Location = New System.Drawing.Point(9, 493)
         Me.gbProdWH.Name = "gbProdWH"
-        Me.gbProdWH.Size = New System.Drawing.Size(610, 158)
+        Me.gbProdWH.Size = New System.Drawing.Size(559, 158)
         Me.gbProdWH.TabIndex = 22
         Me.gbProdWH.TabStop = False
         Me.gbProdWH.Text = "Production Warehouse Group"
@@ -1631,7 +1670,7 @@ Partial Class frmSettings
         Me.gbPC.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gbPC.Location = New System.Drawing.Point(9, 161)
         Me.gbPC.Name = "gbPC"
-        Me.gbPC.Size = New System.Drawing.Size(610, 158)
+        Me.gbPC.Size = New System.Drawing.Size(559, 158)
         Me.gbPC.TabIndex = 21
         Me.gbPC.TabStop = False
         Me.gbPC.Text = "Profit Center Group"
@@ -1733,7 +1772,7 @@ Partial Class frmSettings
         Me.gbCC.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gbCC.Location = New System.Drawing.Point(9, 5)
         Me.gbCC.Name = "gbCC"
-        Me.gbCC.Size = New System.Drawing.Size(610, 154)
+        Me.gbCC.Size = New System.Drawing.Size(559, 154)
         Me.gbCC.TabIndex = 4
         Me.gbCC.TabStop = False
         Me.gbCC.Text = "Cost Center Group"
@@ -1835,7 +1874,7 @@ Partial Class frmSettings
         Me.gbInvWH.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
         Me.gbInvWH.Location = New System.Drawing.Point(9, 326)
         Me.gbInvWH.Name = "gbInvWH"
-        Me.gbInvWH.Size = New System.Drawing.Size(610, 158)
+        Me.gbInvWH.Size = New System.Drawing.Size(559, 158)
         Me.gbInvWH.TabIndex = 20
         Me.gbInvWH.TabStop = False
         Me.gbInvWH.Text = "Inventory Warehouse Group"
@@ -1962,6 +2001,352 @@ Partial Class frmSettings
         Me.chkSOeditPrice.Text = "Enable Price Editing"
         Me.chkSOeditPrice.UseVisualStyleBackColor = True
         '
+        'tpInventory
+        '
+        Me.tpInventory.Controls.Add(Me.GroupBox8)
+        Me.tpInventory.Location = New System.Drawing.Point(5, 4)
+        Me.tpInventory.Name = "tpInventory"
+        Me.tpInventory.Padding = New System.Windows.Forms.Padding(3)
+        Me.tpInventory.Size = New System.Drawing.Size(785, 414)
+        Me.tpInventory.TabIndex = 11
+        Me.tpInventory.Text = "TabPage1"
+        Me.tpInventory.UseVisualStyleBackColor = True
+        '
+        'GroupBox8
+        '
+        Me.GroupBox8.Controls.Add(Me.chkRR_RestrictWHSEItem)
+        Me.GroupBox8.Location = New System.Drawing.Point(6, 6)
+        Me.GroupBox8.Name = "GroupBox8"
+        Me.GroupBox8.Size = New System.Drawing.Size(773, 269)
+        Me.GroupBox8.TabIndex = 2
+        Me.GroupBox8.TabStop = False
+        Me.GroupBox8.Text = "Receiving Report (RR)"
+        '
+        'chkRR_RestrictWHSEItem
+        '
+        Me.chkRR_RestrictWHSEItem.AutoSize = True
+        Me.chkRR_RestrictWHSEItem.Location = New System.Drawing.Point(56, 37)
+        Me.chkRR_RestrictWHSEItem.Name = "chkRR_RestrictWHSEItem"
+        Me.chkRR_RestrictWHSEItem.Size = New System.Drawing.Size(297, 21)
+        Me.chkRR_RestrictWHSEItem.TabIndex = 2
+        Me.chkRR_RestrictWHSEItem.Text = "Only show Item from accessible warehouse"
+        Me.chkRR_RestrictWHSEItem.UseVisualStyleBackColor = True
+        '
+        'tpCoop
+        '
+        Me.tpCoop.Controls.Add(Me.GroupBox9)
+        Me.tpCoop.Controls.Add(Me.gbCoop)
+        Me.tpCoop.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
+        Me.tpCoop.Location = New System.Drawing.Point(5, 4)
+        Me.tpCoop.Name = "tpCoop"
+        Me.tpCoop.Padding = New System.Windows.Forms.Padding(3)
+        Me.tpCoop.Size = New System.Drawing.Size(785, 414)
+        Me.tpCoop.TabIndex = 12
+        Me.tpCoop.UseVisualStyleBackColor = True
+        '
+        'GroupBox9
+        '
+        Me.GroupBox9.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GroupBox9.Controls.Add(Me.TextBox2)
+        Me.GroupBox9.Controls.Add(Me.Label44)
+        Me.GroupBox9.Controls.Add(Me.TextBox5)
+        Me.GroupBox9.Controls.Add(Me.CheckBox14)
+        Me.GroupBox9.Controls.Add(Me.TextBox20)
+        Me.GroupBox9.Controls.Add(Me.Label50)
+        Me.GroupBox9.Controls.Add(Me.TextBox21)
+        Me.GroupBox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
+        Me.GroupBox9.Location = New System.Drawing.Point(6, 222)
+        Me.GroupBox9.Name = "GroupBox9"
+        Me.GroupBox9.Size = New System.Drawing.Size(773, 120)
+        Me.GroupBox9.TabIndex = 1
+        Me.GroupBox9.TabStop = False
+        Me.GroupBox9.Text = " Loans"
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(239, 65)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(70, 21)
+        Me.TextBox2.TabIndex = 6
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.Location = New System.Drawing.Point(141, 68)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(99, 15)
+        Me.Label44.TabIndex = 5
+        Me.Label44.Text = "Penalty Account :"
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(310, 65)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(227, 21)
+        Me.TextBox5.TabIndex = 4
+        '
+        'CheckBox14
+        '
+        Me.CheckBox14.AutoSize = True
+        Me.CheckBox14.Location = New System.Drawing.Point(59, 21)
+        Me.CheckBox14.Name = "CheckBox14"
+        Me.CheckBox14.Size = New System.Drawing.Size(158, 19)
+        Me.CheckBox14.TabIndex = 3
+        Me.CheckBox14.Text = "Setup unearned income"
+        Me.CheckBox14.UseVisualStyleBackColor = True
+        '
+        'TextBox20
+        '
+        Me.TextBox20.Location = New System.Drawing.Point(239, 42)
+        Me.TextBox20.Name = "TextBox20"
+        Me.TextBox20.Size = New System.Drawing.Size(70, 21)
+        Me.TextBox20.TabIndex = 2
+        '
+        'Label50
+        '
+        Me.Label50.AutoSize = True
+        Me.Label50.Location = New System.Drawing.Point(82, 44)
+        Me.Label50.Name = "Label50"
+        Me.Label50.Size = New System.Drawing.Size(158, 15)
+        Me.Label50.TabIndex = 1
+        Me.Label50.Text = "Unearned Income Account :"
+        '
+        'TextBox21
+        '
+        Me.TextBox21.Location = New System.Drawing.Point(310, 42)
+        Me.TextBox21.Name = "TextBox21"
+        Me.TextBox21.Size = New System.Drawing.Size(227, 21)
+        Me.TextBox21.TabIndex = 0
+        '
+        'gbCoop
+        '
+        Me.gbCoop.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.gbCoop.Controls.Add(Me.txtTCPcode)
+        Me.gbCoop.Controls.Add(Me.txtTCPtitle)
+        Me.gbCoop.Controls.Add(Me.txtTCCcode)
+        Me.gbCoop.Controls.Add(Me.txtTCCtitle)
+        Me.gbCoop.Controls.Add(Me.Label43)
+        Me.gbCoop.Controls.Add(Me.txtDFCScode)
+        Me.gbCoop.Controls.Add(Me.txtDFCStitle)
+        Me.gbCoop.Controls.Add(Me.Label42)
+        Me.gbCoop.Controls.Add(Me.txtPUCPcode)
+        Me.gbCoop.Controls.Add(Me.txtPUCPtitle)
+        Me.gbCoop.Controls.Add(Me.txtPUCCcode)
+        Me.gbCoop.Controls.Add(Me.txtPUCCtitle)
+        Me.gbCoop.Controls.Add(Me.Label41)
+        Me.gbCoop.Controls.Add(Me.txtSRPcode)
+        Me.gbCoop.Controls.Add(Me.txtSRPtitle)
+        Me.gbCoop.Controls.Add(Me.txtSRCcode)
+        Me.gbCoop.Controls.Add(Me.txtSRCtitle)
+        Me.gbCoop.Controls.Add(Me.Label40)
+        Me.gbCoop.Controls.Add(Me.Label39)
+        Me.gbCoop.Controls.Add(Me.txtSCPcode)
+        Me.gbCoop.Controls.Add(Me.txtSCPtitle)
+        Me.gbCoop.Controls.Add(Me.Label38)
+        Me.gbCoop.Controls.Add(Me.txtSCCcode)
+        Me.gbCoop.Controls.Add(Me.Label37)
+        Me.gbCoop.Controls.Add(Me.txtSCCtitle)
+        Me.gbCoop.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
+        Me.gbCoop.Location = New System.Drawing.Point(6, 6)
+        Me.gbCoop.Name = "gbCoop"
+        Me.gbCoop.Size = New System.Drawing.Size(773, 210)
+        Me.gbCoop.TabIndex = 0
+        Me.gbCoop.TabStop = False
+        Me.gbCoop.Text = " "
+        '
+        'txtTCPcode
+        '
+        Me.txtTCPcode.Location = New System.Drawing.Point(467, 124)
+        Me.txtTCPcode.Name = "txtTCPcode"
+        Me.txtTCPcode.Size = New System.Drawing.Size(70, 21)
+        Me.txtTCPcode.TabIndex = 24
+        '
+        'txtTCPtitle
+        '
+        Me.txtTCPtitle.Location = New System.Drawing.Point(538, 124)
+        Me.txtTCPtitle.Name = "txtTCPtitle"
+        Me.txtTCPtitle.Size = New System.Drawing.Size(227, 21)
+        Me.txtTCPtitle.TabIndex = 23
+        '
+        'txtTCCcode
+        '
+        Me.txtTCCcode.Location = New System.Drawing.Point(158, 124)
+        Me.txtTCCcode.Name = "txtTCCcode"
+        Me.txtTCCcode.Size = New System.Drawing.Size(70, 21)
+        Me.txtTCCcode.TabIndex = 22
+        '
+        'txtTCCtitle
+        '
+        Me.txtTCCtitle.Location = New System.Drawing.Point(229, 124)
+        Me.txtTCCtitle.Name = "txtTCCtitle"
+        Me.txtTCCtitle.Size = New System.Drawing.Size(227, 21)
+        Me.txtTCCtitle.TabIndex = 21
+        '
+        'Label43
+        '
+        Me.Label43.AutoSize = True
+        Me.Label43.Location = New System.Drawing.Point(28, 160)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(184, 15)
+        Me.Label43.TabIndex = 20
+        Me.Label43.Text = "Deposit for Capital Subscription :"
+        '
+        'txtDFCScode
+        '
+        Me.txtDFCScode.Location = New System.Drawing.Point(218, 157)
+        Me.txtDFCScode.Name = "txtDFCScode"
+        Me.txtDFCScode.Size = New System.Drawing.Size(70, 21)
+        Me.txtDFCScode.TabIndex = 19
+        '
+        'txtDFCStitle
+        '
+        Me.txtDFCStitle.Location = New System.Drawing.Point(289, 157)
+        Me.txtDFCStitle.Name = "txtDFCStitle"
+        Me.txtDFCStitle.Size = New System.Drawing.Size(308, 21)
+        Me.txtDFCStitle.TabIndex = 18
+        '
+        'Label42
+        '
+        Me.Label42.AutoSize = True
+        Me.Label42.Location = New System.Drawing.Point(51, 127)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(101, 15)
+        Me.Label42.TabIndex = 17
+        Me.Label42.Text = "Treasury Capital :"
+        '
+        'txtPUCPcode
+        '
+        Me.txtPUCPcode.Location = New System.Drawing.Point(467, 101)
+        Me.txtPUCPcode.Name = "txtPUCPcode"
+        Me.txtPUCPcode.Size = New System.Drawing.Size(70, 21)
+        Me.txtPUCPcode.TabIndex = 16
+        '
+        'txtPUCPtitle
+        '
+        Me.txtPUCPtitle.Location = New System.Drawing.Point(538, 101)
+        Me.txtPUCPtitle.Name = "txtPUCPtitle"
+        Me.txtPUCPtitle.Size = New System.Drawing.Size(227, 21)
+        Me.txtPUCPtitle.TabIndex = 15
+        '
+        'txtPUCCcode
+        '
+        Me.txtPUCCcode.Location = New System.Drawing.Point(158, 101)
+        Me.txtPUCCcode.Name = "txtPUCCcode"
+        Me.txtPUCCcode.Size = New System.Drawing.Size(70, 21)
+        Me.txtPUCCcode.TabIndex = 14
+        '
+        'txtPUCCtitle
+        '
+        Me.txtPUCCtitle.Location = New System.Drawing.Point(229, 101)
+        Me.txtPUCCtitle.Name = "txtPUCCtitle"
+        Me.txtPUCCtitle.Size = New System.Drawing.Size(227, 21)
+        Me.txtPUCCtitle.TabIndex = 13
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.Location = New System.Drawing.Point(55, 104)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(97, 15)
+        Me.Label41.TabIndex = 12
+        Me.Label41.Text = "Paid-up Capital :"
+        '
+        'txtSRPcode
+        '
+        Me.txtSRPcode.Location = New System.Drawing.Point(467, 78)
+        Me.txtSRPcode.Name = "txtSRPcode"
+        Me.txtSRPcode.Size = New System.Drawing.Size(70, 21)
+        Me.txtSRPcode.TabIndex = 11
+        '
+        'txtSRPtitle
+        '
+        Me.txtSRPtitle.Location = New System.Drawing.Point(538, 78)
+        Me.txtSRPtitle.Name = "txtSRPtitle"
+        Me.txtSRPtitle.Size = New System.Drawing.Size(227, 21)
+        Me.txtSRPtitle.TabIndex = 10
+        '
+        'txtSRCcode
+        '
+        Me.txtSRCcode.Location = New System.Drawing.Point(158, 78)
+        Me.txtSRCcode.Name = "txtSRCcode"
+        Me.txtSRCcode.Size = New System.Drawing.Size(70, 21)
+        Me.txtSRCcode.TabIndex = 9
+        '
+        'txtSRCtitle
+        '
+        Me.txtSRCtitle.Location = New System.Drawing.Point(229, 78)
+        Me.txtSRCtitle.Name = "txtSRCtitle"
+        Me.txtSRCtitle.Size = New System.Drawing.Size(227, 21)
+        Me.txtSRCtitle.TabIndex = 8
+        '
+        'Label40
+        '
+        Me.Label40.AutoSize = True
+        Me.Label40.Location = New System.Drawing.Point(7, 81)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(145, 15)
+        Me.Label40.TabIndex = 7
+        Me.Label40.Text = "Subscription Receivable :"
+        '
+        'Label39
+        '
+        Me.Label39.AutoSize = True
+        Me.Label39.Location = New System.Drawing.Point(577, 32)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(58, 15)
+        Me.Label39.TabIndex = 6
+        Me.Label39.Text = "Preferred"
+        '
+        'txtSCPcode
+        '
+        Me.txtSCPcode.Location = New System.Drawing.Point(467, 55)
+        Me.txtSCPcode.Name = "txtSCPcode"
+        Me.txtSCPcode.Size = New System.Drawing.Size(70, 21)
+        Me.txtSCPcode.TabIndex = 5
+        '
+        'txtSCPtitle
+        '
+        Me.txtSCPtitle.Location = New System.Drawing.Point(538, 55)
+        Me.txtSCPtitle.Name = "txtSCPtitle"
+        Me.txtSCPtitle.Size = New System.Drawing.Size(227, 21)
+        Me.txtSCPtitle.TabIndex = 4
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.Location = New System.Drawing.Point(257, 32)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(58, 15)
+        Me.Label38.TabIndex = 3
+        Me.Label38.Text = "Common"
+        '
+        'txtSCCcode
+        '
+        Me.txtSCCcode.Location = New System.Drawing.Point(158, 55)
+        Me.txtSCCcode.Name = "txtSCCcode"
+        Me.txtSCCcode.Size = New System.Drawing.Size(70, 21)
+        Me.txtSCCcode.TabIndex = 2
+        '
+        'Label37
+        '
+        Me.Label37.AutoSize = True
+        Me.Label37.Location = New System.Drawing.Point(36, 59)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(116, 15)
+        Me.Label37.TabIndex = 1
+        Me.Label37.Text = "Subscribed Capital :"
+        '
+        'txtSCCtitle
+        '
+        Me.txtSCCtitle.Location = New System.Drawing.Point(229, 55)
+        Me.txtSCCtitle.Name = "txtSCCtitle"
+        Me.txtSCCtitle.Size = New System.Drawing.Size(227, 21)
+        Me.txtSCCtitle.TabIndex = 0
+        '
         'TreeView1
         '
         Me.TreeView1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -1993,7 +2378,9 @@ Partial Class frmSettings
         TreeNode11.Text = "Sales"
         TreeNode12.Name = "Node3"
         TreeNode12.Text = "Inventory"
-        Me.TreeView1.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode9, TreeNode10, TreeNode11, TreeNode12})
+        TreeNode13.Name = "Cooperative"
+        TreeNode13.Text = "Cooperative"
+        Me.TreeView1.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode9, TreeNode10, TreeNode11, TreeNode12, TreeNode13})
         Me.TreeView1.ShowLines = False
         Me.TreeView1.Size = New System.Drawing.Size(267, 424)
         Me.TreeView1.TabIndex = 1
@@ -2019,37 +2406,6 @@ Partial Class frmSettings
         Me.btnClose.TabIndex = 3
         Me.btnClose.Text = "Close"
         Me.btnClose.UseVisualStyleBackColor = True
-        '
-        'tpInventory
-        '
-        Me.tpInventory.Controls.Add(Me.GroupBox8)
-        Me.tpInventory.Location = New System.Drawing.Point(5, 4)
-        Me.tpInventory.Name = "tpInventory"
-        Me.tpInventory.Padding = New System.Windows.Forms.Padding(3)
-        Me.tpInventory.Size = New System.Drawing.Size(785, 414)
-        Me.tpInventory.TabIndex = 11
-        Me.tpInventory.Text = "TabPage1"
-        Me.tpInventory.UseVisualStyleBackColor = True
-        '
-        'GroupBox8
-        '
-        Me.GroupBox8.Controls.Add(Me.chkRR_RestrictWHSEItem)
-        Me.GroupBox8.Location = New System.Drawing.Point(6, 6)
-        Me.GroupBox8.Name = "GroupBox8"
-        Me.GroupBox8.Size = New System.Drawing.Size(773, 269)
-        Me.GroupBox8.TabIndex = 2
-        Me.GroupBox8.TabStop = False
-        Me.GroupBox8.Text = "Receiving Report (RR)"
-        '
-        'chkRR_RestrictWHSEItem
-        '
-        Me.chkRR_RestrictWHSEItem.AutoSize = True
-        Me.chkRR_RestrictWHSEItem.Location = New System.Drawing.Point(56, 37)
-        Me.chkRR_RestrictWHSEItem.Name = "chkRR_RestrictWHSEItem"
-        Me.chkRR_RestrictWHSEItem.Size = New System.Drawing.Size(297, 21)
-        Me.chkRR_RestrictWHSEItem.TabIndex = 2
-        Me.chkRR_RestrictWHSEItem.Text = "Only show Item from accessible warehouse"
-        Me.chkRR_RestrictWHSEItem.UseVisualStyleBackColor = True
         '
         'frmSettings
         '
@@ -2132,6 +2488,11 @@ Partial Class frmSettings
         Me.tpInventory.ResumeLayout(False)
         Me.GroupBox8.ResumeLayout(False)
         Me.GroupBox8.PerformLayout()
+        Me.tpCoop.ResumeLayout(False)
+        Me.GroupBox9.ResumeLayout(False)
+        Me.GroupBox9.PerformLayout()
+        Me.gbCoop.ResumeLayout(False)
+        Me.gbCoop.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -2318,4 +2679,39 @@ Partial Class frmSettings
     Friend WithEvents tpInventory As System.Windows.Forms.TabPage
     Friend WithEvents GroupBox8 As System.Windows.Forms.GroupBox
     Friend WithEvents chkRR_RestrictWHSEItem As System.Windows.Forms.CheckBox
+    Friend WithEvents tpCoop As System.Windows.Forms.TabPage
+    Friend WithEvents gbCoop As System.Windows.Forms.GroupBox
+    Friend WithEvents txtSCCcode As System.Windows.Forms.TextBox
+    Friend WithEvents Label37 As System.Windows.Forms.Label
+    Friend WithEvents txtSCCtitle As System.Windows.Forms.TextBox
+    Friend WithEvents txtTCPcode As System.Windows.Forms.TextBox
+    Friend WithEvents txtTCPtitle As System.Windows.Forms.TextBox
+    Friend WithEvents txtTCCcode As System.Windows.Forms.TextBox
+    Friend WithEvents txtTCCtitle As System.Windows.Forms.TextBox
+    Friend WithEvents Label43 As System.Windows.Forms.Label
+    Friend WithEvents txtDFCScode As System.Windows.Forms.TextBox
+    Friend WithEvents txtDFCStitle As System.Windows.Forms.TextBox
+    Friend WithEvents Label42 As System.Windows.Forms.Label
+    Friend WithEvents txtPUCPcode As System.Windows.Forms.TextBox
+    Friend WithEvents txtPUCPtitle As System.Windows.Forms.TextBox
+    Friend WithEvents txtPUCCcode As System.Windows.Forms.TextBox
+    Friend WithEvents txtPUCCtitle As System.Windows.Forms.TextBox
+    Friend WithEvents Label41 As System.Windows.Forms.Label
+    Friend WithEvents txtSRPcode As System.Windows.Forms.TextBox
+    Friend WithEvents txtSRPtitle As System.Windows.Forms.TextBox
+    Friend WithEvents txtSRCcode As System.Windows.Forms.TextBox
+    Friend WithEvents txtSRCtitle As System.Windows.Forms.TextBox
+    Friend WithEvents Label40 As System.Windows.Forms.Label
+    Friend WithEvents Label39 As System.Windows.Forms.Label
+    Friend WithEvents txtSCPcode As System.Windows.Forms.TextBox
+    Friend WithEvents txtSCPtitle As System.Windows.Forms.TextBox
+    Friend WithEvents Label38 As System.Windows.Forms.Label
+    Friend WithEvents GroupBox9 As System.Windows.Forms.GroupBox
+    Friend WithEvents CheckBox14 As System.Windows.Forms.CheckBox
+    Friend WithEvents TextBox20 As System.Windows.Forms.TextBox
+    Friend WithEvents Label50 As System.Windows.Forms.Label
+    Friend WithEvents TextBox21 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents Label44 As System.Windows.Forms.Label
+    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
 End Class

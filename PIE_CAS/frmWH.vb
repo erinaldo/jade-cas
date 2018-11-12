@@ -56,9 +56,9 @@
             Next
             Dim query As String
             query = " SELECT Code AS oldCode, Code, Description, DefaultAccount, AccountTitle " & groupName & _
-                    " FROM tblWarehouse LEFT JOIN tblCOA_Master " & _
-                    " ON   tblWarehouse.DefaultAccount =  tblCOA_Master.AccountCode " & _
-                    " WHERE Status ='Active'  "
+                    " FROM   tblWarehouse LEFT JOIN tblCOA_Master " & _
+                    " ON     tblWarehouse.DefaultAccount =  tblCOA_Master.AccountCode " & _
+                    " WHERE  tblWarehouse.Status ='Active'  "
             SQL.GetQuery(query)
             If SQL.SQLDS.Tables(0).Rows.Count > 0 Then
                 dgvData.DataSource = SQL.SQLDS.Tables(0)

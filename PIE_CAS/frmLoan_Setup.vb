@@ -15,42 +15,57 @@
         nupTerms.Enabled = Value
         cbMethod.Enabled = Value
         cbPayment.Enabled = Value
+        cbIntMethod.Enabled = Value
         dgvCharges.Enabled = Value
+        txtIntValue.Enabled = Value
+        chkAmortize.Enabled = Value
+        chkUnearned.Enabled = Value
+        If chkUnearned.Checked = True Then
+            txtIntRecTitle.Enabled = Value
+            txtUnearnedTitle.Enabled = Value
+        Else
+            txtIntRecTitle.Enabled = False
+            txtUnearnedTitle.Enabled = False
+        End If
         txtAccntTitle.Enabled = Value
+        txtIntIncomeTitle.Enabled = Value
     End Sub
 
     Private Sub LoadComboboxMethod()
-        Dim dgvCol As DataGridViewComboBoxColumn
-        dgvCol = dgvCharges.Columns(dgcMethod.Index)
-        dgvCol.Items.Clear()
-        dgvCol.Items.Add("Fixed Amount")
-        dgvCol.Items.Add("Percent")
-        dgvCol.Items.Add("Table")
-        dgvCol.Items.Add("Formula")
+        Dim dgvCB As DataGridViewComboBoxColumn
+        dgvCB = dgvCharges.Columns(dgcMethod.Index)
+
+        dgvCB.Items.Clear()
+        dgvCB.Items.Add("Amount")
+        dgvCB.Items.Add("Percentage")
+        dgvCB.Items.Add("Range Table")
+        dgvCB.Items.Add("Formula")
     End Sub
 
     Private Sub LoadDefaultCharges()
         Try
             LoadComboboxMethod()
             Dim query As String
-            query = " SELECT  ChargeID, Description, Value, Method, Ammortize, AccountTitle, ApplyAll, LockValue " & _
+            query = " SELECT  ChargeID, Description, Value, Method, Amortize, AccountTitle, ISNULL(ApplyAll,0) AS ApplyAll, ISNULL(LockValue,0) AS LockValue, RangeBasis, RangeValueType " & _
                     " FROM    tblLoan_ChargesDefault LEFT JOIN tblCOA_Master " & _
                     " ON      tblLoan_ChargesDefault.DefaultAccount = tblCOA_Master.AccountCode " & _
+                    " AND     tblCOA_Master.Status ='Active'  " & _
+                    " WHERE   tblLoan_ChargesDefault.Status ='Active'  " & _
                     " ORDER BY SortNum "
             SQL.ReadQuery(query)
             dgvCharges.Rows.Clear()
             Dim rowId As Integer = 0
             While SQL.SQLDR.Read
                 dgvCharges.Rows.Add({SQL.SQLDR("ChargeID"), SQL.SQLDR("ApplyAll"), SQL.SQLDR("Description").ToString, SQL.SQLDR("Value").ToString, _
-                                   SQL.SQLDR("Method").ToString, SQL.SQLDR("Ammortize").ToString, SQL.SQLDR("AccountTitle").ToString, _
-                                   SQL.SQLDR("ApplyAll"), SQL.SQLDR("LockValue")})
+                                   SQL.SQLDR("Method").ToString, SQL.SQLDR("Amortize").ToString, SQL.SQLDR("AccountTitle").ToString, _
+                                   SQL.SQLDR("ApplyAll"), SQL.SQLDR("LockValue"), SQL.SQLDR("RangeBasis").ToString, SQL.SQLDR("RangeValueType").ToString})
                 If dgvCharges.Rows(rowId).Cells(chInclude.Index).Value = True Then
                     dgvCharges.Rows(rowId).ReadOnly = False
                     dgvCharges.Rows(rowId).DefaultCellStyle.BackColor = Color.White
                     If dgvCharges.Rows(rowId).Cells(chLocked.Index).Value = True Then
                         dgvCharges.Rows(rowId).Cells(dgcValue.Index).ReadOnly = True
                         dgvCharges.Rows(rowId).Cells(dgcMethod.Index).ReadOnly = True
-                        dgvCharges.Rows(rowId).DefaultCellStyle.BackColor = Color.Gray
+                        dgvCharges.Rows(rowId).DefaultCellStyle.BackColor = Color.FromArgb(240, 240, 240)
                     Else
                         dgvCharges.Rows(rowId).Cells(dgcValue.Index).ReadOnly = False
                         dgvCharges.Rows(rowId).Cells(dgcMethod.Index).ReadOnly = False
@@ -103,7 +118,7 @@
 
     Private Function LoanExistID(ByVal Type As String) As Integer
         Dim query As String
-        query = " SELECT LoanCode FROM tblLoanType WHERE LoanType = @LoanType "
+        query = " SELECT LoanCode FROM tblLoan_Type WHERE LoanType = @LoanType "
         SQL.FlushParams()
         SQL.AddParam("@LoanType", Type)
         SQL.ReadQuery(query)
@@ -117,7 +132,8 @@
     Private Sub LoadLoanInfo(ByVal LoanCode As Integer)
         EnableControl(False)
         Dim query As String
-        query = " SELECT LoanType, Category, Method, InterestPeriod, Terms, PaymentType, DefaultAccount, CashVoucher" & _
+        query = " SELECT LoanType, Category, Method, InterestPeriod, Terms, PaymentType, SetupUnearned, " & _
+                "        LoanAccount, IntIncomeAccount, UnearnedAccount, IntRecAccount, APR_Method, APR_Value, AmortizeInterest, CashVoucher" & _
                 " FROM   tblLoan_Type " & _
                 " WHERE  Status ='Active' AND LoanCode ='" & LoanCode & "'  "
         SQL.ReadQuery(query)
@@ -129,9 +145,18 @@
             nupTerms.Value = SQL.SQLDR("Terms").ToString
             cbPayment.SelectedItem = SQL.SQLDR("PaymentType").ToString
             chkCash_Voucher.Checked = IIf(SQL.SQLDR("CashVoucher").ToString = "True", True, False)
-            txtAccntCode.Text = SQL.SQLDR("DefaultAccount").ToString
+            txtAccntCode.Text = SQL.SQLDR("LoanAccount").ToString
+            txtIntIncomeCode.Text = SQL.SQLDR("IntIncomeAccount").ToString
+            txtUnearnedCode.Text = SQL.SQLDR("UnearnedAccount").ToString
+            txtIntRecCode.Text = SQL.SQLDR("IntRecAccount").ToString
+            cbIntMethod.SelectedItem = SQL.SQLDR("APR_Method").ToString
+            txtIntValue.Text = SQL.SQLDR("APR_Value").ToString
+            chkAmortize.Checked = SQL.SQLDR("AmortizeInterest").ToString
+            chkUnearned.Checked = SQL.SQLDR("SetupUnearned").ToString
             txtAccntTitle.Text = GetAccntTitle(txtAccntCode.Text)
-
+            txtIntIncomeTitle.Text = GetAccntTitle(txtIntIncomeCode.Text)
+            txtUnearnedTitle.Text = GetAccntTitle(txtUnearnedCode.Text)
+            txtIntRecTitle.Text = GetAccntTitle(txtIntRecCode.Text)
             LoadLoanCharges(LoanCode)
         Else
             ClearText()
@@ -141,19 +166,28 @@
     Private Sub UpdateLoanType()
         Try
             Dim insertSQL As String
-            insertSQL = " Update  " & _
-                        " tblLoanType Set LoanType = @LoanType, Category = @Category, Description = @Description, Method = @Method, Interest_Period = @Interest_Period, Default_Terms = @Default_Terms, DefaultAccount = @DefaultAccount, " & _
-                        "        Default_PaymentType = @Default_PaymentType where LoanCode = @LoanCode "
+            insertSQL = " UPDATE  tblLoan_Type" & _
+                        " SET     LoanType = @LoanType, Category = @Category, Description = @Description, Method = @Method, InterestPeriod = @InterestPeriod, Terms = @Terms, " & _
+                        "         LoanAccount = @LoanAccount, IntIncomeAccount = @IntIncomeAccount, UnearnedAccount = @UnearnedAccount, IntRecAccount = @IntRecAccount, " & _
+                        "         SetupUnearned = @SetupUnearned, APR_Method = @APR_Method, APR_Value = @APR_Value, AmortizeInterest = @AmortizeInterest, PaymentType = @PaymentType " & _
+                        " WHERE   LoanCode = @LoanCode "
             SQL.FlushParams()
             SQL.AddParam("@LoanCode", LoanCode)
             SQL.AddParam("@LoanType", txtLoanType.Text)
             SQL.AddParam("@Category", cbCategory.Text)
             SQL.AddParam("@Description", txtDescription.Text)
             SQL.AddParam("@Method", cbMethod.SelectedItem)
-            SQL.AddParam("@Interest_Period", cbPeriod.SelectedItem)
-            SQL.AddParam("@Default_Terms", nupTerms.Value)
-            SQL.AddParam("@DefaultAccount", txtAccntCode.Text)
-            SQL.AddParam("@Default_PaymentType", cbPayment.SelectedItem)
+            SQL.AddParam("@InterestPeriod", cbPeriod.SelectedItem)
+            SQL.AddParam("@Terms", nupTerms.Value)
+            SQL.AddParam("@LoanAccount", txtAccntCode.Text)
+            SQL.AddParam("@IntIncomeAccount", txtIntIncomeCode.Text)
+            SQL.AddParam("@UnearnedAccount", txtUnearnedCode.Text)
+            SQL.AddParam("@IntRecAccount", txtIntRecCode.Text)
+            SQL.AddParam("@APR_Method", cbIntMethod.SelectedItem)
+            SQL.AddParam("@APR_Value", txtIntValue.Text)
+            SQL.AddParam("@AmortizeInterest", chkAmortize.Checked)
+            SQL.AddParam("@SetupUnearned", chkUnearned.Checked)
+            SQL.AddParam("@PaymentType", cbPayment.SelectedItem)
             SQL.AddParam("@Cash_Voucher", IIf(chkCash_Voucher.Checked = True, "True", "False"))
             SQL.ExecNonQuery(insertSQL)
             SaveLoanCharges(LoanCode)
@@ -166,8 +200,8 @@
 
     Private Sub LoadLoanCharges(ByVal LoanCode As Integer)
         Dim query As String
-        query = "  SELECT   ChargeID, Value, Method, Ammortize, AccountTitle  " & _
-                "  FROM     tblLoan_Charges  INNER JOIN tblCOA_Master   " & _
+        query = "  SELECT   ChargeID, Value, Method, Amortize, AccountTitle  " & _
+                "  FROM     tblLoan_Charges  LEFT JOIN tblCOA_Master   " & _
                 "  ON       tblLoan_Charges.DefaultAccount = tblCOA_Master.AccountCode   " & _
                 "  WHERE    LoanCode ='" & LoanCode & "'   " & _
                 "  ORDER BY ChargeID "
@@ -175,6 +209,7 @@
         For Each item As DataGridViewRow In dgvCharges.Rows
             item.Cells(chInclude.Index).Value = False
             item.DefaultCellStyle.BackColor = Color.Gray
+
         Next
         While SQL.SQLDR.Read
             For Each item As DataGridViewRow In dgvCharges.Rows
@@ -182,7 +217,7 @@
                     item.Cells(chInclude.Index).Value = True
                     item.Cells(dgcValue.Index).Value = SQL.SQLDR("Value").ToString
                     item.Cells(dgcMethod.Index).Value = SQL.SQLDR("Method").ToString
-                    item.Cells(dgcAmmort.Index).Value = SQL.SQLDR("Ammortize")
+                    item.Cells(dgcAmort.Index).Value = SQL.SQLDR("Amortize")
                     item.Cells(dgcAccount.Index).Value = SQL.SQLDR("AccountTitle").ToString
                     item.DefaultCellStyle.BackColor = Color.White
                     If item.Cells(chInclude.Index).Value = True Then
@@ -191,7 +226,7 @@
                         If item.Cells(chLocked.Index).Value = True Then
                             item.Cells(dgcValue.Index).ReadOnly = True
                             item.Cells(dgcMethod.Index).ReadOnly = True
-                            item.DefaultCellStyle.BackColor = Color.Gray
+                            item.DefaultCellStyle.BackColor = Color.FromArgb(240, 240, 240)
                         Else
                             item.Cells(dgcValue.Index).ReadOnly = False
                             item.Cells(dgcMethod.Index).ReadOnly = False
@@ -346,9 +381,9 @@
     Private Sub lvLoanType_Click(sender As System.Object, e As System.EventArgs) Handles lvLoanType.Click, lvLoanType.SelectedIndexChanged
         Try
             If lvLoanType.SelectedItems.Count = 1 Then
+                LoadDefaultCharges()
                 LoanCode = lvLoanType.SelectedItems(0).SubItems(chID.Index).Text
                 LoadLoanInfo(LoanCode)
-                LoadDefaultCharges()
 
                 ' TOOLSTRIP BUTTONS
                 tsbNew.Enabled = True
@@ -364,15 +399,6 @@
         End Try
     End Sub
 #End Region
-
-
-
-
-
-
-
-
-
 
     Private Sub LoadComboboxType2(ByVal RowID As Integer, Selected As String)
         Dim dgvCB As DataGridViewComboBoxCell
@@ -407,8 +433,6 @@
 
     End Sub
 
-
-
     Private Sub LoadAccountTitle()
         Dim query As String
         query = " SELECT DISTINCT AccountTitle FROM tblCOA_Master WHERE AccountTitle IS NOT NULL "
@@ -426,18 +450,32 @@
         cbMethod.SelectedIndex = 0
         txtDescription.Clear()
         cbPayment.SelectedIndex = 0
+
+        txtAccntCode.Clear()
+        txtAccntTitle.Clear()
+        txtIntIncomeCode.Clear()
+        txtIntIncomeTitle.Clear()
+        txtUnearnedCode.Clear()
+        txtUnearnedTitle.Clear()
+        txtIntRecCode.Clear()
+        txtIntRecTitle.Clear()
+
+        txtIntValue.Clear()
+        cbIntMethod.SelectedItem = "Percentage"
+        chkAmortize.Checked = True
+        chkUnearned.Checked = True
     End Sub
-
-
 
     Private Sub SaveLoanType()
         Try
             Dim insertSQL As String
             insertSQL = " INSERT INTO  " & _
-                        " tblLoan_Type(LoanCode, LoanType, Category, Description, Method, InterestPeriod, Terms, DefaultAccount, " & _
-                        "             PaymentType, CashVoucher, Status, WhoCreated) " & _
-                        " VALUES(@LoanCode, @LoanType, @Category, @Description, @Method, @InterestPeriod, @Terms, @DefaultAccount, " & _
-                        "        @PaymentType, @CashVoucher, @Status, @WhoCreated) "
+                        " tblLoan_Type(LoanCode, LoanType, Category, Description, Method, InterestPeriod, Terms, " & _
+                        "              LoanAccount, IntIncomeAccount, UnearnedAccount, IntRecAccount, APR_Method, APR_Value, AmortizeInterest " & _
+                        "              SetupUnearned, PaymentType, CashVoucher, Status, WhoCreated) " & _
+                        " VALUES(@LoanCode, @LoanType, @Category, @Description, @Method, @InterestPeriod, @Terms, " & _
+                        "              @LoanAccount, @IntIncomeAccount, @UnearnedAccount, @IntRecAccount, @APR_Method, @APR_Value, @AmortizeInterest " & _
+                        "              @SetupUnearned, @PaymentType, @CashVoucher, @Status, @WhoCreated) "
             SQL.FlushParams()
             SQL.AddParam("@LoanCode", loanCode)
             SQL.AddParam("@LoanType", txtLoanType.Text)
@@ -446,8 +484,15 @@
             SQL.AddParam("@Method", cbMethod.SelectedItem)
             SQL.AddParam("@InterestPeriod", cbPeriod.SelectedItem)
             SQL.AddParam("@Terms", nupTerms.Value)
-            SQL.AddParam("@DefaultAccount", txtAccntCode.Text)
+            SQL.AddParam("@LoanAccount", txtAccntCode.Text)
+            SQL.AddParam("@IntIncomeAccount", txtIntIncomeCode.Text)
+            SQL.AddParam("@UnearnedAccount", txtUnearnedCode.Text)
+            SQL.AddParam("@IntRecAccount", txtIntRecCode.Text)
+            SQL.AddParam("@APR_Method", cbIntMethod.SelectedItem)
+            SQL.AddParam("@APR_Value", txtIntValue.Text)
+            SQL.AddParam("@AmortizeInterest", chkAmortize.Checked)
             SQL.AddParam("@PaymentType", cbPayment.SelectedItem)
+            SQL.AddParam("@SetupUnearned", chkUnearned.Checked)
             SQL.AddParam("@CashVoucher", IIf(chkCash_Voucher.Checked = True, "True", "False"))
             SQL.AddParam("@Status", "Active")
             SQL.AddParam("@WhoCreated", UserID)
@@ -470,14 +515,14 @@
                     Dim insertSQL As String
                     Dim Account As String = GetAccntCode(item.Cells(dgcAccount.Index).Value)
                     insertSQL = " INSERT INTO " & _
-                                " tblLoan_Charges (ChargeID, LoanCode, Value, Method, Ammortize, DefaultAccount, DefaultValue) " & _
-                                " VALUES (@ChargeID, @LoanCode, @Value, @Method, @Ammortize, @DefaultAccount, @DefaultValue)"
+                                " tblLoan_Charges (ChargeID, LoanCode, Value, Method, Amortize, DefaultAccount, DefaultValue) " & _
+                                " VALUES (@ChargeID, @LoanCode, @Value, @Method, @Amortize, @DefaultAccount, @DefaultValue)"
                     SQL.FlushParams()
                     SQL.AddParam("ChargeID", item.Cells(dgcID.Index).Value)
                     SQL.AddParam("LoanCode", LoanCode)
                     SQL.AddParam("Value", item.Cells(dgcValue.Index).Value)
                     SQL.AddParam("Method", item.Cells(dgcMethod.Index).Value)
-                    SQL.AddParam("Ammortize", item.Cells(dgcAmmort.Index).Value)
+                    SQL.AddParam("Amortize", item.Cells(dgcAmort.Index).Value)
                     SQL.AddParam("DefaultAccount", Account)
                     SQL.AddParam("DefaultValue", item.Cells(dgcValue.Index).Value)
                     SQL.ExecNonQuery(insertSQL)
@@ -500,6 +545,7 @@
             Return 1
         End If
     End Function
+
 
     Private Sub dgvCharges_CellValidating(sender As Object, e As System.Windows.Forms.DataGridViewCellValidatingEventArgs) Handles dgvCharges.CellValidating
         Dim comboBoxColumn As DataGridViewComboBoxColumn = dgvCharges.Columns(dgcAccount.Index)
@@ -601,5 +647,68 @@
     Private Sub ToolStripMenuItem1_Click(sender As System.Object, e As System.EventArgs) Handles ToolStripMenuItem1.Click
         frmLoan_Charges.ShowDialog()
         frmLoan_Charges.Dispose()
+        LoadDefaultCharges()
+        LoadLoanCharges(LoanCode)
+    End Sub
+
+    Private Sub dgvCharges_DataError(sender As System.Object, e As System.Windows.Forms.DataGridViewDataErrorEventArgs) Handles dgvCharges.DataError
+        Try
+        Catch ex As Exception
+            SaveError(ex.Message, ex.StackTrace, Me.Name.ToString, ModuleID)
+        End Try
+    End Sub
+
+    Private Sub chkUnearned_CheckedChanged(sender As System.Object, e As System.EventArgs) Handles chkUnearned.CheckedChanged
+        If disableEvent = False Then
+            If chkUnearned.Checked = True Then
+                txtUnearnedTitle.Enabled = True
+                txtIntRecTitle.Enabled = True
+            Else
+                txtUnearnedTitle.Enabled = False
+                txtIntRecTitle.Enabled = False
+            End If
+        End If
+    End Sub
+
+    Private Sub txtIntIncomeTitle_KeyDown(sender As System.Object, e As System.Windows.Forms.KeyEventArgs) Handles txtIntIncomeTitle.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Dim f As New frmCOA_Search
+                f.ShowDialog("AccntTitle", txtIntIncomeTitle.Text)
+                txtIntIncomeCode.Text = f.accountcode
+                txtIntIncomeTitle.Text = f.accttile
+                f.Dispose()
+            End If
+        Catch ex As Exception
+            SaveError(ex.Message, ex.StackTrace, Me.Name.ToString, ModuleID)
+        End Try
+    End Sub
+
+    Private Sub txtUnearnedTitle_KeyDown(sender As System.Object, e As System.Windows.Forms.KeyEventArgs) Handles txtUnearnedTitle.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Dim f As New frmCOA_Search
+                f.ShowDialog("AccntTitle", txtUnearnedTitle.Text)
+                txtUnearnedCode.Text = f.accountcode
+                txtUnearnedTitle.Text = f.accttile
+                f.Dispose()
+            End If
+        Catch ex As Exception
+            SaveError(ex.Message, ex.StackTrace, Me.Name.ToString, ModuleID)
+        End Try
+    End Sub
+
+    Private Sub txtIntRecTitle_KeyDown(sender As System.Object, e As System.Windows.Forms.KeyEventArgs) Handles txtIntRecTitle.KeyDown
+        Try
+            If e.KeyCode = Keys.Enter Then
+                Dim f As New frmCOA_Search
+                f.ShowDialog("AccntTitle", txtIntRecTitle.Text)
+                txtIntRecCode.Text = f.accountcode
+                txtIntRecTitle.Text = f.accttile
+                f.Dispose()
+            End If
+        Catch ex As Exception
+            SaveError(ex.Message, ex.StackTrace, Me.Name.ToString, ModuleID)
+        End Try
     End Sub
 End Class

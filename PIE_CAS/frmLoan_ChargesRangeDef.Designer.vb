@@ -22,58 +22,66 @@ Partial Class frmLoan_ChargesRangeDef
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.dgvRecords = New System.Windows.Forms.DataGridView()
-        Me.dgvRecordsAll = New System.Windows.Forms.DataGridView()
-        Me.dgcDesc = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgvRanges = New System.Windows.Forms.DataGridView()
+        Me.cbBasis = New System.Windows.Forms.ComboBox()
+        Me.lblRangeType = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.cbValueType = New System.Windows.Forms.ComboBox()
         Me.dgcFrom = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgcTo = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgcValue = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgcAllDesc = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgcAllFrom = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgcAllTo = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.dgcAllValue = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        CType(Me.dgvRecords, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.dgvRecordsAll, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dgvRanges, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'dgvRecords
+        'dgvRanges
         '
-        Me.dgvRecords.AllowUserToAddRows = False
-        Me.dgvRecords.AllowUserToDeleteRows = False
-        Me.dgvRecords.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.dgvRanges.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.dgvRecords.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvRecords.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgcDesc, Me.dgcFrom, Me.dgcTo, Me.dgcValue})
-        Me.dgvRecords.Location = New System.Drawing.Point(0, 0)
-        Me.dgvRecords.MultiSelect = False
-        Me.dgvRecords.Name = "dgvRecords"
-        Me.dgvRecords.RowHeadersWidth = 25
-        Me.dgvRecords.Size = New System.Drawing.Size(478, 301)
-        Me.dgvRecords.TabIndex = 1
+        Me.dgvRanges.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvRanges.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgcFrom, Me.dgcTo, Me.dgcValue})
+        Me.dgvRanges.Location = New System.Drawing.Point(0, 37)
+        Me.dgvRanges.MultiSelect = False
+        Me.dgvRanges.Name = "dgvRanges"
+        Me.dgvRanges.RowHeadersWidth = 25
+        Me.dgvRanges.Size = New System.Drawing.Size(478, 264)
+        Me.dgvRanges.TabIndex = 1
         '
-        'dgvRecordsAll
+        'cbBasis
         '
-        Me.dgvRecordsAll.AllowUserToAddRows = False
-        Me.dgvRecordsAll.AllowUserToDeleteRows = False
-        Me.dgvRecordsAll.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.dgvRecordsAll.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvRecordsAll.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgcAllDesc, Me.dgcAllFrom, Me.dgcAllTo, Me.dgcAllValue})
-        Me.dgvRecordsAll.Location = New System.Drawing.Point(0, 0)
-        Me.dgvRecordsAll.MultiSelect = False
-        Me.dgvRecordsAll.Name = "dgvRecordsAll"
-        Me.dgvRecordsAll.RowHeadersWidth = 25
-        Me.dgvRecordsAll.Size = New System.Drawing.Size(478, 301)
-        Me.dgvRecordsAll.TabIndex = 2
-        Me.dgvRecordsAll.Visible = False
+        Me.cbBasis.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cbBasis.FormattingEnabled = True
+        Me.cbBasis.Location = New System.Drawing.Point(90, 8)
+        Me.cbBasis.Name = "cbBasis"
+        Me.cbBasis.Size = New System.Drawing.Size(149, 23)
+        Me.cbBasis.TabIndex = 3
         '
-        'dgcDesc
+        'lblRangeType
         '
-        Me.dgcDesc.HeaderText = "Description"
-        Me.dgcDesc.Name = "dgcDesc"
-        Me.dgcDesc.Visible = False
+        Me.lblRangeType.AutoSize = True
+        Me.lblRangeType.Location = New System.Drawing.Point(6, 11)
+        Me.lblRangeType.Name = "lblRangeType"
+        Me.lblRangeType.Size = New System.Drawing.Size(83, 15)
+        Me.lblRangeType.TabIndex = 4
+        Me.lblRangeType.Text = "Range Basis :"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(253, 11)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(73, 15)
+        Me.Label1.TabIndex = 6
+        Me.Label1.Text = "Value Type :"
+        '
+        'cbValueType
+        '
+        Me.cbValueType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cbValueType.FormattingEnabled = True
+        Me.cbValueType.Location = New System.Drawing.Point(328, 7)
+        Me.cbValueType.Name = "cbValueType"
+        Me.cbValueType.Size = New System.Drawing.Size(147, 23)
+        Me.cbValueType.TabIndex = 5
         '
         'dgcFrom
         '
@@ -93,56 +101,33 @@ Partial Class frmLoan_ChargesRangeDef
         Me.dgcValue.Name = "dgcValue"
         Me.dgcValue.Width = 150
         '
-        'dgcAllDesc
-        '
-        Me.dgcAllDesc.HeaderText = "Description"
-        Me.dgcAllDesc.Name = "dgcAllDesc"
-        Me.dgcAllDesc.Visible = False
-        '
-        'dgcAllFrom
-        '
-        Me.dgcAllFrom.HeaderText = "From"
-        Me.dgcAllFrom.Name = "dgcAllFrom"
-        Me.dgcAllFrom.Width = 150
-        '
-        'dgcAllTo
-        '
-        Me.dgcAllTo.HeaderText = "To"
-        Me.dgcAllTo.Name = "dgcAllTo"
-        Me.dgcAllTo.Width = 150
-        '
-        'dgcAllValue
-        '
-        Me.dgcAllValue.HeaderText = "Value"
-        Me.dgcAllValue.Name = "dgcAllValue"
-        Me.dgcAllValue.Width = 150
-        '
         'frmLoan_ChargesRangeDef
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(478, 301)
-        Me.Controls.Add(Me.dgvRecords)
-        Me.Controls.Add(Me.dgvRecordsAll)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.cbValueType)
+        Me.Controls.Add(Me.lblRangeType)
+        Me.Controls.Add(Me.cbBasis)
+        Me.Controls.Add(Me.dgvRanges)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "frmLoan_ChargesRangeDef"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Range Table"
-        CType(Me.dgvRecords, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.dgvRecordsAll, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgvRanges, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
-    Friend WithEvents dgvRecords As System.Windows.Forms.DataGridView
-    Friend WithEvents dgvRecordsAll As System.Windows.Forms.DataGridView
-    Friend WithEvents dgcDesc As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgvRanges As System.Windows.Forms.DataGridView
+    Friend WithEvents cbBasis As System.Windows.Forms.ComboBox
+    Friend WithEvents lblRangeType As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents cbValueType As System.Windows.Forms.ComboBox
     Friend WithEvents dgcFrom As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents dgcTo As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents dgcValue As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgcAllDesc As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgcAllFrom As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgcAllTo As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents dgcAllValue As System.Windows.Forms.DataGridViewTextBoxColumn
 End Class

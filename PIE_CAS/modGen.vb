@@ -712,4 +712,16 @@ Module modGen
         SQL.AddParam("@WhoCreated", UserID)
         SQL.ExecNonQuery(insertSQL)
     End Sub
+
+    Public Function GetMaxPEC() As Date
+        Dim query As String
+        query = " SELECT DATEADD(DAY,1,ISNULL(MAX(datePEC),'01-01-1900')) AS datePEC FROM tblPEC WHERE Status ='Active' "
+        SQL.ReadQuery(query)
+        If SQL.SQLDR.Read AndAlso Not IsDBNull(SQL.SQLDR("datePEC")) Then
+            Return SQL.SQLDR("datePEC")
+        Else
+            Return "01-01-1900"
+        End If
+    End Function
+
 End Module

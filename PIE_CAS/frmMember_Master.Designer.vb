@@ -1042,7 +1042,7 @@ Partial Class frmMember_Master
         Me.lvContact.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.chContactType, Me.chContactNo})
         Me.lvContact.Location = New System.Drawing.Point(2, 2)
         Me.lvContact.Name = "lvContact"
-        Me.lvContact.Size = New System.Drawing.Size(340, 302)
+        Me.lvContact.Size = New System.Drawing.Size(340, 305)
         Me.lvContact.TabIndex = 1106
         Me.lvContact.UseCompatibleStateImageBehavior = False
         Me.lvContact.View = System.Windows.Forms.View.Details
@@ -2255,7 +2255,7 @@ Partial Class frmMember_Master
         Me.lvBContactList.Location = New System.Drawing.Point(3, 3)
         Me.lvBContactList.MultiSelect = False
         Me.lvBContactList.Name = "lvBContactList"
-        Me.lvBContactList.Size = New System.Drawing.Size(311, 253)
+        Me.lvBContactList.Size = New System.Drawing.Size(311, 256)
         Me.lvBContactList.TabIndex = 0
         Me.lvBContactList.UseCompatibleStateImageBehavior = False
         Me.lvBContactList.View = System.Windows.Forms.View.Details
@@ -2350,7 +2350,7 @@ Partial Class frmMember_Master
         Me.lvBIDList.Location = New System.Drawing.Point(3, 3)
         Me.lvBIDList.MultiSelect = False
         Me.lvBIDList.Name = "lvBIDList"
-        Me.lvBIDList.Size = New System.Drawing.Size(311, 253)
+        Me.lvBIDList.Size = New System.Drawing.Size(311, 256)
         Me.lvBIDList.TabIndex = 1181
         Me.lvBIDList.UseCompatibleStateImageBehavior = False
         Me.lvBIDList.View = System.Windows.Forms.View.Details

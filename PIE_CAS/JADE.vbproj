@@ -112,6 +112,15 @@
     <Import Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmPEC.Designer.vb">
+      <DependentUpon>frmPEC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPEC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="myTabControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="frmAdvances.designer.vb">
       <DependentUpon>frmAdvances.vb</DependentUpon>
     </Compile>
@@ -166,6 +175,12 @@
     <Compile Include="frmJO.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmLoan_Window.Designer.vb">
+      <DependentUpon>frmLoan_Window.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoan_Window.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmLoan_ChargesRangeDef.Designer.vb">
       <DependentUpon>frmLoan_ChargesRangeDef.vb</DependentUpon>
     </Compile>
@@ -200,6 +215,12 @@
       <DependentUpon>frmModuleSelect.vb</DependentUpon>
     </Compile>
     <Compile Include="frmModuleSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPaymentType.Designer.vb">
+      <DependentUpon>frmPaymentType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPaymentType.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmPC.Designer.vb">
@@ -466,10 +487,10 @@
     <Compile Include="frmMasterfile_Bank.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmBank_Recon.Designer.vb">
-      <DependentUpon>FrmBank_Recon.vb</DependentUpon>
+    <Compile Include="frmBR.Designer.vb">
+      <DependentUpon>frmBR.vb</DependentUpon>
     </Compile>
-    <Compile Include="FrmBank_Recon.vb">
+    <Compile Include="frmBR.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmCOA.Designer.vb">
@@ -689,6 +710,9 @@
     <EmbeddedResource Include="frmJO.resx">
       <DependentUpon>frmJO.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmLoan_Window.resx">
+      <DependentUpon>frmLoan_Window.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLoan_ChargesRangeDef.resx">
       <DependentUpon>frmLoan_ChargesRangeDef.vb</DependentUpon>
     </EmbeddedResource>
@@ -707,8 +731,14 @@
     <EmbeddedResource Include="frmModuleSelect.resx">
       <DependentUpon>frmModuleSelect.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmPaymentType.resx">
+      <DependentUpon>frmPaymentType.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPC.resx">
       <DependentUpon>frmPC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPEC.resx">
+      <DependentUpon>frmPEC.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPWH.resx">
       <DependentUpon>frmPWH.vb</DependentUpon>
@@ -843,8 +873,8 @@
     <EmbeddedResource Include="frmMasterfile_Bank.resx">
       <DependentUpon>frmMasterfile_Bank.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmBank_Recon.resx">
-      <DependentUpon>FrmBank_Recon.vb</DependentUpon>
+    <EmbeddedResource Include="frmBR.resx">
+      <DependentUpon>frmBR.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCOA.resx">
       <DependentUpon>frmCOA.vb</DependentUpon>

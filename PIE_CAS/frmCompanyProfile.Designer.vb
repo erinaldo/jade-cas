@@ -23,6 +23,7 @@ Partial Class frmCompanyProfile
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.chkVAT = New System.Windows.Forms.CheckBox()
         Me.btnUpload = New System.Windows.Forms.Button()
         Me.pbPicture = New System.Windows.Forms.PictureBox()
         Me.Label21 = New System.Windows.Forms.Label()
@@ -73,7 +74,9 @@ Partial Class frmCompanyProfile
         Me.btnSave = New System.Windows.Forms.Button()
         Me.btnRemove = New System.Windows.Forms.Button()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
-        Me.chkVAT = New System.Windows.Forms.CheckBox()
+        Me.tpCoop = New System.Windows.Forms.TabPage()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label14 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         CType(Me.pbPicture, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
@@ -82,6 +85,7 @@ Partial Class frmCompanyProfile
         Me.GroupBox3.SuspendLayout()
         Me.tabContact.SuspendLayout()
         Me.Panel3.SuspendLayout()
+        Me.tpCoop.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -106,6 +110,17 @@ Partial Class frmCompanyProfile
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Employer Info."
+        '
+        'chkVAT
+        '
+        Me.chkVAT.AutoSize = True
+        Me.chkVAT.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chkVAT.Location = New System.Drawing.Point(187, 125)
+        Me.chkVAT.Name = "chkVAT"
+        Me.chkVAT.Size = New System.Drawing.Size(83, 20)
+        Me.chkVAT.TabIndex = 48
+        Me.chkVAT.Text = "VAT Reg"
+        Me.chkVAT.UseVisualStyleBackColor = True
         '
         'btnUpload
         '
@@ -164,6 +179,7 @@ Partial Class frmCompanyProfile
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.TabControl1.Controls.Add(Me.tabAddress)
         Me.TabControl1.Controls.Add(Me.tabContact)
+        Me.TabControl1.Controls.Add(Me.tpCoop)
         Me.TabControl1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabControl1.Location = New System.Drawing.Point(14, 159)
         Me.TabControl1.Name = "TabControl1"
@@ -407,7 +423,7 @@ Partial Class frmCompanyProfile
         Me.tabContact.Location = New System.Drawing.Point(4, 25)
         Me.tabContact.Name = "tabContact"
         Me.tabContact.Padding = New System.Windows.Forms.Padding(3)
-        Me.tabContact.Size = New System.Drawing.Size(548, 399)
+        Me.tabContact.Size = New System.Drawing.Size(548, 375)
         Me.tabContact.TabIndex = 1
         Me.tabContact.Text = "Contact Info."
         Me.tabContact.UseVisualStyleBackColor = True
@@ -429,7 +445,7 @@ Partial Class frmCompanyProfile
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel3.Location = New System.Drawing.Point(3, 3)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(542, 393)
+        Me.Panel3.Size = New System.Drawing.Size(542, 369)
         Me.Panel3.TabIndex = 0
         '
         'txtTelephoneNo
@@ -607,16 +623,35 @@ Partial Class frmCompanyProfile
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
-        'chkVAT
+        'tpCoop
         '
-        Me.chkVAT.AutoSize = True
-        Me.chkVAT.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkVAT.Location = New System.Drawing.Point(187, 125)
-        Me.chkVAT.Name = "chkVAT"
-        Me.chkVAT.Size = New System.Drawing.Size(83, 20)
-        Me.chkVAT.TabIndex = 48
-        Me.chkVAT.Text = "VAT Reg"
-        Me.chkVAT.UseVisualStyleBackColor = True
+        Me.tpCoop.Controls.Add(Me.TextBox1)
+        Me.tpCoop.Controls.Add(Me.Label14)
+        Me.tpCoop.Location = New System.Drawing.Point(4, 25)
+        Me.tpCoop.Name = "tpCoop"
+        Me.tpCoop.Padding = New System.Windows.Forms.Padding(3)
+        Me.tpCoop.Size = New System.Drawing.Size(548, 375)
+        Me.tpCoop.TabIndex = 2
+        Me.tpCoop.Text = "Cooperative"
+        Me.tpCoop.UseVisualStyleBackColor = True
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(156, 17)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(337, 22)
+        Me.TextBox1.TabIndex = 28
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(28, 20)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(122, 16)
+        Me.Label14.TabIndex = 29
+        Me.Label14.Text = "Authorized Capital :"
         '
         'frmCompanyProfile
         '
@@ -644,6 +679,8 @@ Partial Class frmCompanyProfile
         Me.tabContact.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
+        Me.tpCoop.ResumeLayout(False)
+        Me.tpCoop.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -699,4 +736,7 @@ Partial Class frmCompanyProfile
     Friend WithEvents btnUpload As System.Windows.Forms.Button
     Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
     Friend WithEvents chkVAT As System.Windows.Forms.CheckBox
+    Friend WithEvents tpCoop As System.Windows.Forms.TabPage
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents Label14 As System.Windows.Forms.Label
 End Class

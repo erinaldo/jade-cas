@@ -275,7 +275,7 @@ Public Class Main_JADE
     End Sub
 
     Private Sub tileBankRecon_Click(sender As System.Object, e As System.EventArgs) Handles tileBankRecon.Click
-        FrmBank_Recon.Show()
+        FrmBR.Show()
     End Sub
 
     Private Sub tileSalesOrder_Click(sender As System.Object, e As System.EventArgs) Handles tileSalesOrder.Click
@@ -472,5 +472,9 @@ Public Class Main_JADE
 
     Private Sub MetroTile18_Click(sender As System.Object, e As System.EventArgs) Handles MetroTile18.Click
         frmLoan_Setup.Show()
+    End Sub
+
+    Private Sub MetroTile19_Click(sender As System.Object, e As System.EventArgs) Handles MetroTile19.Click
+        frmLoan_Window.Show()
     End Sub
 End Class

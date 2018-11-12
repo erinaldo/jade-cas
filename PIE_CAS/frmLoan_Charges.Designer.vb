@@ -29,14 +29,23 @@ Partial Class frmLoan_Charges
         Me.tsbSave = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.tsbExit = New System.Windows.Forms.ToolStripButton()
+        Me.dgvRanges = New System.Windows.Forms.DataGridView()
+        Me.dgcRangeDesc = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgcRangeFrom = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgcRangeTo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgcRangeValue = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgcChargeID = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgcDesc = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgcMethod = New System.Windows.Forms.DataGridViewComboBoxColumn()
         Me.dgcValue = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgcAmort = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.dgcCode = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.dgcTitle = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgcRangeBasis = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dgcRangeValueType = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.dgvRecords, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ToolStrip1.SuspendLayout()
+        CType(Me.dgvRanges, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'dgvRecords
@@ -47,7 +56,7 @@ Partial Class frmLoan_Charges
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.dgvRecords.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvRecords.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgcDesc, Me.dgcMethod, Me.dgcValue, Me.dgcAmort, Me.dgcCode, Me.dgcTitle})
+        Me.dgvRecords.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgcChargeID, Me.dgcDesc, Me.dgcMethod, Me.dgcValue, Me.dgcAmort, Me.dgcCode, Me.dgcTitle, Me.dgcRangeBasis, Me.dgcRangeValueType})
         Me.dgvRecords.Location = New System.Drawing.Point(0, 39)
         Me.dgvRecords.MultiSelect = False
         Me.dgvRecords.Name = "dgvRecords"
@@ -104,7 +113,7 @@ Partial Class frmLoan_Charges
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 46)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 40)
         '
         'tsbExit
         '
@@ -116,6 +125,53 @@ Partial Class frmLoan_Charges
         Me.tsbExit.Size = New System.Drawing.Size(50, 35)
         Me.tsbExit.Text = "Exit"
         Me.tsbExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
+        'dgvRanges
+        '
+        Me.dgvRanges.AllowUserToAddRows = False
+        Me.dgvRanges.AllowUserToDeleteRows = False
+        Me.dgvRanges.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.dgvRanges.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvRanges.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgcRangeDesc, Me.dgcRangeFrom, Me.dgcRangeTo, Me.dgcRangeValue})
+        Me.dgvRanges.Location = New System.Drawing.Point(114, 107)
+        Me.dgvRanges.MultiSelect = False
+        Me.dgvRanges.Name = "dgvRanges"
+        Me.dgvRanges.RowHeadersWidth = 25
+        Me.dgvRanges.Size = New System.Drawing.Size(478, 204)
+        Me.dgvRanges.TabIndex = 1407
+        Me.dgvRanges.Visible = False
+        '
+        'dgcRangeDesc
+        '
+        Me.dgcRangeDesc.HeaderText = "Description"
+        Me.dgcRangeDesc.Name = "dgcRangeDesc"
+        Me.dgcRangeDesc.Visible = False
+        '
+        'dgcRangeFrom
+        '
+        Me.dgcRangeFrom.HeaderText = "From"
+        Me.dgcRangeFrom.Name = "dgcRangeFrom"
+        Me.dgcRangeFrom.Width = 150
+        '
+        'dgcRangeTo
+        '
+        Me.dgcRangeTo.HeaderText = "To"
+        Me.dgcRangeTo.Name = "dgcRangeTo"
+        Me.dgcRangeTo.Width = 150
+        '
+        'dgcRangeValue
+        '
+        Me.dgcRangeValue.HeaderText = "Value"
+        Me.dgcRangeValue.Name = "dgcRangeValue"
+        Me.dgcRangeValue.Width = 150
+        '
+        'dgcChargeID
+        '
+        Me.dgcChargeID.HeaderText = "ChargeID"
+        Me.dgcChargeID.Name = "dgcChargeID"
+        Me.dgcChargeID.Visible = False
         '
         'dgcDesc
         '
@@ -156,6 +212,18 @@ Partial Class frmLoan_Charges
         Me.dgcTitle.Name = "dgcTitle"
         Me.dgcTitle.Width = 250
         '
+        'dgcRangeBasis
+        '
+        Me.dgcRangeBasis.HeaderText = "Range Basis"
+        Me.dgcRangeBasis.Name = "dgcRangeBasis"
+        Me.dgcRangeBasis.Visible = False
+        '
+        'dgcRangeValueType
+        '
+        Me.dgcRangeValueType.HeaderText = "Value Type"
+        Me.dgcRangeValueType.Name = "dgcRangeValueType"
+        Me.dgcRangeValueType.Visible = False
+        '
         'frmLoan_Charges
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -164,14 +232,17 @@ Partial Class frmLoan_Charges
         Me.ClientSize = New System.Drawing.Size(706, 419)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.dgvRecords)
+        Me.Controls.Add(Me.dgvRanges)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.KeyPreview = True
         Me.Name = "frmLoan_Charges"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Loan Charges"
         CType(Me.dgvRecords, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()
+        CType(Me.dgvRanges, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -182,10 +253,18 @@ Partial Class frmLoan_Charges
     Friend WithEvents tsbDelete As System.Windows.Forms.ToolStripButton
     Friend WithEvents ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents tsbExit As System.Windows.Forms.ToolStripButton
+    Friend WithEvents dgvRanges As System.Windows.Forms.DataGridView
+    Friend WithEvents dgcRangeDesc As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgcRangeFrom As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgcRangeTo As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgcRangeValue As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgcChargeID As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents dgcDesc As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents dgcMethod As System.Windows.Forms.DataGridViewComboBoxColumn
     Friend WithEvents dgcValue As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents dgcAmort As System.Windows.Forms.DataGridViewCheckBoxColumn
     Friend WithEvents dgcCode As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents dgcTitle As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgcRangeBasis As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents dgcRangeValueType As System.Windows.Forms.DataGridViewTextBoxColumn
 End Class

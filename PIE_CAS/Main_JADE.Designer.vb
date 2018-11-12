@@ -25,25 +25,13 @@ Partial Class Main_JADE
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Main_JADE))
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.TxtDatabase = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.mtcMenu = New MetroFramework.Controls.MetroTabControl()
         Me.MetroTabPage1 = New MetroFramework.Controls.MetroTabPage()
-        Me.MetroTabPage2 = New MetroFramework.Controls.MetroTabPage()
-        Me.MetroTabPage3 = New MetroFramework.Controls.MetroTabPage()
-        Me.MetroTabPage4 = New MetroFramework.Controls.MetroTabPage()
-        Me.MetroTabPage5 = New MetroFramework.Controls.MetroTabPage()
-        Me.MetroTabPage6 = New MetroFramework.Controls.MetroTabPage()
-        Me.MetroTabPage7 = New MetroFramework.Controls.MetroTabPage()
-        Me.MetroTabPage8 = New MetroFramework.Controls.MetroTabPage()
-        Me.MetroTabPage9 = New MetroFramework.Controls.MetroTabPage()
-        Me.MetroTabPage10 = New MetroFramework.Controls.MetroTabPage()
-        Me.mtpProd = New MetroFramework.Controls.MetroTabPage()
-        Me.mtpCoop = New MetroFramework.Controls.MetroTabPage()
-        Me.StatusStrip = New System.Windows.Forms.StatusStrip()
-        Me.tsVersion = New System.Windows.Forms.ToolStripStatusLabel()
         Me.MetroTile17 = New MetroFramework.Controls.MetroTile()
         Me.MetroTile15 = New MetroFramework.Controls.MetroTile()
         Me.MetroTile10 = New MetroFramework.Controls.MetroTile()
@@ -55,46 +43,59 @@ Partial Class Main_JADE
         Me.tileChartofAccount = New MetroFramework.Controls.MetroTile()
         Me.tileItemMaster = New MetroFramework.Controls.MetroTile()
         Me.tileVCEMaster = New MetroFramework.Controls.MetroTile()
+        Me.MetroTabPage2 = New MetroFramework.Controls.MetroTabPage()
         Me.MetroTile14 = New MetroFramework.Controls.MetroTile()
         Me.tileAccountsPayableVoucher = New MetroFramework.Controls.MetroTile()
         Me.tilePurchaseOrder = New MetroFramework.Controls.MetroTile()
         Me.tilePurchaseRequisition = New MetroFramework.Controls.MetroTile()
+        Me.MetroTabPage3 = New MetroFramework.Controls.MetroTabPage()
         Me.tileBankRecon = New MetroFramework.Controls.MetroTile()
         Me.tileBankDeposit = New MetroFramework.Controls.MetroTile()
         Me.tileAcknowledgementReceipt = New MetroFramework.Controls.MetroTile()
         Me.tileCollectionReceipt = New MetroFramework.Controls.MetroTile()
         Me.tileOfficialReceipt = New MetroFramework.Controls.MetroTile()
+        Me.MetroTabPage4 = New MetroFramework.Controls.MetroTabPage()
         Me.MetroTile6 = New MetroFramework.Controls.MetroTile()
         Me.MetroTile5 = New MetroFramework.Controls.MetroTile()
         Me.MetroTile4 = New MetroFramework.Controls.MetroTile()
         Me.MetroTile3 = New MetroFramework.Controls.MetroTile()
         Me.tileSalesInvoice = New MetroFramework.Controls.MetroTile()
         Me.tileSalesOrder = New MetroFramework.Controls.MetroTile()
+        Me.MetroTabPage5 = New MetroFramework.Controls.MetroTabPage()
         Me.tileInventoryTransfer = New MetroFramework.Controls.MetroTile()
         Me.tileGoodsReceipt = New MetroFramework.Controls.MetroTile()
         Me.tileGoodsIssue = New MetroFramework.Controls.MetroTile()
         Me.tileDeliveryReceipt = New MetroFramework.Controls.MetroTile()
         Me.tileReceivingReport = New MetroFramework.Controls.MetroTile()
+        Me.MetroTabPage6 = New MetroFramework.Controls.MetroTabPage()
         Me.tileJournalVoucher = New MetroFramework.Controls.MetroTile()
+        Me.MetroTabPage7 = New MetroFramework.Controls.MetroTabPage()
         Me.MetroTile9 = New MetroFramework.Controls.MetroTile()
         Me.tileAdvances = New MetroFramework.Controls.MetroTile()
         Me.tileRevolvingFund = New MetroFramework.Controls.MetroTile()
         Me.tileCashAdvance = New MetroFramework.Controls.MetroTile()
         Me.tilePettyCashFund = New MetroFramework.Controls.MetroTile()
         Me.tileCashDisbursement = New MetroFramework.Controls.MetroTile()
+        Me.MetroTabPage8 = New MetroFramework.Controls.MetroTabPage()
         Me.tilePostedEntries = New MetroFramework.Controls.MetroTile()
         Me.tileBatchPosting = New MetroFramework.Controls.MetroTile()
+        Me.MetroTabPage9 = New MetroFramework.Controls.MetroTabPage()
         Me.MetroTile2 = New MetroFramework.Controls.MetroTile()
         Me.MetroTile1 = New MetroFramework.Controls.MetroTile()
+        Me.MetroTabPage10 = New MetroFramework.Controls.MetroTabPage()
         Me.MetroTile8 = New MetroFramework.Controls.MetroTile()
         Me.MetroTile7 = New MetroFramework.Controls.MetroTile()
+        Me.mtpProd = New MetroFramework.Controls.MetroTabPage()
         Me.MetroTile13 = New MetroFramework.Controls.MetroTile()
         Me.MetroTile12 = New MetroFramework.Controls.MetroTile()
         Me.MetroTile11 = New MetroFramework.Controls.MetroTile()
         Me.MetroHomeTab = New MetroFramework.Controls.MetroTabPage()
+        Me.mtpCoop = New MetroFramework.Controls.MetroTabPage()
+        Me.MetroTile19 = New MetroFramework.Controls.MetroTile()
         Me.MetroTile18 = New MetroFramework.Controls.MetroTile()
         Me.MetroTile16 = New MetroFramework.Controls.MetroTile()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.StatusStrip = New System.Windows.Forms.StatusStrip()
+        Me.tsVersion = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.btnCoop = New System.Windows.Forms.Button()
         Me.btnProduction = New System.Windows.Forms.Button()
@@ -114,6 +115,7 @@ Partial Class Main_JADE
         Me.btnPurchasing = New System.Windows.Forms.Button()
         Me.btnMasterfile = New System.Windows.Forms.Button()
         Me.Panel2.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
         Me.Panel4.SuspendLayout()
         Me.mtcMenu.SuspendLayout()
@@ -130,7 +132,6 @@ Partial Class Main_JADE
         Me.mtpProd.SuspendLayout()
         Me.mtpCoop.SuspendLayout()
         Me.StatusStrip.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         CType(Me.picSettings, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picLogout, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -156,6 +157,16 @@ Partial Class Main_JADE
         Me.Label1.Size = New System.Drawing.Size(228, 25)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Jade Accounting System"
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.jade.My.Resources.Resources.Jade1
+        Me.PictureBox2.Location = New System.Drawing.Point(3, 24)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(57, 49)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 49
+        Me.PictureBox2.TabStop = False
         '
         'Panel3
         '
@@ -261,203 +272,6 @@ Partial Class Main_JADE
         Me.MetroTabPage1.VerticalScrollbarBarColor = True
         Me.MetroTabPage1.VerticalScrollbarHighlightOnWheel = False
         Me.MetroTabPage1.VerticalScrollbarSize = 10
-        '
-        'MetroTabPage2
-        '
-        Me.MetroTabPage2.Controls.Add(Me.MetroTile14)
-        Me.MetroTabPage2.Controls.Add(Me.tileAccountsPayableVoucher)
-        Me.MetroTabPage2.Controls.Add(Me.tilePurchaseOrder)
-        Me.MetroTabPage2.Controls.Add(Me.tilePurchaseRequisition)
-        Me.MetroTabPage2.HorizontalScrollbarBarColor = True
-        Me.MetroTabPage2.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage2.HorizontalScrollbarSize = 10
-        Me.MetroTabPage2.Location = New System.Drawing.Point(4, 14)
-        Me.MetroTabPage2.Name = "MetroTabPage2"
-        Me.MetroTabPage2.Size = New System.Drawing.Size(916, 605)
-        Me.MetroTabPage2.TabIndex = 1
-        Me.MetroTabPage2.VerticalScrollbarBarColor = True
-        Me.MetroTabPage2.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage2.VerticalScrollbarSize = 10
-        '
-        'MetroTabPage3
-        '
-        Me.MetroTabPage3.Controls.Add(Me.tileBankRecon)
-        Me.MetroTabPage3.Controls.Add(Me.tileBankDeposit)
-        Me.MetroTabPage3.Controls.Add(Me.tileAcknowledgementReceipt)
-        Me.MetroTabPage3.Controls.Add(Me.tileCollectionReceipt)
-        Me.MetroTabPage3.Controls.Add(Me.tileOfficialReceipt)
-        Me.MetroTabPage3.HorizontalScrollbarBarColor = True
-        Me.MetroTabPage3.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage3.HorizontalScrollbarSize = 10
-        Me.MetroTabPage3.Location = New System.Drawing.Point(4, 14)
-        Me.MetroTabPage3.Name = "MetroTabPage3"
-        Me.MetroTabPage3.Size = New System.Drawing.Size(916, 605)
-        Me.MetroTabPage3.TabIndex = 2
-        Me.MetroTabPage3.VerticalScrollbarBarColor = True
-        Me.MetroTabPage3.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage3.VerticalScrollbarSize = 10
-        '
-        'MetroTabPage4
-        '
-        Me.MetroTabPage4.Controls.Add(Me.MetroTile6)
-        Me.MetroTabPage4.Controls.Add(Me.MetroTile5)
-        Me.MetroTabPage4.Controls.Add(Me.MetroTile4)
-        Me.MetroTabPage4.Controls.Add(Me.MetroTile3)
-        Me.MetroTabPage4.Controls.Add(Me.tileSalesInvoice)
-        Me.MetroTabPage4.Controls.Add(Me.tileSalesOrder)
-        Me.MetroTabPage4.HorizontalScrollbarBarColor = True
-        Me.MetroTabPage4.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage4.HorizontalScrollbarSize = 10
-        Me.MetroTabPage4.Location = New System.Drawing.Point(4, 14)
-        Me.MetroTabPage4.Name = "MetroTabPage4"
-        Me.MetroTabPage4.Size = New System.Drawing.Size(916, 605)
-        Me.MetroTabPage4.TabIndex = 3
-        Me.MetroTabPage4.VerticalScrollbarBarColor = True
-        Me.MetroTabPage4.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage4.VerticalScrollbarSize = 10
-        '
-        'MetroTabPage5
-        '
-        Me.MetroTabPage5.Controls.Add(Me.tileInventoryTransfer)
-        Me.MetroTabPage5.Controls.Add(Me.tileGoodsReceipt)
-        Me.MetroTabPage5.Controls.Add(Me.tileGoodsIssue)
-        Me.MetroTabPage5.Controls.Add(Me.tileDeliveryReceipt)
-        Me.MetroTabPage5.Controls.Add(Me.tileReceivingReport)
-        Me.MetroTabPage5.HorizontalScrollbarBarColor = True
-        Me.MetroTabPage5.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage5.HorizontalScrollbarSize = 10
-        Me.MetroTabPage5.Location = New System.Drawing.Point(4, 14)
-        Me.MetroTabPage5.Name = "MetroTabPage5"
-        Me.MetroTabPage5.Size = New System.Drawing.Size(916, 605)
-        Me.MetroTabPage5.TabIndex = 4
-        Me.MetroTabPage5.VerticalScrollbarBarColor = True
-        Me.MetroTabPage5.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage5.VerticalScrollbarSize = 10
-        '
-        'MetroTabPage6
-        '
-        Me.MetroTabPage6.Controls.Add(Me.tileJournalVoucher)
-        Me.MetroTabPage6.HorizontalScrollbarBarColor = True
-        Me.MetroTabPage6.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage6.HorizontalScrollbarSize = 10
-        Me.MetroTabPage6.Location = New System.Drawing.Point(4, 14)
-        Me.MetroTabPage6.Name = "MetroTabPage6"
-        Me.MetroTabPage6.Size = New System.Drawing.Size(916, 605)
-        Me.MetroTabPage6.TabIndex = 5
-        Me.MetroTabPage6.VerticalScrollbarBarColor = True
-        Me.MetroTabPage6.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage6.VerticalScrollbarSize = 10
-        '
-        'MetroTabPage7
-        '
-        Me.MetroTabPage7.Controls.Add(Me.MetroTile9)
-        Me.MetroTabPage7.Controls.Add(Me.tileAdvances)
-        Me.MetroTabPage7.Controls.Add(Me.tileRevolvingFund)
-        Me.MetroTabPage7.Controls.Add(Me.tileCashAdvance)
-        Me.MetroTabPage7.Controls.Add(Me.tilePettyCashFund)
-        Me.MetroTabPage7.Controls.Add(Me.tileCashDisbursement)
-        Me.MetroTabPage7.HorizontalScrollbarBarColor = True
-        Me.MetroTabPage7.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage7.HorizontalScrollbarSize = 10
-        Me.MetroTabPage7.Location = New System.Drawing.Point(4, 14)
-        Me.MetroTabPage7.Name = "MetroTabPage7"
-        Me.MetroTabPage7.Size = New System.Drawing.Size(916, 605)
-        Me.MetroTabPage7.TabIndex = 6
-        Me.MetroTabPage7.VerticalScrollbarBarColor = True
-        Me.MetroTabPage7.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage7.VerticalScrollbarSize = 10
-        '
-        'MetroTabPage8
-        '
-        Me.MetroTabPage8.Controls.Add(Me.tilePostedEntries)
-        Me.MetroTabPage8.Controls.Add(Me.tileBatchPosting)
-        Me.MetroTabPage8.HorizontalScrollbarBarColor = True
-        Me.MetroTabPage8.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage8.HorizontalScrollbarSize = 10
-        Me.MetroTabPage8.Location = New System.Drawing.Point(4, 14)
-        Me.MetroTabPage8.Name = "MetroTabPage8"
-        Me.MetroTabPage8.Size = New System.Drawing.Size(916, 605)
-        Me.MetroTabPage8.TabIndex = 7
-        Me.MetroTabPage8.VerticalScrollbarBarColor = True
-        Me.MetroTabPage8.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage8.VerticalScrollbarSize = 10
-        '
-        'MetroTabPage9
-        '
-        Me.MetroTabPage9.Controls.Add(Me.MetroTile2)
-        Me.MetroTabPage9.Controls.Add(Me.MetroTile1)
-        Me.MetroTabPage9.HorizontalScrollbarBarColor = True
-        Me.MetroTabPage9.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage9.HorizontalScrollbarSize = 10
-        Me.MetroTabPage9.Location = New System.Drawing.Point(4, 14)
-        Me.MetroTabPage9.Name = "MetroTabPage9"
-        Me.MetroTabPage9.Size = New System.Drawing.Size(916, 605)
-        Me.MetroTabPage9.TabIndex = 8
-        Me.MetroTabPage9.VerticalScrollbarBarColor = True
-        Me.MetroTabPage9.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage9.VerticalScrollbarSize = 10
-        '
-        'MetroTabPage10
-        '
-        Me.MetroTabPage10.Controls.Add(Me.MetroTile8)
-        Me.MetroTabPage10.Controls.Add(Me.MetroTile7)
-        Me.MetroTabPage10.HorizontalScrollbarBarColor = True
-        Me.MetroTabPage10.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage10.HorizontalScrollbarSize = 10
-        Me.MetroTabPage10.Location = New System.Drawing.Point(4, 14)
-        Me.MetroTabPage10.Name = "MetroTabPage10"
-        Me.MetroTabPage10.Size = New System.Drawing.Size(916, 605)
-        Me.MetroTabPage10.TabIndex = 9
-        Me.MetroTabPage10.VerticalScrollbarBarColor = True
-        Me.MetroTabPage10.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage10.VerticalScrollbarSize = 10
-        '
-        'mtpProd
-        '
-        Me.mtpProd.Controls.Add(Me.MetroTile13)
-        Me.mtpProd.Controls.Add(Me.MetroTile12)
-        Me.mtpProd.Controls.Add(Me.MetroTile11)
-        Me.mtpProd.HorizontalScrollbarBarColor = True
-        Me.mtpProd.HorizontalScrollbarHighlightOnWheel = False
-        Me.mtpProd.HorizontalScrollbarSize = 8
-        Me.mtpProd.Location = New System.Drawing.Point(4, 14)
-        Me.mtpProd.Margin = New System.Windows.Forms.Padding(2)
-        Me.mtpProd.Name = "mtpProd"
-        Me.mtpProd.Size = New System.Drawing.Size(916, 605)
-        Me.mtpProd.TabIndex = 11
-        Me.mtpProd.VerticalScrollbarBarColor = True
-        Me.mtpProd.VerticalScrollbarHighlightOnWheel = False
-        Me.mtpProd.VerticalScrollbarSize = 8
-        '
-        'mtpCoop
-        '
-        Me.mtpCoop.Controls.Add(Me.MetroTile18)
-        Me.mtpCoop.Controls.Add(Me.MetroTile16)
-        Me.mtpCoop.HorizontalScrollbarBarColor = True
-        Me.mtpCoop.HorizontalScrollbarHighlightOnWheel = False
-        Me.mtpCoop.HorizontalScrollbarSize = 10
-        Me.mtpCoop.Location = New System.Drawing.Point(4, 14)
-        Me.mtpCoop.Name = "mtpCoop"
-        Me.mtpCoop.Size = New System.Drawing.Size(916, 605)
-        Me.mtpCoop.TabIndex = 12
-        Me.mtpCoop.VerticalScrollbarBarColor = True
-        Me.mtpCoop.VerticalScrollbarHighlightOnWheel = False
-        Me.mtpCoop.VerticalScrollbarSize = 10
-        '
-        'StatusStrip
-        '
-        Me.StatusStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsVersion})
-        Me.StatusStrip.Location = New System.Drawing.Point(0, 726)
-        Me.StatusStrip.Name = "StatusStrip"
-        Me.StatusStrip.Size = New System.Drawing.Size(1215, 22)
-        Me.StatusStrip.TabIndex = 52
-        Me.StatusStrip.Text = "StatusStrip"
-        '
-        'tsVersion
-        '
-        Me.tsVersion.Name = "tsVersion"
-        Me.tsVersion.Size = New System.Drawing.Size(39, 17)
-        Me.tsVersion.Text = "Status"
         '
         'MetroTile17
         '
@@ -642,6 +456,23 @@ Partial Class Main_JADE
         Me.tileVCEMaster.UseSelectable = True
         Me.tileVCEMaster.UseTileImage = True
         '
+        'MetroTabPage2
+        '
+        Me.MetroTabPage2.Controls.Add(Me.MetroTile14)
+        Me.MetroTabPage2.Controls.Add(Me.tileAccountsPayableVoucher)
+        Me.MetroTabPage2.Controls.Add(Me.tilePurchaseOrder)
+        Me.MetroTabPage2.Controls.Add(Me.tilePurchaseRequisition)
+        Me.MetroTabPage2.HorizontalScrollbarBarColor = True
+        Me.MetroTabPage2.HorizontalScrollbarHighlightOnWheel = False
+        Me.MetroTabPage2.HorizontalScrollbarSize = 10
+        Me.MetroTabPage2.Location = New System.Drawing.Point(4, 14)
+        Me.MetroTabPage2.Name = "MetroTabPage2"
+        Me.MetroTabPage2.Size = New System.Drawing.Size(916, 605)
+        Me.MetroTabPage2.TabIndex = 1
+        Me.MetroTabPage2.VerticalScrollbarBarColor = True
+        Me.MetroTabPage2.VerticalScrollbarHighlightOnWheel = False
+        Me.MetroTabPage2.VerticalScrollbarSize = 10
+        '
         'MetroTile14
         '
         Me.MetroTile14.ActiveControl = Nothing
@@ -705,6 +536,24 @@ Partial Class Main_JADE
         Me.tilePurchaseRequisition.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold
         Me.tilePurchaseRequisition.UseSelectable = True
         Me.tilePurchaseRequisition.UseTileImage = True
+        '
+        'MetroTabPage3
+        '
+        Me.MetroTabPage3.Controls.Add(Me.tileBankRecon)
+        Me.MetroTabPage3.Controls.Add(Me.tileBankDeposit)
+        Me.MetroTabPage3.Controls.Add(Me.tileAcknowledgementReceipt)
+        Me.MetroTabPage3.Controls.Add(Me.tileCollectionReceipt)
+        Me.MetroTabPage3.Controls.Add(Me.tileOfficialReceipt)
+        Me.MetroTabPage3.HorizontalScrollbarBarColor = True
+        Me.MetroTabPage3.HorizontalScrollbarHighlightOnWheel = False
+        Me.MetroTabPage3.HorizontalScrollbarSize = 10
+        Me.MetroTabPage3.Location = New System.Drawing.Point(4, 14)
+        Me.MetroTabPage3.Name = "MetroTabPage3"
+        Me.MetroTabPage3.Size = New System.Drawing.Size(916, 605)
+        Me.MetroTabPage3.TabIndex = 2
+        Me.MetroTabPage3.VerticalScrollbarBarColor = True
+        Me.MetroTabPage3.VerticalScrollbarHighlightOnWheel = False
+        Me.MetroTabPage3.VerticalScrollbarSize = 10
         '
         'tileBankRecon
         '
@@ -787,6 +636,25 @@ Partial Class Main_JADE
         Me.tileOfficialReceipt.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold
         Me.tileOfficialReceipt.UseSelectable = True
         Me.tileOfficialReceipt.UseTileImage = True
+        '
+        'MetroTabPage4
+        '
+        Me.MetroTabPage4.Controls.Add(Me.MetroTile6)
+        Me.MetroTabPage4.Controls.Add(Me.MetroTile5)
+        Me.MetroTabPage4.Controls.Add(Me.MetroTile4)
+        Me.MetroTabPage4.Controls.Add(Me.MetroTile3)
+        Me.MetroTabPage4.Controls.Add(Me.tileSalesInvoice)
+        Me.MetroTabPage4.Controls.Add(Me.tileSalesOrder)
+        Me.MetroTabPage4.HorizontalScrollbarBarColor = True
+        Me.MetroTabPage4.HorizontalScrollbarHighlightOnWheel = False
+        Me.MetroTabPage4.HorizontalScrollbarSize = 10
+        Me.MetroTabPage4.Location = New System.Drawing.Point(4, 14)
+        Me.MetroTabPage4.Name = "MetroTabPage4"
+        Me.MetroTabPage4.Size = New System.Drawing.Size(916, 605)
+        Me.MetroTabPage4.TabIndex = 3
+        Me.MetroTabPage4.VerticalScrollbarBarColor = True
+        Me.MetroTabPage4.VerticalScrollbarHighlightOnWheel = False
+        Me.MetroTabPage4.VerticalScrollbarSize = 10
         '
         'MetroTile6
         '
@@ -888,6 +756,24 @@ Partial Class Main_JADE
         Me.tileSalesOrder.UseSelectable = True
         Me.tileSalesOrder.UseTileImage = True
         '
+        'MetroTabPage5
+        '
+        Me.MetroTabPage5.Controls.Add(Me.tileInventoryTransfer)
+        Me.MetroTabPage5.Controls.Add(Me.tileGoodsReceipt)
+        Me.MetroTabPage5.Controls.Add(Me.tileGoodsIssue)
+        Me.MetroTabPage5.Controls.Add(Me.tileDeliveryReceipt)
+        Me.MetroTabPage5.Controls.Add(Me.tileReceivingReport)
+        Me.MetroTabPage5.HorizontalScrollbarBarColor = True
+        Me.MetroTabPage5.HorizontalScrollbarHighlightOnWheel = False
+        Me.MetroTabPage5.HorizontalScrollbarSize = 10
+        Me.MetroTabPage5.Location = New System.Drawing.Point(4, 14)
+        Me.MetroTabPage5.Name = "MetroTabPage5"
+        Me.MetroTabPage5.Size = New System.Drawing.Size(916, 605)
+        Me.MetroTabPage5.TabIndex = 4
+        Me.MetroTabPage5.VerticalScrollbarBarColor = True
+        Me.MetroTabPage5.VerticalScrollbarHighlightOnWheel = False
+        Me.MetroTabPage5.VerticalScrollbarSize = 10
+        '
         'tileInventoryTransfer
         '
         Me.tileInventoryTransfer.ActiveControl = Nothing
@@ -968,6 +854,20 @@ Partial Class Main_JADE
         Me.tileReceivingReport.UseSelectable = True
         Me.tileReceivingReport.UseTileImage = True
         '
+        'MetroTabPage6
+        '
+        Me.MetroTabPage6.Controls.Add(Me.tileJournalVoucher)
+        Me.MetroTabPage6.HorizontalScrollbarBarColor = True
+        Me.MetroTabPage6.HorizontalScrollbarHighlightOnWheel = False
+        Me.MetroTabPage6.HorizontalScrollbarSize = 10
+        Me.MetroTabPage6.Location = New System.Drawing.Point(4, 14)
+        Me.MetroTabPage6.Name = "MetroTabPage6"
+        Me.MetroTabPage6.Size = New System.Drawing.Size(916, 605)
+        Me.MetroTabPage6.TabIndex = 5
+        Me.MetroTabPage6.VerticalScrollbarBarColor = True
+        Me.MetroTabPage6.VerticalScrollbarHighlightOnWheel = False
+        Me.MetroTabPage6.VerticalScrollbarSize = 10
+        '
         'tileJournalVoucher
         '
         Me.tileJournalVoucher.ActiveControl = Nothing
@@ -983,6 +883,25 @@ Partial Class Main_JADE
         Me.tileJournalVoucher.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold
         Me.tileJournalVoucher.UseSelectable = True
         Me.tileJournalVoucher.UseTileImage = True
+        '
+        'MetroTabPage7
+        '
+        Me.MetroTabPage7.Controls.Add(Me.MetroTile9)
+        Me.MetroTabPage7.Controls.Add(Me.tileAdvances)
+        Me.MetroTabPage7.Controls.Add(Me.tileRevolvingFund)
+        Me.MetroTabPage7.Controls.Add(Me.tileCashAdvance)
+        Me.MetroTabPage7.Controls.Add(Me.tilePettyCashFund)
+        Me.MetroTabPage7.Controls.Add(Me.tileCashDisbursement)
+        Me.MetroTabPage7.HorizontalScrollbarBarColor = True
+        Me.MetroTabPage7.HorizontalScrollbarHighlightOnWheel = False
+        Me.MetroTabPage7.HorizontalScrollbarSize = 10
+        Me.MetroTabPage7.Location = New System.Drawing.Point(4, 14)
+        Me.MetroTabPage7.Name = "MetroTabPage7"
+        Me.MetroTabPage7.Size = New System.Drawing.Size(916, 605)
+        Me.MetroTabPage7.TabIndex = 6
+        Me.MetroTabPage7.VerticalScrollbarBarColor = True
+        Me.MetroTabPage7.VerticalScrollbarHighlightOnWheel = False
+        Me.MetroTabPage7.VerticalScrollbarSize = 10
         '
         'MetroTile9
         '
@@ -1084,6 +1003,21 @@ Partial Class Main_JADE
         Me.tileCashDisbursement.UseSelectable = True
         Me.tileCashDisbursement.UseTileImage = True
         '
+        'MetroTabPage8
+        '
+        Me.MetroTabPage8.Controls.Add(Me.tilePostedEntries)
+        Me.MetroTabPage8.Controls.Add(Me.tileBatchPosting)
+        Me.MetroTabPage8.HorizontalScrollbarBarColor = True
+        Me.MetroTabPage8.HorizontalScrollbarHighlightOnWheel = False
+        Me.MetroTabPage8.HorizontalScrollbarSize = 10
+        Me.MetroTabPage8.Location = New System.Drawing.Point(4, 14)
+        Me.MetroTabPage8.Name = "MetroTabPage8"
+        Me.MetroTabPage8.Size = New System.Drawing.Size(916, 605)
+        Me.MetroTabPage8.TabIndex = 7
+        Me.MetroTabPage8.VerticalScrollbarBarColor = True
+        Me.MetroTabPage8.VerticalScrollbarHighlightOnWheel = False
+        Me.MetroTabPage8.VerticalScrollbarSize = 10
+        '
         'tilePostedEntries
         '
         Me.tilePostedEntries.ActiveControl = Nothing
@@ -1115,6 +1049,21 @@ Partial Class Main_JADE
         Me.tileBatchPosting.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold
         Me.tileBatchPosting.UseSelectable = True
         Me.tileBatchPosting.UseTileImage = True
+        '
+        'MetroTabPage9
+        '
+        Me.MetroTabPage9.Controls.Add(Me.MetroTile2)
+        Me.MetroTabPage9.Controls.Add(Me.MetroTile1)
+        Me.MetroTabPage9.HorizontalScrollbarBarColor = True
+        Me.MetroTabPage9.HorizontalScrollbarHighlightOnWheel = False
+        Me.MetroTabPage9.HorizontalScrollbarSize = 10
+        Me.MetroTabPage9.Location = New System.Drawing.Point(4, 14)
+        Me.MetroTabPage9.Name = "MetroTabPage9"
+        Me.MetroTabPage9.Size = New System.Drawing.Size(916, 605)
+        Me.MetroTabPage9.TabIndex = 8
+        Me.MetroTabPage9.VerticalScrollbarBarColor = True
+        Me.MetroTabPage9.VerticalScrollbarHighlightOnWheel = False
+        Me.MetroTabPage9.VerticalScrollbarSize = 10
         '
         'MetroTile2
         '
@@ -1150,6 +1099,21 @@ Partial Class Main_JADE
         Me.MetroTile1.UseSelectable = True
         Me.MetroTile1.UseTileImage = True
         '
+        'MetroTabPage10
+        '
+        Me.MetroTabPage10.Controls.Add(Me.MetroTile8)
+        Me.MetroTabPage10.Controls.Add(Me.MetroTile7)
+        Me.MetroTabPage10.HorizontalScrollbarBarColor = True
+        Me.MetroTabPage10.HorizontalScrollbarHighlightOnWheel = False
+        Me.MetroTabPage10.HorizontalScrollbarSize = 10
+        Me.MetroTabPage10.Location = New System.Drawing.Point(4, 14)
+        Me.MetroTabPage10.Name = "MetroTabPage10"
+        Me.MetroTabPage10.Size = New System.Drawing.Size(916, 605)
+        Me.MetroTabPage10.TabIndex = 9
+        Me.MetroTabPage10.VerticalScrollbarBarColor = True
+        Me.MetroTabPage10.VerticalScrollbarHighlightOnWheel = False
+        Me.MetroTabPage10.VerticalScrollbarSize = 10
+        '
         'MetroTile8
         '
         Me.MetroTile8.ActiveControl = Nothing
@@ -1181,6 +1145,23 @@ Partial Class Main_JADE
         Me.MetroTile7.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold
         Me.MetroTile7.UseSelectable = True
         Me.MetroTile7.UseTileImage = True
+        '
+        'mtpProd
+        '
+        Me.mtpProd.Controls.Add(Me.MetroTile13)
+        Me.mtpProd.Controls.Add(Me.MetroTile12)
+        Me.mtpProd.Controls.Add(Me.MetroTile11)
+        Me.mtpProd.HorizontalScrollbarBarColor = True
+        Me.mtpProd.HorizontalScrollbarHighlightOnWheel = False
+        Me.mtpProd.HorizontalScrollbarSize = 8
+        Me.mtpProd.Location = New System.Drawing.Point(4, 14)
+        Me.mtpProd.Margin = New System.Windows.Forms.Padding(2)
+        Me.mtpProd.Name = "mtpProd"
+        Me.mtpProd.Size = New System.Drawing.Size(916, 605)
+        Me.mtpProd.TabIndex = 11
+        Me.mtpProd.VerticalScrollbarBarColor = True
+        Me.mtpProd.VerticalScrollbarHighlightOnWheel = False
+        Me.mtpProd.VerticalScrollbarSize = 8
         '
         'MetroTile13
         '
@@ -1248,6 +1229,38 @@ Partial Class Main_JADE
         Me.MetroHomeTab.VerticalScrollbarHighlightOnWheel = False
         Me.MetroHomeTab.VerticalScrollbarSize = 10
         '
+        'mtpCoop
+        '
+        Me.mtpCoop.Controls.Add(Me.MetroTile19)
+        Me.mtpCoop.Controls.Add(Me.MetroTile18)
+        Me.mtpCoop.Controls.Add(Me.MetroTile16)
+        Me.mtpCoop.HorizontalScrollbarBarColor = True
+        Me.mtpCoop.HorizontalScrollbarHighlightOnWheel = False
+        Me.mtpCoop.HorizontalScrollbarSize = 10
+        Me.mtpCoop.Location = New System.Drawing.Point(4, 14)
+        Me.mtpCoop.Name = "mtpCoop"
+        Me.mtpCoop.Size = New System.Drawing.Size(916, 605)
+        Me.mtpCoop.TabIndex = 12
+        Me.mtpCoop.VerticalScrollbarBarColor = True
+        Me.mtpCoop.VerticalScrollbarHighlightOnWheel = False
+        Me.mtpCoop.VerticalScrollbarSize = 10
+        '
+        'MetroTile19
+        '
+        Me.MetroTile19.ActiveControl = Nothing
+        Me.MetroTile19.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.MetroTile19.Location = New System.Drawing.Point(212, 209)
+        Me.MetroTile19.Name = "MetroTile19"
+        Me.MetroTile19.Size = New System.Drawing.Size(180, 180)
+        Me.MetroTile19.Style = MetroFramework.MetroColorStyle.Lime
+        Me.MetroTile19.TabIndex = 14
+        Me.MetroTile19.Text = "Loan Processing"
+        Me.MetroTile19.TileImage = Global.jade.My.Resources.Resources.choices
+        Me.MetroTile19.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.MetroTile19.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold
+        Me.MetroTile19.UseSelectable = True
+        Me.MetroTile19.UseTileImage = True
+        '
         'MetroTile18
         '
         Me.MetroTile18.ActiveControl = Nothing
@@ -1280,15 +1293,20 @@ Partial Class Main_JADE
         Me.MetroTile16.UseSelectable = True
         Me.MetroTile16.UseTileImage = True
         '
-        'PictureBox2
+        'StatusStrip
         '
-        Me.PictureBox2.Image = Global.jade.My.Resources.Resources.Jade1
-        Me.PictureBox2.Location = New System.Drawing.Point(3, 24)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(57, 49)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 49
-        Me.PictureBox2.TabStop = False
+        Me.StatusStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsVersion})
+        Me.StatusStrip.Location = New System.Drawing.Point(0, 726)
+        Me.StatusStrip.Name = "StatusStrip"
+        Me.StatusStrip.Size = New System.Drawing.Size(1215, 22)
+        Me.StatusStrip.TabIndex = 52
+        Me.StatusStrip.Text = "StatusStrip"
+        '
+        'tsVersion
+        '
+        Me.tsVersion.Name = "tsVersion"
+        Me.tsVersion.Size = New System.Drawing.Size(39, 17)
+        Me.tsVersion.Text = "Status"
         '
         'Panel1
         '
@@ -1584,6 +1602,7 @@ Partial Class Main_JADE
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
         Me.Panel4.ResumeLayout(False)
@@ -1602,7 +1621,6 @@ Partial Class Main_JADE
         Me.mtpCoop.ResumeLayout(False)
         Me.StatusStrip.ResumeLayout(False)
         Me.StatusStrip.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.picSettings, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1702,4 +1720,5 @@ Partial Class Main_JADE
     Friend WithEvents MetroTile16 As MetroFramework.Controls.MetroTile
     Friend WithEvents MetroTile17 As MetroFramework.Controls.MetroTile
     Friend WithEvents MetroTile18 As MetroFramework.Controls.MetroTile
+    Friend WithEvents MetroTile19 As MetroFramework.Controls.MetroTile
 End Class

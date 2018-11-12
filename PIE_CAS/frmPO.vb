@@ -11,7 +11,7 @@
     Dim PO_App As Boolean = False
 
     Public Overloads Function ShowDialog(ByVal docnumber As String) As Boolean
-        PONo = docnumber
+        TransID = docnumber
         MyBase.ShowDialog()
         Return True
     End Function
@@ -23,8 +23,8 @@
             dtpDocDate.Value = Date.Today.Date
             dtpDelivery.Value = Date.Today.Date
             dgvItemList.Font = New Font("Microsoft Sans Serif", 8)
-            If PONo <> "" Then
-                LoadPO(PONo)
+            If TransID <> "" Then
+                LoadPO(TransID)
             End If
 
             LoadCostCenter()
@@ -411,11 +411,8 @@
             Dim query As String
             Dim VAT As Boolean
             Dim Price, VATAmt As Decimal
-            query = " SELECT  ItemCode,  ItemName, PD_UOM,  " & _
-                    "         CASE WHEN VATable = 1 " & _
-                    "              THEN (CASE WHEN PD_VATinc = 1 THEN PD_UnitCost ELSE PD_UnitCost*1.12 END)  " & _
-                    "              ELSE PD_UnitCost " & _
-                    "         END AS Net_Price, WHSE, VATable " & _
+            query = " SELECT  ItemGroup, ItemCode,  ItemName, PD_UOM,  " & _
+                    "         PD_UnitCost AS Net_Price, WHSE, VATable, PD_VATinc " & _
                     " FROM    viewItem_Cost " & _
                     " WHERE   ItemCode = @ItemCode "
             SQL.FlushParams()
@@ -432,16 +429,18 @@
                 Else
                     VATAmt = 0
                 End If
-                dgvItemList.Rows.Add(New String() {SQL.SQLDR("ItemCode").ToString, _
+                dgvItemList.Rows.Add(New String() {SQL.SQLDR("ItemGroup").ToString, SQL.SQLDR("ItemCode").ToString, _
                                               SQL.SQLDR("ItemName").ToString, _
-                                             UOM, _
+                                              UOM, _
                                               QTY, _
                                               Format(Price, "#,###,###,###.00").ToString, _
                                               Format(Price * QTY, "#,###,###,###.00").ToString, _
-                                              Format(VATAmt * QTY, "#,###,###,###.00").ToString, _
+                                              "", _
                                               "0.00", _
+                                              Format(VATAmt * QTY, "#,###,###,###.00").ToString, _
                                               Format((Price) * QTY, "#,###,###,###.00").ToString, _
                                               SQL.SQLDR("VATable").ToString, _
+                                              SQL.SQLDR("PD_VATinc").ToString, _
                                               SQL.SQLDR("WHSE").ToString})
 
             End If
@@ -632,14 +631,14 @@
                     SavePO()
                     Msg("Record Saved Succesfully!", MsgBoxStyle.Information)
                     PONo = txtTransNum.Text
-                    LoadPO(PONo)
+                    LoadPO(TransID)
                 End If
             Else
                 If MsgBox("Updating Record, Click Yes to confirm", MsgBoxStyle.Information + MsgBoxStyle.YesNo, "JADE Message Alert") = MsgBoxResult.Yes Then
                     UpdatePO()
                     Msg("Record Updated Succesfully!", MsgBoxStyle.Information)
                     PONo = txtTransNum.Text
-                    LoadPO(PONo)
+                    LoadPO(TransID)
                 End If
             End If
         End If
@@ -691,7 +690,7 @@
                         EnableControl(False)
 
                         PONo = txtTransNum.Text
-                        LoadPO(PONo)
+                        LoadPO(TransID)
                     Catch ex As Exception
                         activityStatus = True
                         SaveError(ex.Message, ex.StackTrace, Me.Name.ToString, ModuleID)
@@ -955,11 +954,11 @@
     Private Sub tsbPrevious_Click(sender As System.Object, e As System.EventArgs) Handles tsbPrevious.Click
         If PONo <> "" Then
             Dim query As String
-            query = " SELECT Top 1 PO_No FROM tblPO  WHERE PO_No < '" & PONo & "' ORDER BY PO_No DESC "
+            query = " SELECT Top 1 TransID FROM tblPO  WHERE PO_No < '" & PONo & "' ORDER BY TransID DESC "
             SQL.ReadQuery(query)
             If SQL.SQLDR.Read Then
-                PONo = SQL.SQLDR("PO_No").ToString
-                LoadPO(PONo)
+                TransID = SQL.SQLDR("TransID").ToString
+                LoadPO(TransID)
             Else
                 Msg("Reached the beginning of record!", MsgBoxStyle.Exclamation)
             End If
@@ -969,11 +968,11 @@
     Private Sub tsbNext_Click(sender As System.Object, e As System.EventArgs) Handles tsbNext.Click
         If PONo <> "" Then
             Dim query As String
-            query = " SELECT Top 1 PO_No FROM tblPO  WHERE PO_No > '" & PONo & "' ORDER BY PO_No ASC "
+            query = " SELECT Top 1 TransID FROM tblPO  WHERE PO_No > '" & PONo & "' ORDER BY TransID ASC "
             SQL.ReadQuery(query)
             If SQL.SQLDR.Read Then
-                PONo = SQL.SQLDR("PO_No").ToString
-                LoadPO(PONo)
+                TransID = SQL.SQLDR("TransID").ToString
+                LoadPO(TransID)
             Else
                 Msg("Reached the end of record!", MsgBoxStyle.Exclamation)
             End If
@@ -982,7 +981,7 @@
 
     Private Sub tsbClose_Click(sender As System.Object, e As System.EventArgs) Handles tsbClose.Click
         ' Toolstrip Buttons
-        If PONo = "" Then
+        If TransID = "" Then
             ClearText()
             EnableControl(False)
             tsbEdit.Enabled = False
@@ -992,7 +991,7 @@
             tsbNext.Enabled = False
             tsbPrint.Enabled = False
         Else
-            LoadPO(PONo)
+            LoadPO(TransID)
             tsbEdit.Enabled = True
             tsbCancel.Enabled = True
             tsbApprove.Enabled = True
@@ -1267,7 +1266,7 @@
                     EnableControl(False)
 
                     PONo = txtTransNum.Text
-                    LoadPO(PONo)
+                    LoadPO(TransID)
                 Catch ex As Exception
                     activityStatus = True
                     SaveError(ex.Message, ex.StackTrace, Me.Name.ToString, ModuleID)

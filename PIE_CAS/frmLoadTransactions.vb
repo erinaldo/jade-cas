@@ -19,6 +19,32 @@
             Dim query As String = ""
 
             Select Case moduleID
+                Case "LN"
+
+                    ' CONDITION OF QUERY
+                    If cbFilter.SelectedIndex = -1 Then
+                        filter = " WHERE '' = ''"
+                    Else
+                        Select Case cbFilter.SelectedItem
+                            Case "Transaction ID"
+                                filter = " WHERE Loan_No LIKE '%' + @Filter + '%' "
+                            Case "VCE Name"
+                                filter = " WHERE VCEName '%' + @Filter + '%' "
+                            Case "Remarks"
+                                filter = " WHERE Remarks '%' + @Filter + '%' "
+                            Case "Status"
+                                filter = " WHERE tblLoan.Status LIKE '%' + @Filter + '%' "
+                        End Select
+                    End If
+
+                    ' QUERY 
+                    query = " SELECT        TransID, Loan_No AS [Loan No.], DateLoan AS [Date of Loan],  VCEName, LoanType, LoanAmount, tblLoan.Terms,  tblLoan.Status  " & _
+                            " FROM          tblLoan LEFT JOIN tblVCE_Master " & _
+                            " ON	        tblLoan.VCECode = tblVCE_Master.VCECode " & _
+                            " INNER JOIN    tblLoan_Type " & _
+                            " ON            tblLoan.LoanCode = tblLoan_Type.LoanCode " & filter
+                    SQL.FlushParams()
+                    SQL.AddParam("@Filter", txtFilter.Text)
                 Case "JO_BOM"
 
                     ' CONDITION OF QUERY
